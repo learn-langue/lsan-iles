@@ -1,0 +1,471 @@
+{
+  "id": "kab-n1-l01",
+  "language": "kabyle",
+  "level": 1,
+  "order": 1,
+  "title": "Azul ! Saluer et se présenter",
+  "goal": "Saluer, demander des nouvelles, remercier, se présenter, dire d'où l'on vient, et ne pas se tromper de genre en parlant à quelqu'un.",
+  "estimatedMinutes": 10,
+  "regionNote": "Kabyle courant de Grande Kabylie (Tizi Wezzu). Les variantes de Petite Kabylie (Bgayet) sont signalées quand elles diffèrent.",
+
+  "grammarNotes": [
+    {
+      "id": "kab-g-km",
+      "title": "-k pour un homme, -m pour une femme",
+      "body": "Beaucoup de formules prennent une petite fin qui dit à qui l'on parle : -k (ou -ik, -ak) pour un homme, -m (ou -im, -am) pour une femme, -wen pour plusieurs personnes. C'est LE réflexe à prendre dès le premier jour.",
+      "examples": [
+        { "text": "Tanemmirt-ik / Tanemmirt-im", "fr": "Merci à toi (homme / femme)" },
+        { "text": "Ttxil-k / Ttxil-m", "fr": "S'il te plaît (homme / femme)" },
+        { "text": "Azul fell-ak / fell-am / fell-awen", "fr": "Salut à toi (homme / femme) / à vous" }
+      ]
+    },
+    {
+      "id": "kab-g-pronoms",
+      "title": "Les pronoms : nekk, kečč, kemm",
+      "body": "nekk = moi · kečč = toi (homme) · kemm = toi (femme) · netta = lui · nettat = elle. Pour « et toi ? », on dit « ma d kečč ? » ou « ma d kemm ? ».",
+      "examples": [
+        { "text": "Nekk d Lina.", "fr": "Moi, c'est Lina." },
+        { "text": "Labas. Ma d kemm ?", "fr": "Ça va. Et toi ? (à une femme)" }
+      ]
+    },
+    {
+      "id": "kab-g-d",
+      "title": "Le petit « d » qui veut dire « c'est »",
+      "body": "Pour dire « je suis » ou « c'est » devant un nom, le kabyle utilise juste « d ». Il n'y a pas de verbe être conjugué.",
+      "examples": [
+        { "text": "Nekk d Amayas.", "fr": "Je suis Amayas." },
+        { "text": "Acu i d isem-ik ?", "fr": "Quel est ton nom ? (mot à mot « qu'est-ce qui est ton nom »)" }
+      ]
+    },
+    {
+      "id": "kab-g-negation",
+      "title": "La négation en sandwich : ur … ara",
+      "body": "Le verbe se place entre ur et ara : fehmeɣ (je comprends) → ur fhimeɣ ara (je ne comprends pas, je n'ai pas compris). Le verbe change souvent un peu à la forme négative (fehmeɣ → fhimeɣ).",
+      "examples": [
+        { "text": "Ur fhimeɣ ara.", "fr": "Je n'ai pas compris." },
+        { "text": "Ur ẓriɣ ara.", "fr": "Je ne sais pas." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    {
+      "id": "kab-azul",
+      "text": "azul",
+      "ascii": "azul",
+      "fr": "Bonjour, salut (à toute heure)",
+      "pos": "expression",
+      "register": "neutre",
+      "answer": { "text": "azul fell-ak / fell-am", "fr": "Salut à toi (homme / femme)" },
+      "mnemonic": "Azul, comme le ciel azur : un bonjour lumineux, valable du matin au soir.",
+      "note": "C'est la salutation amazighe par excellence, et elle affirme aussi une identité. Les anciens utilisent volontiers « Sbaḥ lxir » ou « Ssalamu ɛlikum »."
+    },
+    {
+      "id": "kab-sbah",
+      "text": "sbaḥ lxir",
+      "ascii": "sbah lxir",
+      "fr": "Bonjour (le matin)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "Le même que la darija « sbah lkhir » : x se prononce comme le kh."
+    },
+    {
+      "id": "kab-amek",
+      "text": "amek telliḍ ?",
+      "ascii": "amek tellid ?",
+      "fr": "Comment vas-tu ? (même forme pour un homme et une femme)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Amek » = comment. Bonne nouvelle : telliḍ ne change pas selon le genre.",
+      "variants": ["amek tellam ? (à plusieurs hommes ou à un groupe mixte)", "amek tellamt ? (à plusieurs femmes)", "amek ihi ? (alors, comment ça va ?)"]
+    },
+    {
+      "id": "kab-labas",
+      "text": "labas",
+      "ascii": "labas",
+      "fr": "Ça va, bien",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "Le même mot qu'en darija : « pas de mal ».",
+      "variants": ["labas, lḥemdullah", "ɛlaxir (très bien)"]
+    },
+    {
+      "id": "kab-mad",
+      "text": "ma d kečč ? / ma d kemm ?",
+      "ascii": "ma d kecc ? / ma d kemm ?",
+      "fr": "Et toi ? (à un homme / à une femme)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "kečč, avec deux « tch », c'est le monsieur ; kemm, avec deux « m », c'est la madame."
+    },
+    {
+      "id": "kab-tanemmirt",
+      "text": "tanemmirt",
+      "ascii": "tanemmirt",
+      "fr": "Merci",
+      "pos": "nom",
+      "register": "neutre",
+      "mnemonic": "Ta-NEMMIR-t : imagine que tu « nommes » la personne pour la remercier.",
+      "variants": ["tanemmirt-ik (à un homme)", "tanemmirt-im (à une femme)", "tanemmirt ṭas (merci beaucoup)"]
+    },
+    {
+      "id": "kab-sahit",
+      "text": "saḥit",
+      "ascii": "sahit",
+      "fr": "Merci (familier, très courant)",
+      "pos": "expression",
+      "register": "familier",
+      "mnemonic": "Cousin du « saha » darija : on te souhaite la santé.",
+      "variants": ["ṣaḥḥa-k / ṣaḥḥa-m (bravo, merci à toi)"]
+    },
+    {
+      "id": "kab-ulac",
+      "text": "ulac aɣilif",
+      "ascii": "ulac aghilif",
+      "fr": "De rien, pas de souci (mot à mot « il n'y a pas de souci »)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Ulac » = il n'y a pas. Tu vas l'entendre partout : ulac lmus (pas de couteau), ulac idrimen (pas d'argent)…"
+    },
+    {
+      "id": "kab-ttxil",
+      "text": "ttxil-k / ttxil-m",
+      "ascii": "ttxil-k / ttxil-m",
+      "fr": "S'il te plaît (à un homme / à une femme)",
+      "pos": "expression",
+      "register": "poli",
+      "mnemonic": "Le « tt » se prononce souvent « ts » : « tsxil-k ».",
+      "variants": ["ma ulac aɣilif (si ça ne dérange pas, plus poli)"]
+    },
+    {
+      "id": "kab-ssmeh",
+      "text": "ssmeḥ-iyi",
+      "ascii": "ssmeh-iyi",
+      "fr": "Pardon, excuse-moi",
+      "pos": "verbe",
+      "register": "neutre",
+      "mnemonic": "« Ssmeḥ » ressemble au « smahli » darija : pardonne-moi."
+    },
+    {
+      "id": "kab-isem",
+      "text": "acu i d isem-ik ? / isem-im ?",
+      "ascii": "acu i d isem-ik ? / isem-im ?",
+      "fr": "Comment tu t'appelles ? (à un homme / à une femme)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Isem » ressemble à « ism », le nom en arabe. Puis on ajoute la fin -ik ou -im.",
+      "variants": ["isem-ik ? (version courte, familière)"]
+    },
+    {
+      "id": "kab-isemiw",
+      "text": "isem-iw … / nekk d …",
+      "ascii": "isem-iw … / nekk d …",
+      "fr": "Je m'appelle … / Moi, c'est …",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "-iw = mon. Isem-iw = mon nom."
+    },
+    {
+      "id": "kab-ansi",
+      "text": "ansi i d-tekkiḍ ?",
+      "ascii": "ansi i d-tekkid ?",
+      "fr": "D'où viens-tu ?",
+      "pos": "expression",
+      "register": "neutre",
+      "answer": { "text": "kkiɣ-d seg …", "fr": "Je viens de …" },
+      "mnemonic": "« Ansi » = d'où. Le petit « d- » indique un mouvement vers celui qui parle.",
+      "variants": ["seg wanida i d-tekkiḍ ?"]
+    },
+    {
+      "id": "kab-ansuf",
+      "text": "ansuf yis-k / yis-m / yis-wen",
+      "ascii": "ansuf yis-k / yis-m / yis-wen",
+      "fr": "Bienvenue (à un homme / à une femme / à vous)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "Encore les fins -k / -m / -wen, comme partout.",
+      "variants": ["mreḥba (emprunt, très courant)"]
+    },
+    {
+      "id": "kab-ih",
+      "text": "ih / ala",
+      "ascii": "ih / ala",
+      "fr": "Oui / non",
+      "pos": "mot",
+      "register": "neutre",
+      "mnemonic": "« Ih » comme le « ih » darija ; « ala » ressemble à « la » (non) en arabe, avec un a devant."
+    },
+    {
+      "id": "kab-fhim",
+      "text": "ur fhimeɣ ara",
+      "ascii": "ur fhimegh ara",
+      "fr": "Je n'ai pas compris",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "ur … ara encadre le verbe, comme « ne … pas ».",
+      "variants": ["ɛiwed, ttxil-k (répète, s'il te plaît)"]
+    },
+    {
+      "id": "kab-artimlilit",
+      "text": "ar timlilit / ar azekka",
+      "ascii": "ar timlilit / ar azekka",
+      "fr": "Au revoir (jusqu'à la prochaine rencontre) / À demain",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Ar » = jusqu'à. Timlilit = la rencontre, azekka = demain."
+    },
+    {
+      "id": "kab-id",
+      "text": "iḍ ameggaz",
+      "ascii": "id ameggaz",
+      "fr": "Bonne nuit",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Iḍ » = la nuit. On souhaite une nuit agréable."
+    },
+    {
+      "id": "kab-dda",
+      "text": "dda … / nna …",
+      "ascii": "dda … / nna …",
+      "fr": "Titre de respect devant le prénom d'un homme / d'une femme plus âgés",
+      "pos": "nom",
+      "register": "poli",
+      "mnemonic": "Comme « Dda Lmulud » (Mouloud Mammeri) : dda = grand frère, aîné respecté.",
+      "note": "On ne dit jamais le prénom tout seul d'une personne bien plus âgée : « Dda Muḥ », « Nna Ɛini »."
+    }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "kab-c1",
+      "text": "Azul a Nna Ɛini, amek telliḍ ? Amek tella twacult ?",
+      "fr": "Bonjour Nna Aïni, comment vas-tu ? Comment va la famille ?",
+      "when": "Tu arrives au village et tu croises une voisine âgée.",
+      "with": "Une femme plus âgée",
+      "register": "poli",
+      "culturalNote": "Demander des nouvelles de la famille (« tawacult », ici « twacult ») est presque obligé. En kabyle, on tutoie tout le monde, même les anciens : le respect passe par « Nna / Dda » et par les questions qu'on pose, pas par le vouvoiement."
+    },
+    {
+      "id": "kab-c2",
+      "text": "Azul ! Amek ihi, labas ?",
+      "fr": "Salut ! Alors, ça va ?",
+      "when": "Tu retrouves un ami ou un cousin.",
+      "with": "Ami, cousin",
+      "register": "familier",
+      "culturalNote": "« Ihi » (alors, donc) rend la question plus chaleureuse et plus détendue."
+    },
+    {
+      "id": "kab-c3",
+      "text": "Ssmeḥ-iyi, ur fhimeɣ ara. Ɛiwed, ttxil-k.",
+      "fr": "Pardon, je n'ai pas compris. Répète, s'il te plaît.",
+      "when": "Quelqu'un parle trop vite.",
+      "with": "Un homme (pour une femme, dis « ttxil-m »)",
+      "register": "neutre",
+      "culturalNote": "Les Kabyles sont souvent touchés qu'on apprenne leur langue. N'hésite pas à dire « mazal ttlemmideɣ » (j'apprends encore)."
+    },
+    {
+      "id": "kab-c4",
+      "text": "Kkiɣ-d seg Fransa, maca baba seg Tizi Wezzu.",
+      "fr": "Je viens de France, mais mon père est de Tizi Ouzou.",
+      "when": "Quelqu'un te demande d'où tu viens.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "En Kabylie, la question « d'où viens-tu ? » veut souvent dire « de quel village est ta famille ? ». Connaître le nom du village de ses parents ouvre beaucoup de conversations."
+    },
+    {
+      "id": "kab-c5",
+      "text": "Tanemmirt-im a yemma, iḍ ameggaz !",
+      "fr": "Merci maman, bonne nuit !",
+      "when": "Le soir, à la maison.",
+      "with": "Mère, grand-mère",
+      "register": "neutre",
+      "culturalNote": "« A » devant un nom sert à appeler quelqu'un : a yemma (ô maman), a baba (ô papa), a jida (ô grand-mère)."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "kab-d1",
+      "type": "chatSim",
+      "title": "Jida t'écrit sur WhatsApp",
+      "contact": { "name": "Jida", "avatar": "👵🏼", "relation": "grand-mère", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "text": "Azul a yelli ! Amek telliḍ ? 🌸", "fr": "Bonjour ma fille ! Comment vas-tu ? 🌸" },
+        {
+          "from": "me",
+          "prompt": "Réponds et prends de ses nouvelles",
+          "options": [
+            { "text": "Labas a jida, tanemmirt. Ma d kemm ?", "fr": "Ça va grand-mère, merci. Et toi ?", "score": "natural", "feedback": "Parfait : tu remercies et tu lui retournes la question au féminin, avec « kemm »." },
+            { "text": "Labas. Ma d kečč ?", "fr": "Ça va. Et toi ? (au masculin)", "score": "wrong", "feedback": "« Kečč » s'adresse à un homme. À ta grand-mère, on dit « kemm ».", "reaction": { "text": "Kečč ?! Hhh, nekk d jida-m, mačči d jeddi-m ! 😂", "fr": "Toi (au masculin) ?! Haha, je suis ta grand-mère, pas ton grand-père ! 😂" } },
+            { "text": "Amek tellam ?", "fr": "Comment allez-vous ? (au pluriel)", "score": "ok", "feedback": "Tu lui demandes des nouvelles de toute la famille, c'est gentil. Mais réponds d'abord à sa question !" }
+          ]
+        },
+        { "from": "them", "text": "Labas, lḥemdullah. Melmi ara d-taseḍ ɣur-i ?", "fr": "Ça va, Dieu merci. Quand est-ce que tu viens me voir ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds « Demain, si Dieu le veut ! »",
+          "build": {
+            "answer": ["azekka", ",", "inchallah", "!"],
+            "distractors": ["iḍ", "ar"],
+            "text": "Azekka, inchallah !",
+            "fr": "Demain, si Dieu le veut !"
+          }
+        },
+        { "from": "them", "text": "Ansuf yis-m a yelli ❤️ Ar azekka !", "fr": "Tu es la bienvenue ma fille ❤️ À demain !" },
+        {
+          "from": "me",
+          "prompt": "Remercie-la et dis au revoir",
+          "options": [
+            { "text": "Tanemmirt-im a jida, ar azekka !", "fr": "Merci grand-mère, à demain !", "score": "natural", "feedback": "Bien vu, le -im est au féminin." },
+            { "text": "Tanemmirt-ik a jida, ar azekka !", "fr": "Merci (à un homme) grand-mère, à demain !", "score": "wrong", "feedback": "« -ik » s'adresse à un homme. Pour Jida : tanemmirt-im." },
+            { "text": "Iḍ ameggaz a jida !", "fr": "Bonne nuit grand-mère !", "score": "ok", "feedback": "C'est mignon, mais elle vient de te dire « à demain » : réponds-lui « ar azekka »." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kab-d2",
+      "type": "chatSim",
+      "title": "Rencontre à un mariage au village",
+      "contact": { "name": "Amayas", "avatar": "🧔🏻", "relation": "invité du même âge", "register": "neutre" },
+      "turns": [
+        { "from": "them", "text": "Azul fell-am ! Acu i d isem-im ?", "fr": "Salut à toi ! Comment tu t'appelles ?" },
+        {
+          "from": "me",
+          "prompt": "Présente-toi et demande son prénom",
+          "build": {
+            "answer": ["isem-iw", "Lina", ".", "ma", "d", "kečč", "?"],
+            "distractors": ["isem-ik", "kemm"],
+            "text": "Isem-iw Lina. Ma d kečč ?",
+            "fr": "Je m'appelle Lina. Et toi ?"
+          }
+        },
+        { "from": "them", "text": "Nekk d Amayas. Ansi i d-tekkiḍ ?", "fr": "Moi, c'est Amayas. D'où viens-tu ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que tu viens de France et que ton père vient de Bgayet",
+          "options": [
+            { "text": "Kkiɣ-d seg Fransa, maca baba seg Bgayet.", "fr": "Je viens de France, mais mon père est de Béjaïa.", "score": "natural", "feedback": "Très naturel." },
+            { "text": "Nekk d Fransa.", "fr": "Je suis la France.", "score": "wrong", "feedback": "« D » veut dire « c'est » : tu viens de dire « je suis la France » 😅. Pour l'origine, on utilise « seg » (de)." },
+            { "text": "Seg Fransa.", "fr": "De France.", "score": "ok", "feedback": "C'est compréhensible, mais un peu court pour faire la conversation." }
+          ]
+        },
+        { "from": "them", "text": "Ansuf yis-m ɣer tmurt ! 🎉", "fr": "Bienvenue au pays ! 🎉" }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "kab-e1",
+      "type": "matchPairs",
+      "instruction": "Relie chaque expression à sa traduction",
+      "pairs": ["kab-azul", "kab-tanemmirt", "kab-ulac", "kab-ssmeh", "kab-artimlilit", "kab-fhim"]
+    },
+    {
+      "id": "kab-e2",
+      "type": "sentenceBuilder",
+      "instruction": "Traduis : « Comment t'appelles-tu ? » (à un homme)",
+      "fr": "Comment t'appelles-tu ? (à un homme)",
+      "answer": ["acu", "i", "d", "isem-ik", "?"],
+      "alternatives": [["isem-ik", "?"]],
+      "distractors": ["isem-im", "amek"],
+      "explanation": "Un homme → -ik. « Amek » veut dire « comment », mais pour demander le nom on dit « acu » (quoi)."
+    },
+    {
+      "id": "kab-e3",
+      "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu parles à ta grand-mère.",
+      "tokens": ["Tanemmirt-ik", "a", "jida", "!"],
+      "intruderIndex": 0,
+      "fix": "Tanemmirt-im",
+      "explanation": "Jida est une femme : on dit -im, pas -ik."
+    },
+    {
+      "id": "kab-e4",
+      "type": "genreHunt",
+      "instruction": "Trouve l'erreur d'accord",
+      "context": "Tu parles à Amayas.",
+      "tokens": ["Labas", ".", "Ma", "d", "kemm", "?"],
+      "intruderIndex": 4,
+      "fix": "kečč",
+      "explanation": "Amayas est un homme : « ma d kečč ? »."
+    },
+    {
+      "id": "kab-e5",
+      "type": "cloze",
+      "instruction": "Complète la négation",
+      "lines": [{ "who": "B", "text": "Ssmeḥ-iyi, {{1}} fhimeɣ {{2}} . Ɛiwed, ttxil-k." }],
+      "blanks": {
+        "1": { "options": ["ur", "ulac", "ala"], "answer": "ur" },
+        "2": { "options": ["ara", "ar", "ala"], "answer": "ara" }
+      },
+      "explanation": "Négation = ur + verbe + ara. « Ulac » veut dire « il n'y a pas » et ne sert pas avec un verbe."
+    },
+    {
+      "id": "kab-e6",
+      "type": "cloze",
+      "instruction": "Choisis la bonne fin",
+      "lines": [
+        { "who": "Toi → Nna Ɛini", "text": "Azul fell-{{1}} !" },
+        { "who": "Toi → tes cousins", "text": "Ansuf yis-{{2}} !" }
+      ],
+      "blanks": {
+        "1": { "options": ["am", "ak", "awen"], "answer": "am" },
+        "2": { "options": ["wen", "k", "m"], "answer": "wen" }
+      },
+      "explanation": "-am / -m pour une femme, -ak / -k pour un homme, -awen / -wen pour plusieurs personnes."
+    },
+    {
+      "id": "kab-e7",
+      "type": "letterHunt",
+      "instruction": "Quelle lettre kabyle manque ?",
+      "items": [
+        { "masked": "ulac a_ilif", "answer": "ɣ", "full": "ulac aɣilif" },
+        { "masked": "_iwed", "answer": "ɛ", "full": "ɛiwed" },
+        { "masked": "amek telli_ ?", "answer": "ḍ", "full": "amek telliḍ ?" },
+        { "masked": "ma d ke_ ?", "answer": "čč", "full": "ma d kečč ?" }
+      ],
+      "options": ["ɣ", "ɛ", "ḍ", "čč", "g"]
+    },
+    {
+      "id": "kab-e8",
+      "type": "registerSort",
+      "instruction": "À qui dirais-tu ça ?",
+      "bins": [
+        { "id": "elder", "label": "Dda Muḥ (voisin âgé)", "avatar": "👴🏼" },
+        { "id": "friend", "label": "Ta cousine", "avatar": "👩🏻" }
+      ],
+      "items": [
+        { "text": "Azul a Dda Muḥ, amek tella twacult ?", "bin": "elder" },
+        { "text": "Amek ihi, labas ? Saḥit !", "bin": "friend" },
+        { "text": "Ma ulac aɣilif, ɛiwed.", "bin": "elder" },
+        { "text": "Tanemmirt-im !", "bin": "friend" }
+      ],
+      "explanation": "« Dda » et les questions sur la famille montrent du respect. « Ihi » et « saḥit » sont plus familiers. Remarque : « tanemmirt-im » ne peut pas s'adresser à Dda Muḥ, car -im est féminin."
+    },
+    {
+      "id": "kab-e9",
+      "type": "typeAnswer",
+      "instruction": "Écris en kabyle : « Je n'ai pas compris »",
+      "fr": "Je n'ai pas compris",
+      "accept": ["ur fhimeɣ ara"],
+      "asciiTolerance": true,
+      "explanation": "Si tu n'as pas de clavier kabyle, « ur fhimegh ara » est accepté, avec un rappel : gh s'écrit ɣ."
+    },
+    {
+      "id": "kab-e10",
+      "type": "mcq",
+      "instruction": "Quelqu'un te dit « Tanemmirt ». Tu réponds :",
+      "options": ["Ulac aɣilif", "Ur fhimeɣ ara", "Ssmeḥ-iyi"],
+      "answer": "Ulac aɣilif",
+      "explanation": "« Ulac aɣilif » = de rien, pas de souci."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["kab-azul", "kab-amek", "kab-labas", "kab-mad", "kab-tanemmirt", "kab-ulac", "kab-ttxil", "kab-ssmeh", "kab-isem", "kab-fhim"],
+    "bonus": ["kab-sbah", "kab-sahit", "kab-isemiw", "kab-ansi", "kab-ansuf", "kab-ih", "kab-artimlilit", "kab-id", "kab-dda"]
+  }
+}

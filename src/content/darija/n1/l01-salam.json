@@ -1,0 +1,469 @@
+{
+  "id": "dz-n1-l01",
+  "language": "darija",
+  "level": 1,
+  "order": 1,
+  "title": "Salam ! Saluer et prendre des nouvelles",
+  "goal": "Saluer quelqu'un selon le moment et la personne, demander comment ça va, remercier, s'excuser et dire au revoir.",
+  "estimatedMinutes": 10,
+  "regionNote": "Darija du centre (Alger, Blida). Les variantes de l'Ouest (Oran) et de l'Est (Constantine) sont signalées dans « variants ».",
+
+  "grammarNotes": [
+    {
+      "id": "dz-g-rani",
+      "title": "Rani / raki / rah : « je suis », « tu es », « il est »",
+      "body": "Pour dire comment on va, la darija utilise rani (je suis), rak (tu es, à un homme), raki (tu es, à une femme), rah (il est), raha (elle est), rakoum (vous êtes). « Wach rak ? » se traduit mot à mot par « Quoi tu es ? », donc « Comment tu vas ? ».",
+      "examples": [
+        { "chat": "Rani mli7.", "fr": "Je vais bien (un homme parle)." },
+        { "chat": "Rani mli7a.", "fr": "Je vais bien (une femme parle)." },
+        { "chat": "Wach raki, khalti ?", "fr": "Comment vas-tu, ma tante ?" }
+      ]
+    },
+    {
+      "id": "dz-g-genre",
+      "title": "Le genre s'entend à la fin du mot",
+      "body": "On ne parle pas pareil à un homme et à une femme : -i ou -a à la fin signale souvent le féminin (rak → raki, smahli → smahili, mli7 → mli7a). C'est l'erreur de débutant la plus fréquente.",
+      "examples": [
+        { "chat": "Smahli.", "fr": "Pardon (à un homme)." },
+        { "chat": "Smahili.", "fr": "Pardon (à une femme)." }
+      ]
+    },
+    {
+      "id": "dz-g-negation",
+      "title": "La négation en sandwich : ma … ch",
+      "body": "Le verbe se place entre ma et -ch : fhemt (j'ai compris) → ma fhemtch (je n'ai pas compris). Ça ressemble au « ne … pas » du français.",
+      "examples": [
+        { "chat": "Ma fhemtch.", "fr": "Je n'ai pas compris." },
+        { "chat": "Ma n3arafch.", "fr": "Je ne sais pas." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    {
+      "id": "dz-salam",
+      "chat": "salam 3likoum",
+      "latin": "salam ʿlikoum",
+      "ar": "السلام عليكم",
+      "fr": "Bonjour (formule universelle)",
+      "pos": "expression",
+      "register": "neutre",
+      "answer": { "chat": "w 3likoum salam", "fr": "Et sur vous la paix (réponse obligée)" },
+      "mnemonic": "« Salam » = paix, comme dans « Shalom » : on souhaite la paix à l'autre.",
+      "variants": ["salam alikoum", "salam aleykoum", "salam"]
+    },
+    {
+      "id": "dz-sbah",
+      "chat": "sbah lkhir",
+      "latin": "ṣbaḥ lkhir",
+      "ar": "صباح الخير",
+      "fr": "Bonjour (le matin)",
+      "pos": "expression",
+      "register": "neutre",
+      "answer": { "chat": "sbah ennour", "fr": "Matin de lumière" },
+      "mnemonic": "« Khir » = le bien. Un matin de bien, et on te répond par un matin de lumière (nour).",
+      "variants": ["sba7 lkhir", "sbah el khir"]
+    },
+    {
+      "id": "dz-msa",
+      "chat": "msa lkhir",
+      "latin": "msa lkhir",
+      "ar": "مسا الخير",
+      "fr": "Bonsoir",
+      "pos": "expression",
+      "register": "neutre",
+      "answer": { "chat": "msa ennour", "fr": "Soir de lumière" },
+      "mnemonic": "Même moule que sbah lkhir : on change juste le moment (msa = soir).",
+      "variants": ["masa lkhir", "msa el khir"]
+    },
+    {
+      "id": "dz-wachrak",
+      "chat": "wach rak ? / wach raki ?",
+      "latin": "wach rak ? / wach raki ?",
+      "ar": "واش راك؟ / واش راكي؟",
+      "fr": "Comment vas-tu ? (à un homme / à une femme)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Wesh », que tout le monde connaît en France, vient de ce « wach ».",
+      "variants": ["wech rak", "wesh rak", "wach rakoum (à plusieurs)"]
+    },
+    {
+      "id": "dz-kirak",
+      "chat": "kirak ? / kiraki ?",
+      "latin": "kirak ? / kiraki ?",
+      "ar": "كي راك؟ / كي راكي؟",
+      "fr": "Ça va ? (familier)",
+      "pos": "expression",
+      "register": "familier",
+      "mnemonic": "Ki + rak, mot à mot « comment tu es ». Plus court, plus copain que wach rak.",
+      "variants": ["ki rak", "kiraki"]
+    },
+    {
+      "id": "dz-labas",
+      "chat": "labas, l7amdoulah",
+      "latin": "labas, lḥamdoulah",
+      "ar": "لاباس، الحمد لله",
+      "fr": "Ça va, Dieu merci",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« La bas » = pas de mal. On ajoute presque toujours « l7amdoulah », même quand ça ne va qu'à moitié.",
+      "variants": ["labes", "labas hamdoulah", "l7amdolillah"]
+    },
+    {
+      "id": "dz-rani",
+      "chat": "rani mli7 / rani mli7a",
+      "latin": "rani mliḥ / rani mliḥa",
+      "ar": "راني مليح / راني مليحة",
+      "fr": "Je vais bien (homme / femme)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Mli7 » = bon, bien. Une femme ajoute un -a : mli7a.",
+      "variants": ["rani bkhir"]
+    },
+    {
+      "id": "dz-saha",
+      "chat": "saha / ya3tik saha",
+      "latin": "ṣaḥḥa / yaʿṭik ṣṣaḥḥa",
+      "ar": "صحة / يعطيك الصحة",
+      "fr": "Merci (mot à mot « que Dieu te donne la santé »)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "Saha sonne comme « santé » : pour remercier, on te souhaite la santé.",
+      "note": "« Saha » sert aussi à féliciter (« bravo »), et on le dit à quelqu'un qui sort du hammam, du coiffeur ou qui finit son repas.",
+      "variants": ["sa7a", "ya3tik sa7a", "yatik saha"]
+    },
+    {
+      "id": "dz-choukran",
+      "chat": "choukran bezzaf",
+      "latin": "choukran bezzaf",
+      "ar": "شكرا بزاف",
+      "fr": "Merci beaucoup",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "Le « bézef » de l'argot français (« pas bézef ») vient de « bezzaf » : beaucoup.",
+      "variants": ["chokran bezzaf", "merci bezzaf"]
+    },
+    {
+      "id": "dz-smahli",
+      "chat": "smahli / smahili",
+      "latin": "smaḥli / smaḥili",
+      "ar": "سمحلي / سمحيلي",
+      "fr": "Pardon, excuse-moi (à un homme / à une femme)",
+      "pos": "verbe",
+      "register": "neutre",
+      "mnemonic": "« Sma7 » = pardonner. Smahli = « pardonne-moi ».",
+      "variants": ["sma7li", "sma7ili", "smahlia"]
+    },
+    {
+      "id": "dz-smitek",
+      "chat": "wach smitek ?",
+      "latin": "wach smitek ?",
+      "ar": "واش سميتك؟",
+      "fr": "Comment tu t'appelles ?",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Smiya » = le nom. Smitek = ton nom, smiti = mon nom.",
+      "variants": ["wach ismek", "smitek wach", "wesh smitek"]
+    },
+    {
+      "id": "dz-smiti",
+      "chat": "ana smiti …",
+      "latin": "ana smiti …",
+      "ar": "أنا سميتي …",
+      "fr": "Je m'appelle …",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "« Ana » = moi, je. Comme si on disait « moi, mon nom… ».",
+      "variants": ["smiti …", "ana ismi …"]
+    },
+    {
+      "id": "dz-marhba",
+      "chat": "marhba bik / marhba bikoum",
+      "latin": "marḥba bik / marḥba bikoum",
+      "ar": "مرحبا بيك / مرحبا بيكم",
+      "fr": "Bienvenue (à toi / à vous)",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "C'est le « Marhaba » des panneaux d'aéroport.",
+      "variants": ["mer7ba bik", "marhaba bik"]
+    },
+    {
+      "id": "dz-bslama",
+      "chat": "bslama",
+      "latin": "bslama",
+      "ar": "بالسلامة",
+      "fr": "Au revoir (mot à mot « avec la sécurité »)",
+      "pos": "expression",
+      "register": "neutre",
+      "answer": { "chat": "allah ysalmek", "fr": "Que Dieu te protège" },
+      "mnemonic": "On retrouve « salam » dedans : on part en paix.",
+      "variants": ["beslama", "b'slama", "bisslama"]
+    },
+    {
+      "id": "dz-wah",
+      "chat": "wah / ih / la",
+      "latin": "wah / ih / la",
+      "ar": "واه / إيه / لا",
+      "fr": "Oui / oui / non",
+      "pos": "mot",
+      "register": "neutre",
+      "mnemonic": "« Ih » ressemble à un « hein-hein » approbateur.",
+      "variants": ["wa", "iyeh"]
+    },
+    {
+      "id": "dz-fhemt",
+      "chat": "ma fhemtch",
+      "latin": "ma fhemtch",
+      "ar": "ما فهمتش",
+      "fr": "Je n'ai pas compris",
+      "pos": "expression",
+      "register": "neutre",
+      "mnemonic": "Le « ma … ch » encadre le verbe comme « ne … pas ».",
+      "variants": ["mafhemtch", "ma fhamtch"]
+    },
+    {
+      "id": "dz-khouya",
+      "chat": "khouya / khti",
+      "latin": "khouya / khti",
+      "ar": "خويا / ختي",
+      "fr": "Mon frère / ma sœur (aussi entre amis)",
+      "pos": "nom",
+      "register": "familier",
+      "mnemonic": "On le dit à un ami comme on dirait « frérot » ou « ma sœur ».",
+      "variants": ["kho", "khoya", "okhti"]
+    },
+    {
+      "id": "dz-khalti",
+      "chat": "khalti / 3ammi",
+      "latin": "khalti / ʿammi",
+      "ar": "خالتي / عمي",
+      "fr": "Ma tante / mon oncle (à toute personne plus âgée, par respect)",
+      "pos": "nom",
+      "register": "poli",
+      "mnemonic": "On ne dit pas « madame » à la voisine âgée : on lui dit « ma tante ».",
+      "variants": ["khalto", "3emmi"]
+    }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "dz-c1",
+      "chat": "Salam 3likoum khalti, wach raki ? Labas 3likoum ?",
+      "fr": "Bonjour ma tante, comment allez-vous ? Tout va bien chez vous ?",
+      "when": "Tu croises une voisine âgée dans l'escalier.",
+      "with": "Une personne plus âgée",
+      "register": "poli",
+      "culturalNote": "Demander « labas 3likoum ? » (tout va bien pour vous ?) montre que tu t'intéresses à toute la famille, pas seulement à elle. Les salutations durent souvent plusieurs échanges : c'est normal, pas une perte de temps."
+    },
+    {
+      "id": "dz-c2",
+      "chat": "Wesh khouya, kirak ? Chhal ma chefnakch !",
+      "fr": "Salut frérot, ça va ? Ça fait une éternité !",
+      "when": "Tu retrouves un cousin ou un ami.",
+      "with": "Cousin, ami du même âge",
+      "register": "familier",
+      "culturalNote": "« Chhal ma chefnakch », mot à mot « combien de temps on ne t'a pas vu », est une petite pique affectueuse. On répond en riant : « Rani hna ! » (je suis là !)."
+    },
+    {
+      "id": "dz-c3",
+      "chat": "Allah yrham waldik.",
+      "fr": "Merci infiniment (mot à mot « que Dieu bénisse tes parents »).",
+      "when": "Un inconnu t'aide vraiment : il te montre le chemin, te rend un objet perdu.",
+      "with": "Inconnu, commerçant",
+      "register": "poli",
+      "culturalNote": "Bénir les parents de quelqu'un est un très beau remerciement. Il touche beaucoup plus qu'un simple choukran."
+    },
+    {
+      "id": "dz-c4",
+      "chat": "Smahli, ma fhemtch. 3awed, llah ykhalik.",
+      "fr": "Pardon, je n'ai pas compris. Répète, s'il te plaît.",
+      "when": "Quelqu'un parle trop vite.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "« Llah ykhalik », mot à mot « que Dieu te garde », sert de « s'il te plaît ». Les gens apprécient beaucoup qu'on fasse l'effort de parler darija, même avec des fautes."
+    },
+    {
+      "id": "dz-c5",
+      "chat": "Bslama, tsbah 3la khir !",
+      "fr": "Au revoir, bonne nuit !",
+      "when": "Tu quittes quelqu'un le soir.",
+      "with": "Famille, amis",
+      "register": "neutre",
+      "culturalNote": "Mot à mot « que tu te réveilles sur le bien ». On te répondra « w nta tani » (toi aussi) ou « allah ysalmek »."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "dz-d1",
+      "type": "chatSim",
+      "title": "Ton cousin Amine t'écrit",
+      "contact": { "name": "Amine", "avatar": "🧑🏻", "relation": "cousin", "register": "familier" },
+      "turns": [
+        { "from": "them", "chat": "Wesh ! Kirak ? Chhal ma chefnakch 😄", "fr": "Salut ! Ça va ? Ça fait une éternité 😄" },
+        {
+          "from": "me",
+          "prompt": "Réponds naturellement",
+          "options": [
+            { "chat": "Labas l7amdoulah ! W nta, kirak ?", "fr": "Ça va, Dieu merci ! Et toi, ça va ?", "score": "natural", "feedback": "Parfait : tu réponds et tu renvoies la question, comme le veut la politesse." },
+            { "chat": "Kayfa haluk ya akhi ?", "fr": "Comment vas-tu, mon frère ? (arabe littéraire)", "score": "wrong", "feedback": "C'est de l'arabe littéraire, on dirait un présentateur du journal télévisé. Amine va se moquer de toi gentiment.", "reaction": { "chat": "Hhhh wach bik, rak f nachrat 8 ? 😂", "fr": "Mdr qu'est-ce qui t'arrive, tu présentes le journal de 20 h ? 😂" } },
+            { "chat": "Ça va merci, w nta ?", "fr": "Ça va merci, et toi ?", "score": "ok", "feedback": "Les Algériens mélangent beaucoup le français à la darija, donc ça passe très bien. Mais ici on s'entraîne à la darija 😉" }
+          ]
+        },
+        { "from": "them", "chat": "Rani mli7, l7amdoulah. Ghadwa nrou7ou l dar khalti, tji m3ana ?", "fr": "Je vais bien, Dieu merci. Demain on passe chez tata, tu viens avec nous ?" },
+        {
+          "from": "me",
+          "prompt": "Accepte avec enthousiasme",
+          "build": {
+            "answer": ["wah", "nchallah", "!", "saha", "khouya"],
+            "distractors": ["la", "smahli"],
+            "fr": "Oui, si Dieu le veut ! Merci frérot"
+          }
+        },
+        { "from": "them", "chat": "Saha 3lik ! Bslama 👋", "fr": "Top ! À plus 👋" },
+        {
+          "from": "me",
+          "prompt": "Que répond-on à « bslama » ?",
+          "options": [
+            { "chat": "Allah ysalmek !", "fr": "Que Dieu te protège !", "score": "natural", "feedback": "C'est la réponse classique à bslama." },
+            { "chat": "Sbah lkhir !", "fr": "Bonjour (le matin) !", "score": "wrong", "feedback": "Ça veut dire bonjour, pas au revoir." },
+            { "chat": "Bslama !", "fr": "Au revoir !", "score": "ok", "feedback": "Ça se dit aussi, mais « allah ysalmek » sonne plus naturel." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dz-d2",
+      "type": "chatSim",
+      "title": "Chez l'épicier du quartier",
+      "contact": { "name": "3ammi Rabah", "avatar": "👴🏽", "relation": "commerçant âgé", "register": "poli" },
+      "turns": [
+        { "from": "me", "prompt": "Entre dans la boutique à 9 h du matin", "options": [
+          { "chat": "Sbah lkhir 3ammi Rabah !", "fr": "Bonjour (matin) oncle Rabah !", "score": "natural", "feedback": "Très bien : tu salues selon le moment et tu montres du respect avec « 3ammi »." },
+          { "chat": "Wesh Rabah, kirak ?", "fr": "Salut Rabah, ça va ?", "score": "wrong", "feedback": "Trop familier pour un homme âgé. Mets « 3ammi » devant son nom et utilise « wach rak »." },
+          { "chat": "Msa lkhir 3ammi !", "fr": "Bonsoir oncle !", "score": "wrong", "feedback": "Il est 9 h du matin, c'est sbah lkhir." }
+        ]},
+        { "from": "them", "chat": "Sbah ennour benti, marhba bik. Wach t7ebbi ?", "fr": "Bonjour ma fille, bienvenue. Qu'est-ce que tu veux ?" },
+        { "from": "me", "prompt": "Il parle vite, tu n'as pas compris", "build": {
+          "answer": ["smahli", "3ammi", ",", "ma", "fhemtch"],
+          "distractors": ["smahili", "fhemt"],
+          "fr": "Pardon, oncle, je n'ai pas compris"
+        }},
+        { "from": "them", "chat": "Machi mouchkil ! Wach t7ebbi, khobz wella 7lib ?", "fr": "Pas de souci ! Qu'est-ce que tu veux, du pain ou du lait ?" },
+        { "from": "me", "prompt": "Prends le pain puis remercie-le chaleureusement", "options": [
+          { "chat": "Khobz, ya3tik saha 3ammi !", "fr": "Du pain, merci beaucoup oncle !", "score": "natural", "feedback": "Naturel et chaleureux." },
+          { "chat": "Khobz. Choukran.", "fr": "Du pain. Merci.", "score": "ok", "feedback": "C'est correct, mais un peu sec pour un commerçant qui te connaît." },
+          { "chat": "Khobz, smahli.", "fr": "Du pain, pardon.", "score": "wrong", "feedback": "Smahli veut dire « pardon », pas « merci »." }
+        ]}
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "dz-e1",
+      "type": "matchPairs",
+      "instruction": "Relie chaque expression à sa traduction",
+      "pairs": ["dz-sbah", "dz-bslama", "dz-saha", "dz-smahli", "dz-fhemt", "dz-marhba"]
+    },
+    {
+      "id": "dz-e2",
+      "type": "sentenceBuilder",
+      "instruction": "Traduis : « Salut frérot, ça va ? »",
+      "fr": "Salut frérot, ça va ?",
+      "answer": ["wesh", "khouya", ",", "kirak", "?"],
+      "alternatives": [["salam", "khouya", ",", "kirak", "?"], ["wesh", "khouya", ",", "wach", "rak", "?"]],
+      "distractors": ["kiraki", "haluk"],
+      "explanation": "Kirak s'adresse à un homme ; kiraki, à une femme. « Haluk » vient de l'arabe littéraire."
+    },
+    {
+      "id": "dz-e3",
+      "type": "cloze",
+      "instruction": "Complète le dialogue",
+      "lines": [
+        { "who": "A", "chat": "Wach raki ?" },
+        { "who": "B", "chat": "{{1}}, l7amdoulah. W nti ?" },
+        { "who": "A", "chat": "Rani {{2}} ." }
+      ],
+      "blanks": {
+        "1": { "options": ["Labas", "Bezzaf", "Smahli"], "answer": "Labas" },
+        "2": { "options": ["mli7a", "mli7", "bslama"], "answer": "mli7a", "hint": "A demandait « wach raki » : c'est donc une femme qui répond." }
+      },
+      "explanation": "Le féminin s'accorde : A est une femme, donc « rani mli7a »."
+    },
+    {
+      "id": "dz-e4",
+      "type": "cloze",
+      "instruction": "Mets la phrase à la forme négative",
+      "lines": [{ "who": "B", "chat": "Smahli, {{1}} . 3awed llah ykhalik." }],
+      "blanks": { "1": { "options": ["ma fhemtch", "fhemt", "ma fhemt"], "answer": "ma fhemtch" } },
+      "explanation": "La négation encadre le verbe : ma + fhemt + ch. Si tu oublies le -ch, la phrase n'est pas négative."
+    },
+    {
+      "id": "dz-e5",
+      "type": "registerHunt",
+      "instruction": "Un mot d'arabe littéraire s'est glissé dans la phrase. Touche-le.",
+      "tokens": ["Salam", "khouya", ",", "kayfa haluk", "?", "Rani", "mli7", "."],
+      "intruderIndex": 3,
+      "fix": "kirak",
+      "explanation": "« Kayfa haluk » est de l'arabe littéraire (le journal télévisé, les livres). En darija on dit « kirak » ou « wach rak »."
+    },
+    {
+      "id": "dz-e6",
+      "type": "registerHunt",
+      "instruction": "Trouve l'intrus littéraire",
+      "tokens": ["Ya3tik", "saha", ",", "laysa", "mouchkil", "!"],
+      "intruderIndex": 3,
+      "fix": "machi",
+      "explanation": "« Laysa » est la négation littéraire. En darija : « machi mouchkil » (pas de problème)."
+    },
+    {
+      "id": "dz-e7",
+      "type": "registerSort",
+      "instruction": "À qui dirais-tu ça ?",
+      "bins": [
+        { "id": "elder", "label": "Khalti (voisine âgée)", "avatar": "👵🏽" },
+        { "id": "friend", "label": "Ton cousin", "avatar": "🧑🏻" }
+      ],
+      "items": [
+        { "chat": "Salam 3likoum, wach raki ?", "bin": "elder" },
+        { "chat": "Wesh, kirak ?", "bin": "friend" },
+        { "chat": "Allah yrham waldik.", "bin": "elder" },
+        { "chat": "Saha khouya !", "bin": "friend" }
+      ],
+      "explanation": "« Wesh » et « khouya » se disent entre gens du même âge. Avec une personne plus âgée, on choisit les formules complètes et les bénédictions."
+    },
+    {
+      "id": "dz-e8",
+      "type": "hiddenDigit",
+      "instruction": "Quel chiffre manque ? (3 = ع, 7 = ح, 9 = ق)",
+      "items": [
+        { "masked": "l_amdoulah", "answer": "7", "full": "l7amdoulah" },
+        { "masked": "ya_tik saha", "answer": "3", "full": "ya3tik saha" },
+        { "masked": "ma n_arafch", "answer": "3", "full": "ma n3arafch" }
+      ],
+      "options": ["3", "7", "9"]
+    },
+    {
+      "id": "dz-e9",
+      "type": "typeAnswer",
+      "instruction": "Écris en darija : « Je m'appelle Lina »",
+      "fr": "Je m'appelle Lina",
+      "accept": ["ana smiti lina", "smiti lina", "ana ismi lina"],
+      "explanation": "« Ana » (moi) est facultatif mais fréquent."
+    },
+    {
+      "id": "dz-e10",
+      "type": "mcq",
+      "instruction": "Quelqu'un te dit « Sbah lkhir ». Tu réponds :",
+      "options": ["Sbah ennour", "Msa lkhir", "Bslama"],
+      "answer": "Sbah ennour",
+      "explanation": "On répond au « matin de bien » par un « matin de lumière »."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["dz-salam", "dz-sbah", "dz-wachrak", "dz-labas", "dz-rani", "dz-saha", "dz-smahli", "dz-bslama", "dz-fhemt", "dz-khalti"],
+    "bonus": ["dz-msa", "dz-kirak", "dz-choukran", "dz-smitek", "dz-smiti", "dz-marhba", "dz-wah", "dz-khouya"]
+  }
+}

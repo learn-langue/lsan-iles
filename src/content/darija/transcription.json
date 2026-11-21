@@ -1,0 +1,13 @@
+{
+  "language": "darija",
+  "title": "Les chiffres de la darija écrite",
+  "intro": "Sur WhatsApp, les Algériens écrivent la darija en lettres latines et remplacent par des chiffres les sons qui n'existent pas en français. L'option « chiffres » de l'application bascule entre cette écriture et une notation plus lisible.",
+  "map": [
+    { "digit": "3", "latin": "ʿ", "ar": "ع", "sound": "Son serré au fond de la gorge", "example": "3ammi (mon oncle)" },
+    { "digit": "7", "latin": "ḥ", "ar": "ح", "sound": "H soufflé, comme pour embuer une vitre", "example": "l7amdoulah" },
+    { "digit": "9", "latin": "q", "ar": "ق", "sound": "K profond (dans beaucoup de régions, il se prononce « g »)", "example": "9ahwa / gahwa (café)" },
+    { "digit": "5 / kh", "latin": "kh", "ar": "خ", "sound": "Raclé, comme la jota espagnole", "example": "khobz (pain)" },
+    { "digit": "8 / gh", "latin": "gh", "ar": "غ", "sound": "R grasseyé parisien", "example": "ghadwa (demain)" },
+    { "digit": "2", "latin": "ʾ", "ar": "ء", "sound": "Petit coup de glotte, rare en darija", "example": "su2al (question)" }
+  ]
+}

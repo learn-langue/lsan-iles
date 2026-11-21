@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light dark; }
+html, body, #root { min-height: 100%; }
+body { @apply bg-sand-50 text-stone-800 font-sans antialiased dark:bg-stone-950 dark:text-stone-100; -webkit-tap-highlight-color: transparent; }
+
+@layer components {
+  .card { @apply rounded-2xl bg-white shadow-sm ring-1 ring-stone-200/70 dark:bg-stone-900 dark:ring-stone-800; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-3 font-bold transition active:scale-[.98] disabled:opacity-40 disabled:active:scale-100; }
+  .btn-primary { @apply btn bg-accent text-white shadow-[0_4px_0_0_var(--accent-dark)] active:translate-y-[2px] active:shadow-[0_2px_0_0_var(--accent-dark)]; }
+  .btn-ghost { @apply btn bg-stone-100 text-stone-700 hover:bg-stone-200 dark:bg-stone-800 dark:text-stone-200 dark:hover:bg-stone-700; }
+  .chip { @apply rounded-xl border-2 border-stone-200 bg-white px-3 py-2 font-semibold shadow-[0_2px_0_0_theme(colors.stone.200)] transition active:translate-y-[1px] dark:border-stone-700 dark:bg-stone-900 dark:shadow-[0_2px_0_0_theme(colors.stone.700)]; }
+  .chip-on { @apply border-accent bg-accent-soft text-accent-dark dark:text-white; }
+  .badge { @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-bold; }
+  .bg-accent { background-color: var(--accent); }
+  .text-accent { color: var(--accent); }
+  .text-accent-dark { color: var(--accent-dark); }
+  .bg-accent-soft { background-color: var(--accent-soft); }
+  .border-accent { border-color: var(--accent); }
+  .ring-accent { --tw-ring-color: var(--accent); }
+}
+
+.theme-dz { --accent: theme(colors.dz.DEFAULT); --accent-dark: theme(colors.dz.dark); --accent-soft: theme(colors.dz.light); }
+.theme-kab { --accent: theme(colors.kab.DEFAULT); --accent-dark: theme(colors.kab.dark); --accent-soft: theme(colors.kab.light); }
+@media (prefers-color-scheme: dark) {
+  .theme-dz { --accent-soft: rgba(15, 118, 110, .25); }
+  .theme-kab { --accent-soft: rgba(194, 65, 12, .25); }
+}
+.pb-safe { padding-bottom: max(env(safe-area-inset-bottom), 0.5rem); }

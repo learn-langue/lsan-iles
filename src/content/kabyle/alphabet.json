@@ -1,0 +1,17 @@
+{
+  "language": "kabyle",
+  "title": "Lire les lettres kabyles",
+  "letters": [
+    { "letter": "ɣ", "ascii": "gh", "sound": "R grasseyé, comme le « r » de Paris", "example": "aɣilif (souci)" },
+    { "letter": "ɛ", "ascii": "3", "sound": "Son serré au fond de la gorge, comme le ع arabe", "example": "ɛiwed (répète)" },
+    { "letter": "x", "ascii": "kh", "sound": "Raclé, comme la jota espagnole ou le « ch » allemand", "example": "lxir (le bien)" },
+    { "letter": "č", "ascii": "tch", "sound": "« tch » comme dans « tchat »", "example": "kečč (toi, à un homme)" },
+    { "letter": "ǧ", "ascii": "dj", "sound": "« dj » comme dans « djinn »", "example": "ǧǧ (laisser)" },
+    { "letter": "ḥ", "ascii": "h", "sound": "H soufflé de la gorge, comme le ح arabe (le 7 de la darija)", "example": "ssmeḥ-iyi (pardon)" },
+    { "letter": "q", "ascii": "q", "sound": "K très profond, au fond de la gorge", "example": "qqim (assieds-toi)" },
+    { "letter": "ḍ ṭ ṣ ẓ ṛ", "ascii": "d t s z r", "sound": "Emphatiques : on prononce la lettre plus « lourde », la langue en arrière, la bouche un peu arrondie", "example": "telliḍ (tu es)" },
+    { "letter": "e", "ascii": "e", "sound": "Toujours bref et muet, comme le « e » de « le »", "example": "nekk (moi)" },
+    { "letter": "tt", "ascii": "tt", "sound": "Souvent prononcé « ts »", "example": "ttxil-k → « tsxil-k »" },
+    { "letter": "lettre doublée", "ascii": "", "sound": "Une lettre doublée se tient plus longtemps", "example": "kemm, tanemmirt" }
+  ]
+}

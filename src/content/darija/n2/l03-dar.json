@@ -1,0 +1,284 @@
+{
+  "id": "dz-n2-l03",
+  "language": "darija",
+  "level": 2,
+  "order": 3,
+  "title": "Darna… La maison et la famille",
+  "goal": "Nommer les pièces de la maison, dire où sont les gens et les choses, dire ce qu'on est en train de faire, proposer son aide et parler des proches.",
+  "estimatedMinutes": 12,
+  "regionNote": "Darija du centre. La maison est pleine de mots venus de l'espagnol ou du français : lkouzina (de « cocina »), nrangi (de « ranger »), lfactoura (« la facture »)… À Alger, on entend souvent « rahi » au lieu de « raha » (elle est).",
+
+  "grammarNotes": [
+    {
+      "id": "dz6-g-rah",
+      "title": "Où est… ? Rah, raha, rahom",
+      "body": "Tu connais rani (je suis) et raki (tu es, à une femme). Pour dire où sont les autres : rah (il), raha (elle), rana (nous), rahom (ils, elles). Avec win (où) et f (dans) : « Win raha yemma ? — Raha f lkouzina. » Les objets ont aussi un genre : lmefta7 (la clé) est masculin, donc « rah ».",
+      "examples": [
+        { "chat": "Win raha yemma ?", "fr": "Où est maman ?" },
+        { "chat": "Raha f lkouzina.", "fr": "Elle est dans la cuisine." },
+        { "chat": "Lmefta7 rah fouq ttabla.", "fr": "La clé est sur la table." }
+      ]
+    },
+    {
+      "id": "dz6-g-encours",
+      "title": "Rani + verbe : je suis en train de…",
+      "body": "Rani suivi d'un verbe au présent dit ce que tu fais en ce moment : rani nteyyeb (je suis en train de cuisiner). Ça marche avec toutes les personnes : raha tteyyeb (elle cuisine), raki tghesli (tu laves, à une femme). Pour demander : wach rak tdir ? (à un homme), wach raki tdiri ? (à une femme).",
+      "examples": [
+        { "chat": "Rani nghsel lmwa3en.", "fr": "Je suis en train de faire la vaisselle." },
+        { "chat": "Yemma raha tteyyeb.", "fr": "Maman est en train de cuisiner." },
+        { "chat": "Wach raki tdiri ?", "fr": "Qu'est-ce que tu fais ? (à une femme)" }
+      ]
+    },
+    {
+      "id": "dz6-g-famille",
+      "title": "3ammi ou khali ? Côté papa, côté maman",
+      "body": "La darija précise de quel côté vient l'oncle ou la tante : 3ammi, 3amti (frère et sœur de ton père), khali, khalti (frère et sœur de ta mère). Il n'y a pas de mot pour « cousin » : on dit weld 3ammi (le fils de mon oncle paternel), bent khalti (la fille de ma tante maternelle)… Par respect, on appelle aussi khalti ou 3ammi une personne âgée sans lien de parenté.",
+      "examples": [
+        { "chat": "3amti Zohra, khet baba.", "fr": "Tante Zohra, la sœur de papa." },
+        { "chat": "Amine, weld 3ammi.", "fr": "Amine, mon cousin (le fils de mon oncle paternel)." },
+        { "chat": "Bent khalti tskoun f Wahran.", "fr": "Ma cousine (la fille de ma tante maternelle) habite à Oran." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "dz6-dar", "chat": "dar", "latin": "dar", "ar": "دار", "fr": "La maison, chez soi", "pos": "nom", "register": "neutre", "mnemonic": "Comme Dar El Beïda, le quartier de l'aéroport d'Alger : « la maison blanche ».", "variants": ["f ddar (à la maison)", "darna (chez nous)", "dar jeddi (chez grand-père)"] },
+    { "id": "dz6-lbit", "chat": "lbit", "latin": "lbit", "ar": "البيت", "fr": "La chambre, la pièce", "pos": "nom", "register": "neutre", "mnemonic": "Lbit → « l'habit » : c'est là qu'on range ses habits.", "variants": ["la chambre", "lbit ta3i (ma chambre)"] },
+    { "id": "dz6-kouzina", "chat": "lkouzina", "latin": "lkouzina", "ar": "الكوزينة", "fr": "La cuisine", "pos": "nom", "register": "neutre", "mnemonic": "De l'espagnol « cocina » : la cuisine.", "variants": ["la cuisine"] },
+    { "id": "dz6-bab", "chat": "lbab / ttaqa", "latin": "lbab / ṭṭaqa", "ar": "الباب / الطاقة", "fr": "La porte / la fenêtre", "pos": "nom", "register": "neutre", "mnemonic": "Bab, comme Bab El Oued (« la porte de la rivière »), le quartier d'Alger. Taqa → « tac » : on ouvre la fenêtre d'un coup.", "variants": ["ttaga (avec le q prononcé g)"] },
+    { "id": "dz6-mefta7", "chat": "lmefta7", "latin": "lmeftaḥ", "ar": "المفتاح", "fr": "La clé", "pos": "nom", "register": "neutre", "mnemonic": "Même racine que « Fatiha » (l'ouverture) : f-t-ḥ veut dire ouvrir. La clé ouvre !", "note": "Attention : lmefta7 est masculin en darija, même si « clé » est féminin en français." },
+    { "id": "dz6-ddaw", "chat": "ddaw", "latin": "ḍḍaw", "ar": "الضو", "fr": "La lumière (et l'électricité)", "pos": "nom", "register": "neutre", "mnemonic": "Ddaw → « d'or » : la lumière dorée.", "variants": ["tfi ddaw ! (éteins la lumière !)"] },
+    { "id": "dz6-win", "chat": "win rah … ? / win raha … ?", "latin": "win rah … ? / win raha … ?", "ar": "وين راه…؟ / وين راها…؟", "fr": "Où est … ? (masculin / féminin)", "pos": "expression", "register": "neutre", "answer": { "chat": "rah f … / raha f …", "fr": "Il / elle est dans …" }, "mnemonic": "Win = où (et mnin = d'où, vu au niveau 1). Rah pour un nom masculin, raha pour un féminin.", "variants": ["win rahom … ? (où sont … ?)"] },
+    { "id": "dz6-marahch", "chat": "ma rahch / ma rahach", "latin": "ma rahch / ma rahach", "ar": "ما راهش / ما راهاش", "fr": "Il / elle n'est pas là", "pos": "expression", "register": "neutre", "mnemonic": "La négation en sandwich autour de rah : ma + rah + ch = il n'est pas là.", "variants": ["baba ma rahch (papa n'est pas là)"] },
+    { "id": "dz6-ta3i", "chat": "ta3i / ta3ek", "latin": "taʿi / taʿek", "ar": "تاعي / تاعك", "fr": "À moi, mon / à toi, ton", "pos": "mot", "register": "neutre", "mnemonic": "Ta3 = « de ». Lbit ta3i = la chambre de moi, donc ma chambre.", "variants": ["ta3ha (à elle)", "ta3na (à nous)", "ta3 men ? (à qui ?)"] },
+    { "id": "dz6-tdir", "chat": "wach rak tdir ? / wach raki tdiri ?", "latin": "wach rak tdir ? / wach raki tdiri ?", "ar": "واش راك تدير؟ / واش راكي تديري؟", "fr": "Qu'est-ce que tu fais ? (à un homme / à une femme)", "pos": "expression", "register": "neutre", "answer": { "chat": "rani n…", "fr": "Je suis en train de…" }, "mnemonic": "Dir = faire. Mot à mot « qu'es-tu en train de faire ? »", "variants": ["wach rak dir ? (prononciation rapide)"] },
+    { "id": "dz6-nteyyeb", "chat": "nteyyeb", "latin": "nṭeyyeb", "ar": "نطيّب", "fr": "Je cuisine, je fais à manger", "pos": "verbe", "register": "neutre", "mnemonic": "Tiyyeb vient de « tayyeb » (bon, mûr) : on rend la nourriture bonne à manger.", "variants": ["tiyyebt (j'ai cuisiné)", "yemma raha tteyyeb (maman cuisine)"] },
+    { "id": "dz6-nghsel", "chat": "nghsel lmwa3en", "latin": "nghsel lmwaʿen", "ar": "نغسل المواعن", "fr": "Je fais la vaisselle (mot à mot « je lave les plats »)", "pos": "expression", "register": "neutre", "mnemonic": "Ghsel = laver (on dit aussi « nghsel wejhi », je me lave le visage). Lmwa3en = la vaisselle.", "variants": ["ghselt (j'ai lavé)"] },
+    { "id": "dz6-nsiyyeq", "chat": "nsiyyeq", "latin": "nsiyyeq", "ar": "نسيّق", "fr": "Je lave le sol (à grande eau)", "pos": "verbe", "register": "neutre", "mnemonic": "Siyyeq → « ça glisse » : attention au sol mouillé !", "note": "Le « tsiyyiq », grand lavage du sol à l'eau et à la raclette, est un rituel des maisons algériennes, surtout avant les fêtes et l'arrivée des invités." },
+    { "id": "dz6-nrangi", "chat": "nrangi", "latin": "nrangi", "ar": "نرانجي", "fr": "Je range", "pos": "verbe", "register": "neutre", "mnemonic": "Du français « ranger », avec le n- de « je » : nrangi !", "variants": ["rangi bitek ! (range ta chambre !)", "rangit (j'ai rangé)"] },
+    { "id": "dz6-n3awnek", "chat": "n3awnek ?", "latin": "nʿawnek ?", "ar": "نعاونك؟", "fr": "Je t'aide ? (à un homme ou à une femme)", "pos": "expression", "register": "neutre", "mnemonic": "Même racine que « Llah y3awnek » (que Dieu t'aide) !", "variants": ["3awenni ! (aide-moi !)", "n3awnha (je l'aide, elle)"] },
+    { "id": "dz6-khalli", "chat": "khalli, ana ndir", "latin": "khalli, ana ndir", "ar": "خلّي، أنا ندير", "fr": "Laisse, je m'en occupe (mot à mot « laisse, moi je fais »)", "pos": "expression", "register": "neutre", "mnemonic": "Khalli = laisse, ndir = je fais. La phrase préférée des mamans… quand c'est leur enfant qui la dit !", "variants": ["khallih (laisse-le)"] },
+    { "id": "dz6-3amti", "chat": "3amti / khali", "latin": "ʿamti / khali", "ar": "عمتي / خالي", "fr": "Ma tante (sœur de papa) / mon oncle (frère de maman)", "pos": "nom", "register": "neutre", "mnemonic": "Côté papa, tout commence par 3 : 3ammi, 3amti. Côté maman, par kh : khali, khalti.", "variants": ["3ammi (frère de papa)", "khalti (sœur de maman)"] },
+    { "id": "dz6-weld3ammi", "chat": "weld 3ammi / bent khalti", "latin": "weld ʿammi / bent khalti", "ar": "ولد عمي / بنت خالتي", "fr": "Mon cousin / ma cousine (mot à mot « fils de mon oncle », « fille de ma tante »)", "pos": "nom", "register": "neutre", "mnemonic": "Pas de mot unique pour « cousin » : on dit de quel côté il vient !", "note": "Entre cousins, on s'appelle souvent khouya et khti : en Algérie, les cousins sont presque des frères et sœurs.", "variants": ["bent 3ammi", "weld khali", "wlad 3ammi (les cousins)"] },
+    { "id": "dz6-jiran", "chat": "ljiran / jarti", "latin": "ljiran / jarti", "ar": "الجيران / جارتي", "fr": "Les voisins / ma voisine", "pos": "nom", "register": "neutre", "mnemonic": "Jiran → « gérants » : les voisins gèrent tout le quartier 😄", "variants": ["jari (mon voisin)"] }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "dz6-c1",
+      "chat": "Raki f darek, tfaddli !",
+      "fr": "Fais comme chez toi, je t'en prie !",
+      "when": "Une invitée arrive chez vous.",
+      "with": "Une invitée (à un homme : « rak f darek, tfaddal »)",
+      "register": "poli",
+      "culturalNote": "Mot à mot « tu es chez toi ». On installe l'invité au salon et on lui sert tout de suite à boire, avec des gâteaux : le laisser les mains vides serait mal vu."
+    },
+    {
+      "id": "dz6-c2",
+      "chat": "Khalli yemma, ana ndir !",
+      "fr": "Laisse, maman, je m'en occupe !",
+      "when": "Ta mère commence une corvée : vaisselle, ménage, courses.",
+      "with": "Tes parents, tes grands-parents",
+      "register": "affectueux",
+      "culturalNote": "Aider ses parents est très valorisé, même adulte. La récompense : « Llah yerdi 3lik » (que Dieu soit satisfait de toi), la bénédiction des parents, qu'on garde précieusement."
+    },
+    {
+      "id": "dz6-c3",
+      "chat": "Tfi ddaw, lfactoura ghalia !",
+      "fr": "Éteins la lumière, la facture coûte cher !",
+      "when": "Tu as laissé la lumière allumée dans une pièce vide.",
+      "with": "Un père (ou une mère) à ses enfants",
+      "register": "familier",
+      "culturalNote": "La réplique culte des parents 😄 « Lfactoura » vient de « la facture » : beaucoup de mots de la vie moderne viennent du français."
+    },
+    {
+      "id": "dz6-c4",
+      "chat": "Jarti, hiya kima khti.",
+      "fr": "Ma voisine, c'est comme ma sœur.",
+      "when": "Tu présentes ta voisine à quelqu'un.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "Les voisins font partie des proches : on s'échange des plats (et on ne rend jamais l'assiette vide !), on garde les enfants, on se rend visite à chaque fête."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "dz6-d1",
+      "type": "chatSim",
+      "title": "Grand ménage avant les invités",
+      "contact": { "name": "Yemma", "avatar": "👩🏽‍🦱", "relation": "maman", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "chat": "Lina, win raki ? 3amtek Zohra jaya l3acha ! 😱", "fr": "Lina, où es-tu ? Ta tante Zohra vient dîner ! 😱" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui que tu es dans ta chambre",
+          "options": [
+            { "chat": "Rani f lbit ta3i, yemma.", "fr": "Je suis dans ma chambre, maman.", "score": "natural", "feedback": "Parfait : rani (je suis) + f (dans) + lbit ta3i (ma chambre)." },
+            { "chat": "Raha f lkouzina.", "fr": "Elle est dans la cuisine.", "score": "wrong", "feedback": "« Raha » = elle est. C'est toi qu'elle cherche !", "reaction": { "chat": "Chkoun raha f lkouzina ?! Ana li f lkouzina ! 😅", "fr": "Qui est dans la cuisine ?! C'est moi qui suis dans la cuisine ! 😅" } },
+            { "chat": "F lbit.", "fr": "Dans la chambre.", "score": "ok", "feedback": "Compréhensible ! Mais la phrase complète avec « rani » est plus naturelle." }
+          ]
+        },
+        { "from": "them", "chat": "Rani nteyyeb, w mazal ma rangit walou… 😩", "fr": "Je suis en train de cuisiner, et je n'ai encore rien rangé… 😩" },
+        {
+          "from": "me",
+          "prompt": "Propose ton aide",
+          "options": [
+            { "chat": "N3awnek, yemma ?", "fr": "Je t'aide, maman ?", "score": "natural", "feedback": "Parfait : « n3awnek », même racine que « Llah y3awnek »." },
+            { "chat": "Saha l yeddik !", "fr": "Bravo pour le repas !", "score": "wrong", "feedback": "Tu la félicites pour un dîner qui n'est même pas prêt 😄" },
+            { "chat": "Rani 3iyana…", "fr": "Je suis fatiguée…", "score": "ok", "feedback": "Honnête… mais le moment est mal choisi 😅 Propose plutôt ton aide." }
+          ]
+        },
+        { "from": "them", "chat": "Wah benti, ya3tik saha ! Rangi lbit ta3ek, w ana nsiyyeq.", "fr": "Oui ma fille, merci ! Range ta chambre, et moi je lave le sol." },
+        {
+          "from": "me",
+          "prompt": "Réponds : « Laisse, maman, c'est moi qui le fais ! »",
+          "build": {
+            "answer": ["khalli", "yemma", ",", "ana", "ndir", "!"],
+            "distractors": ["nti", "tdiri"],
+            "fr": "Laisse, maman, c'est moi qui le fais !"
+          }
+        },
+        { "from": "them", "chat": "Llah yerdi 3lik benti ❤️ W lmefta7 ta3 lbab, win rah ? Ma lqitouch !", "fr": "Que Dieu te bénisse ma fille ❤️ Et la clé de la porte, où est-elle ? Je ne la trouve pas !" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui où est la clé : sur la table de la cuisine",
+          "options": [
+            { "chat": "Rah fouq ttabla, f lkouzina.", "fr": "Elle est sur la table, dans la cuisine.", "score": "natural", "feedback": "Bien vu : lmefta7 est masculin, donc « rah »." },
+            { "chat": "Raha fouq ttabla.", "fr": "Elle est sur la table. (au féminin)", "score": "wrong", "feedback": "Piège ! « Clé » est féminin en français, mais lmefta7 est masculin en darija : rah." },
+            { "chat": "Ma3labalich…", "fr": "Je ne sais pas…", "score": "ok", "feedback": "Honnête, mais aide-la à chercher 😄" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dz6-d2",
+      "type": "chatSim",
+      "title": "Amine est chez Jeddi",
+      "contact": { "name": "Amine", "avatar": "🧑🏻", "relation": "cousin", "register": "familier" },
+      "turns": [
+        { "from": "them", "chat": "Wesh bent 3ammi ! Wach raki tdiri ? 😄", "fr": "Salut cousine ! Qu'est-ce que tu fais ? 😄" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui que tu fais la vaisselle",
+          "options": [
+            { "chat": "Rani nghsel lmwa3en 😩", "fr": "Je fais la vaisselle 😩", "score": "natural", "feedback": "Parfait : rani + verbe = en train de." },
+            { "chat": "Rani nteyyeb lmwa3en.", "fr": "Je cuisine la vaisselle.", "score": "wrong", "feedback": "Nteyyeb = cuisiner. La vaisselle, on la lave : nghsel lmwa3en.", "reaction": { "chat": "Hhh tteyybi lmwa3en ?! 😂", "fr": "Haha tu cuisines la vaisselle ?! 😂" } },
+            { "chat": "Walou.", "fr": "Rien.", "score": "ok", "feedback": "Ça passe, mais raconte-lui un peu 😉" }
+          ]
+        },
+        { "from": "them", "chat": "Hhh ! Ana rani f dar jeddi, rana nsiyyqou m3a 3amti 😅", "fr": "Haha ! Moi je suis chez grand-père, on lave le sol avec ma tante 😅" },
+        {
+          "from": "me",
+          "prompt": "Demande-lui : « Où est grand-père ? »",
+          "build": {
+            "answer": ["win", "rah", "jeddi", "?"],
+            "distractors": ["raha", "jedda"],
+            "fr": "Où est grand-père ?"
+          }
+        },
+        { "from": "them", "chat": "Rah yechrob qahwa m3a ljiran, kima dima 😄", "fr": "Il boit le café avec les voisins, comme toujours 😄" },
+        {
+          "from": "me",
+          "prompt": "Demande-lui de passer le bonjour à tout le monde",
+          "options": [
+            { "chat": "Hhh ! Sellemli 3la jeddi w 3amti ❤️", "fr": "Haha ! Passe le bonjour à grand-père et à ma tante ❤️", "score": "natural", "feedback": "Parfait : « sellemli 3la… » = passe le bonjour à… de ma part." },
+            { "chat": "Rani f dar jeddi.", "fr": "Je suis chez grand-père.", "score": "wrong", "feedback": "C'est Amine qui est chez votre grand-père, pas toi !" },
+            { "chat": "Bslama.", "fr": "Au revoir.", "score": "ok", "feedback": "Poli, mais tu pourrais passer le bonjour à la famille : « sellemli 3la… »." }
+          ]
+        },
+        { "from": "them", "chat": "Nchallah ! W ki tkemmli lmwa3en, arwahi 😎", "fr": "Promis ! Et quand tu as fini la vaisselle, viens 😎" }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "id": "dz6-e1", "type": "matchPairs", "instruction": "Relie chaque mot à sa traduction", "pairs": ["dz6-dar", "dz6-lbit", "dz6-kouzina", "dz6-ta3i", "dz6-bab", "dz6-mefta7"] },
+    {
+      "id": "dz6-e2", "type": "mcq",
+      "instruction": "Comment demander « Où est la clé ? »",
+      "options": ["Win rah lmefta7 ?", "Win raha lmefta7 ?", "Mnin rah lmefta7 ?"], "answer": "Win rah lmefta7 ?",
+      "explanation": "Win = où (mnin = d'où). Lmefta7 est masculin en darija, même si « clé » est féminin en français : rah."
+    },
+    {
+      "id": "dz6-e3", "type": "hiddenDigit",
+      "instruction": "Quel chiffre manque ? (3 = ع, 7 = ح, 9 = ق)",
+      "items": [
+        { "masked": "n_awnek", "answer": "3", "full": "n3awnek" },
+        { "masked": "lmefta_", "answer": "7", "full": "lmefta7" },
+        { "masked": "tta_a", "answer": "9", "full": "tta9a" },
+        { "masked": "lmwa_en", "answer": "3", "full": "lmwa3en" }
+      ],
+      "options": ["3", "7", "9"]
+    },
+    {
+      "id": "dz6-e4", "type": "mcq",
+      "instruction": "Ta mère commence la vaisselle. Que lui dis-tu pour prendre le relais ?",
+      "options": ["Khalli yemma, ana ndir !", "Wach raki tdiri ?", "Rani 3iyana."], "answer": "Khalli yemma, ana ndir !",
+      "explanation": "« Khalli » = laisse, « ana ndir » = c'est moi qui fais. Ta mère te répondra sûrement « Llah yerdi 3lik ! »."
+    },
+    {
+      "id": "dz6-e5", "type": "cloze",
+      "instruction": "Amine écrit à Lina. Complète.",
+      "lines": [
+        { "who": "Amine → Lina", "chat": "Wach {{1}} tdiri ?" },
+        { "who": "Lina", "chat": "Rani {{2}} lmwa3en." }
+      ],
+      "blanks": {
+        "1": { "options": ["raki", "rak", "rani"], "answer": "raki", "hint": "Il parle à Lina, une femme : raki … tdiri." },
+        "2": { "options": ["nghsel", "tghesli", "nteyyeb"], "answer": "nghsel", "hint": "Lina parle d'elle-même : n- pour « je ». Et la vaisselle, ça se lave !" }
+      },
+      "explanation": "Raki + t…i : tu (à une femme). Rani + n… : je suis en train de."
+    },
+    {
+      "id": "dz6-e6", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu demandes où est ta mère.",
+      "tokens": ["Win", "rah", "yemma", "?"],
+      "intruderIndex": 1, "fix": "raha",
+      "explanation": "Yemma est une femme : « win raha yemma ? »."
+    },
+    {
+      "id": "dz6-e7", "type": "registerHunt",
+      "instruction": "Un mot d'arabe littéraire s'est glissé. Touche-le.",
+      "tokens": ["Rani", "nrangi", "ghorfati", "."],
+      "intruderIndex": 2, "fix": "lbit ta3i",
+      "explanation": "« Ghorfati » (ma chambre) est de l'arabe littéraire. En darija : « lbit ta3i »."
+    },
+    {
+      "id": "dz6-e8", "type": "registerSort",
+      "instruction": "À qui parles-tu ? Regarde la fin des mots.",
+      "bins": [
+        { "id": "mere", "label": "Yemma", "avatar": "👩🏽‍🦱" },
+        { "id": "cousin", "label": "Amine, ton cousin", "avatar": "🧑🏻" }
+      ],
+      "items": [
+        { "chat": "Wach raki tdiri ?", "bin": "mere" },
+        { "chat": "Win rak ?", "bin": "cousin" },
+        { "chat": "Raki 3iyana ? Khalli, ana ndir.", "bin": "mere" },
+        { "chat": "Rak f dar jeddi ?", "bin": "cousin" }
+      ],
+      "explanation": "Raki, tdiri, 3iyana : on parle à une femme. Rak, tdir : à un homme."
+    },
+    {
+      "id": "dz6-e9", "type": "sentenceBuilder",
+      "instruction": "Traduis : « Ma tante (la sœur de papa) est dans la cuisine »",
+      "fr": "Ma tante (la sœur de papa) est dans la cuisine",
+      "answer": ["3amti", "raha", "f", "lkouzina"],
+      "distractors": ["khalti", "rah"],
+      "explanation": "Côté papa : 3amti (khalti, c'est côté maman). Pour une femme : raha."
+    },
+    {
+      "id": "dz6-e10", "type": "typeAnswer",
+      "instruction": "Écris en darija : « mon cousin » (le fils de mon oncle, côté papa)",
+      "fr": "Mon cousin (côté papa)",
+      "accept": ["weld 3ammi", "wlid 3ammi"],
+      "explanation": "Mot à mot « le fils de mon oncle paternel ». On entend aussi « wlid 3ammi », plus affectueux."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["dz6-dar", "dz6-lbit", "dz6-kouzina", "dz6-win", "dz6-ta3i", "dz6-tdir", "dz6-nteyyeb", "dz6-nghsel", "dz6-n3awnek", "dz6-khalli"],
+    "bonus": ["dz6-bab", "dz6-mefta7", "dz6-ddaw", "dz6-marahch", "dz6-nsiyyeq", "dz6-nrangi", "dz6-3amti", "dz6-weld3ammi", "dz6-jiran"]
+  }
+}

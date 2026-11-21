@@ -1,0 +1,287 @@
+{
+  "id": "kab-n2-l03",
+  "language": "kabyle",
+  "level": 2,
+  "order": 3,
+  "title": "Axxam-nneɣ… La maison et la famille",
+  "goal": "Nommer les pièces de la maison, dire où sont les gens et les choses, dire ce qu'on est en train de faire, proposer son aide et parler des proches.",
+  "estimatedMinutes": 12,
+  "regionNote": "Kabyle courant de Grande Kabylie. Dans la maison traditionnelle, la famille se réunissait autour du kanun, le foyer creusé dans le sol. Aujourd'hui, on entend aussi très souvent « lkuzina » pour la cuisine.",
+
+  "grammarNotes": [
+    {
+      "id": "kab6-g-yella",
+      "title": "Anda yella… ? Yella, tella : il est, elle est",
+      "body": "Pour dire où sont les gens et les choses : yella (il est), tella (elle est), llan (ils sont). Pour toi-même, on dit souvent aql-i (me voici) : aql-i deg uxxam. Les objets ont aussi un genre : tasarut (la clé), en ta…t, est féminine, donc « tella ».",
+      "examples": [
+        { "text": "Anda tella yemma ?", "fr": "Où est maman ?" },
+        { "text": "Tella deg uxxam.", "fr": "Elle est à la maison." },
+        { "text": "Tasarut tella ɣef ṭṭabla.", "fr": "La clé est sur la table." }
+      ]
+    },
+    {
+      "id": "kab6-g-la",
+      "title": "« La » + verbe : je suis en train de…",
+      "body": "Pour une action en cours, on place « la » devant la forme d'habitude du verbe : la xeddmeɣ (je suis en train de faire), la ssirideɣ (je suis en train de laver). Sans « la », acu txeddmeḍ ? demande ton métier ; avec « la », acu la txeddmeḍ ? demande ce que tu fais là, maintenant. Même forme pour un homme et une femme.",
+      "examples": [
+        { "text": "La xeddmeɣ imensi.", "fr": "Je suis en train de préparer le dîner." },
+        { "text": "Gma la yettgen.", "fr": "Mon frère est en train de dormir." },
+        { "text": "Acu la txeddmeḍ ?", "fr": "Qu'est-ce que tu fais (là, maintenant) ?" }
+      ]
+    },
+    {
+      "id": "kab6-g-famille",
+      "title": "Ɛemmi ou xali ? Côté papa, côté maman",
+      "body": "On précise toujours de quel côté vient l'oncle ou la tante : ɛemmi, ɛemti (frère et sœur de ton père), xali, xalti (frère et sœur de ta mère). Pour « cousin », on dit mmi-s n ɛemmi (le fils de mon oncle paternel), yelli-s n xalti (la fille de ma tante maternelle)… Pour les aînés sans lien de parenté, on garde dda et nna (vus au niveau 1).",
+      "examples": [
+        { "text": "Ɛemti Ṭawes d weltma-s n baba.", "fr": "Tante Taous, c'est la sœur de papa." },
+        { "text": "Massi d mmi-s n ɛemmi.", "fr": "Massi est mon cousin (le fils de mon oncle paternel)." },
+        { "text": "Yelli-s n xalti tezdeɣ di Bgayet.", "fr": "Ma cousine (la fille de ma tante maternelle) habite à Béjaïa." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "kab6-axxam", "text": "axxam", "ascii": "axxam", "fr": "La maison", "pos": "nom", "register": "neutre", "mnemonic": "Axxam se prononce « akhkham ». Ajoute ta…t et la maison rapetisse : taxxamt, la chambre !", "variants": ["s axxam (vers la maison : ad ṛuḥeɣ s axxam)", "deg uxxam (à la maison, dedans)"] },
+    { "id": "kab6-taxxamt", "text": "taxxamt", "ascii": "taxxamt", "fr": "La chambre, la pièce", "pos": "nom", "register": "neutre", "mnemonic": "Ta…t + axxam : la « petite maison », ta chambre à toi.", "variants": ["taxxamt-iw (ma chambre)", "di texxamt (dans la chambre)"] },
+    { "id": "kab6-tanwalt", "text": "tanwalt", "ascii": "tanwalt", "fr": "La cuisine", "pos": "nom", "register": "neutre", "mnemonic": "Tanwalt → « ta nouvelle » pièce préférée : la cuisine 😋", "variants": ["lkuzina (très courant à l'oral)"] },
+    { "id": "kab6-tabburt", "text": "tabburt / ṭṭaq", "ascii": "tabburt / ttaq", "fr": "La porte / la fenêtre", "pos": "nom", "register": "neutre", "mnemonic": "Tabburt → « ta porte », presque pareil ! Ṭṭaq → « tac » : on ouvre la fenêtre d'un coup.", "variants": ["tasarut n tebburt (la clé de la porte)"] },
+    { "id": "kab6-tasarut", "text": "tasarut", "ascii": "tasarut", "fr": "La clé", "pos": "nom", "register": "neutre", "mnemonic": "Tasarut → « ta serrure » : la clé va avec !", "note": "Ta…t : un mot féminin, donc « tella » (elle est). Placé après le verbe, il devient tsarut : anda tella tsarut ?", "variants": ["tisura (des clés)"] },
+    { "id": "kab6-tafat", "text": "tafat", "ascii": "tafat", "fr": "La lumière (et l'électricité)", "pos": "nom", "register": "neutre", "mnemonic": "Tafat → « ta fête » : on allume toutes les lumières !", "variants": ["sexsi tafat ! (éteins la lumière !)"] },
+    { "id": "kab6-anda", "text": "anda yella … ? / anda tella … ?", "ascii": "anda yella … ? / anda tella … ?", "fr": "Où est … ? (masculin / féminin)", "pos": "expression", "register": "neutre", "answer": { "text": "yella deg … / tella deg …", "fr": "Il / elle est dans …" }, "mnemonic": "Anda = où (vu au niveau 1). Yella / tella : le même verbe que dans « amek telliḍ ? ».", "variants": ["anda llan … ? (où sont … ?)"] },
+    { "id": "kab6-aqli", "text": "aql-i deg uxxam", "ascii": "aql-i deg uxxam", "fr": "Je suis à la maison (mot à mot « me voici à la maison »)", "pos": "expression", "register": "neutre", "mnemonic": "Aql-i = me voici, comme dans « aql-i deg ṭṭramway ». Pratique pour dire où tu es !", "variants": ["aql-ik / aql-ikem (te voici, homme / femme)", "aql-aɣ (nous voici)"] },
+    { "id": "kab6-ulac", "text": "ulac-it / ulac-itt", "ascii": "ulac-it / ulac-itt", "fr": "Il / elle n'est pas là", "pos": "expression", "register": "neutre", "mnemonic": "Ulac = il n'y a pas, comme dans « ulac aɣilif » ! Ulac-it = « il n'y a pas lui ».", "variants": ["baba ulac-it (papa n'est pas là)"] },
+    { "id": "kab6-acula", "text": "acu la txeddmeḍ ?", "ascii": "acu la txeddmed ?", "fr": "Qu'est-ce que tu fais (en ce moment) ?", "pos": "expression", "register": "neutre", "answer": { "text": "la …eɣ", "fr": "Je suis en train de …" }, "mnemonic": "« La » devant le verbe = en ce moment. Sans « la », acu txeddmeḍ ? demande ton métier (niveau 1)." },
+    { "id": "kab6-imensi", "text": "imensi", "ascii": "imensi", "fr": "Le dîner", "pos": "nom", "register": "neutre", "mnemonic": "Imensi → « immense » : le repas du soir réunit toute la famille.", "note": "Pour Yennayer (le Nouvel An amazigh, le 12 janvier), on prépare un imensi de fête, souvent un couscous au poulet.", "variants": ["imekli (le déjeuner)", "ad ssewweɣ imensi (je vais préparer le dîner)"] },
+    { "id": "kab6-sired", "text": "ssirideɣ iḍebsiyen", "ascii": "ssiridegh idebsiyen", "fr": "Je fais la vaisselle (mot à mot « je lave les assiettes »)", "pos": "expression", "register": "neutre", "mnemonic": "Sired → « cirer » les assiettes jusqu'à ce qu'elles brillent !", "variants": ["sired ! (lave !)", "aḍebsi (une assiette)"] },
+    { "id": "kab6-sizdeg", "text": "ad sizdgeɣ axxam", "ascii": "ad sizdgegh axxam", "fr": "Je vais nettoyer la maison, faire le ménage", "pos": "expression", "register": "neutre", "mnemonic": "Zdeg = être propre. Sizdeg = rendre propre, nettoyer.", "note": "Avant les fêtes ou l'arrivée des invités, toute la famille s'y met : c'est le grand ménage !" },
+    { "id": "kab6-ewen", "text": "ad k-ɛiwneɣ ? / ad kem-ɛiwneɣ ?", "ascii": "ad k-3iwnegh ? / ad kem-3iwnegh ?", "fr": "Je t'aide ? (à un homme / à une femme)", "pos": "expression", "register": "neutre", "mnemonic": "Même verbe que « Ṛebbi ad k-iɛiwen » (que Dieu t'aide) ! K pour un homme, kem pour une femme.", "variants": ["ɛiwen-iyi ! (aide-moi !)"] },
+    { "id": "kab6-ejj", "text": "eǧǧ, ad t-xedmeɣ nekk", "ascii": "ejj, ad t-xedmegh nekk", "fr": "Laisse, c'est moi qui vais le faire", "pos": "expression", "register": "neutre", "mnemonic": "Eǧǧ = laisse (ǧ se dit « dj »). « Nekk » à la fin insiste : c'est MOI qui le fais !" },
+    { "id": "kab6-emti", "text": "ɛemti / xali", "ascii": "3emti / xali", "fr": "Ma tante (sœur de papa) / mon oncle (frère de maman)", "pos": "nom", "register": "neutre", "mnemonic": "Côté papa, tout commence par ɛ : ɛemmi, ɛemti. Côté maman, par x : xali, xalti.", "variants": ["ɛemmi (frère de papa)", "xalti (sœur de maman)"] },
+    { "id": "kab6-mmis", "text": "mmi-s n ɛemmi / yelli-s n xalti", "ascii": "mmi-s n 3emmi / yelli-s n xalti", "fr": "Mon cousin / ma cousine (mot à mot « le fils de mon oncle », « la fille de ma tante »)", "pos": "nom", "register": "neutre", "mnemonic": "Mmi-s = son fils, yelli-s = sa fille (comme dans « yelli-s n Samira »). On dit toujours de quel côté !", "note": "Au village, les cousins grandissent souvent ensemble : ils sont presque des frères et sœurs.", "variants": ["yelli-s n ɛemmi", "mmi-s n xali"] },
+    { "id": "kab6-ljiran", "text": "lǧiran", "ascii": "ljiran", "fr": "Les voisins", "pos": "nom", "register": "neutre", "mnemonic": "Le même mot qu'en darija (ljiran) !", "note": "Au village, on s'entraide entre voisins : c'est la tiwizi, le travail collectif pour la cueillette des olives ou la construction d'une maison." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "kab6-c1",
+      "text": "Ansuf yis-m ! Kcem, qqim.",
+      "fr": "Bienvenue ! Entre, assieds-toi.",
+      "when": "Une invitée arrive chez vous.",
+      "with": "Une invitée (à un homme : « ansuf yis-k »)",
+      "register": "poli",
+      "culturalNote": "On installe l'invité·e et on sert tout de suite à boire et à manger : café, galette à l'huile d'olive, figues sèches… Le laisser les mains vides serait mal vu."
+    },
+    {
+      "id": "kab6-c2",
+      "text": "Eǧǧ, a yemma, ad t-xedmeɣ nekk !",
+      "fr": "Laisse, maman, c'est moi qui vais le faire !",
+      "when": "Ta mère commence une corvée : vaisselle, ménage…",
+      "with": "Tes parents, tes grands-parents",
+      "register": "affectueux",
+      "culturalNote": "Aider ses parents est très valorisé, même adulte. En retour, on reçoit leurs bénédictions, comme « Ṛebbi ad kem-iɛiwen » (que Dieu t'aide) : la plus belle des récompenses."
+    },
+    {
+      "id": "kab6-c3",
+      "text": "Sexsi tafat mi ara teffɣeḍ !",
+      "fr": "Éteins la lumière quand tu sors !",
+      "when": "Tu as laissé la lumière allumée dans une pièce vide.",
+      "with": "Un père (ou une mère) à ses enfants",
+      "register": "familier",
+      "culturalNote": "La réplique culte des parents 😄 « Mi ara » = quand, pour une action à venir."
+    },
+    {
+      "id": "kab6-c4",
+      "text": "Lǧiran-nneɣ am twacult.",
+      "fr": "Nos voisins, c'est comme la famille.",
+      "when": "Tu parles de tes voisins.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "Les voisins font partie du cercle proche : on s'échange des plats (et on ne rend jamais l'assiette vide !), on garde les enfants, on partage les fêtes. Après « am » (comme), tawacult devient twacult."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "kab6-d1",
+      "type": "chatSim",
+      "title": "Grand ménage avant les invités",
+      "contact": { "name": "Yemma", "avatar": "👩🏽‍🦱", "relation": "maman", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "text": "A Lina, anda telliḍ ? Ɛemti-m Ṭawes ad d-tas tameddit ! 😱", "fr": "Lina, où es-tu ? Ta tante Taous vient ce soir ! 😱" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui que tu es dans ta chambre",
+          "options": [
+            { "text": "Aql-i di texxamt-iw, a yemma.", "fr": "Je suis dans ma chambre, maman.", "score": "natural", "feedback": "Parfait : aql-i (me voici) + di texxamt-iw (dans ma chambre)." },
+            { "text": "Tella di texxamt-is.", "fr": "Elle est dans sa chambre.", "score": "wrong", "feedback": "« Tella » = elle est. C'est toi qu'elle cherche !", "reaction": { "text": "Anta ?! Ma d kemm, anda telliḍ ? 😅", "fr": "Qui ça, elle ?! Et toi, où es-tu ? 😅" } },
+            { "text": "Di texxamt.", "fr": "Dans la chambre.", "score": "ok", "feedback": "Compréhensible ! Mais la phrase complète avec « aql-i » est plus naturelle." }
+          ]
+        },
+        { "from": "them", "text": "La xeddmeɣ imensi, mazal ur sizdgeɣ ara axxam… 😩", "fr": "Je suis en train de préparer le dîner, et je n'ai pas encore nettoyé la maison… 😩" },
+        {
+          "from": "me",
+          "prompt": "Propose ton aide",
+          "options": [
+            { "text": "Ad kem-ɛiwneɣ, a yemma ?", "fr": "Je t'aide, maman ?", "score": "natural", "feedback": "Parfait : « kem » pour une femme, comme dans « Ṛebbi ad kem-iɛiwen »." },
+            { "text": "Ṣaḥḥa i yifassen-im !", "fr": "Bravo pour le repas !", "score": "wrong", "feedback": "Tu la félicites pour un dîner qui n'est même pas prêt 😄" },
+            { "text": "Ɛyiɣ…", "fr": "Je suis fatiguée…", "score": "ok", "feedback": "Honnête… mais le moment est mal choisi 😅 Propose plutôt ton aide." }
+          ]
+        },
+        { "from": "them", "text": "Ih a yelli, tanemmirt ! Sired iḍebsiyen, nekk ad sizdgeɣ.", "fr": "Oui ma fille, merci ! Lave les assiettes, moi je vais faire le ménage." },
+        {
+          "from": "me",
+          "prompt": "Réponds : « Laisse, maman, c'est moi qui vais le faire ! »",
+          "build": {
+            "answer": ["eǧǧ", ",", "a", "yemma", ",", "ad", "t-xedmeɣ", "nekk", "!"],
+            "distractors": ["kemm", "txedmeḍ"],
+            "text": "Eǧǧ, a yemma, ad t-xedmeɣ nekk !",
+            "fr": "Laisse, maman, c'est moi qui vais le faire !"
+          }
+        },
+        { "from": "them", "text": "Ṛebbi ad kem-iɛiwen, a yelli ❤️ Ihi, anda tella tsarut n tebburt ? Ur tt-ufiɣ ara !", "fr": "Que Dieu t'aide, ma fille ❤️ Au fait, où est la clé de la porte ? Je ne la trouve pas !" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui où est la clé : sur la table",
+          "options": [
+            { "text": "Tella ɣef ṭṭabla, a yemma.", "fr": "Elle est sur la table, maman.", "score": "natural", "feedback": "Bien : tasarut est féminine (ta…t), donc « tella »." },
+            { "text": "Yella ɣef ṭṭabla.", "fr": "Il est sur la table.", "score": "wrong", "feedback": "Tasarut est féminine (ta…t) : on dit « tella »." },
+            { "text": "Ur ẓriɣ ara…", "fr": "Je ne sais pas…", "score": "ok", "feedback": "Honnête, mais aide-la à chercher 😄" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kab6-d2",
+      "type": "chatSim",
+      "title": "Massi est chez Jeddi",
+      "contact": { "name": "Massi", "avatar": "🧑🏻", "relation": "cousin", "register": "familier" },
+      "turns": [
+        { "from": "them", "text": "Azul a yelli-s n ɛemmi ! Acu la txeddmeḍ ? 😄", "fr": "Salut cousine ! Qu'est-ce que tu fais ? 😄" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui que tu fais la vaisselle",
+          "options": [
+            { "text": "La ssirideɣ iḍebsiyen 😩", "fr": "Je fais la vaisselle 😩", "score": "natural", "feedback": "Parfait : la + verbe = en train de." },
+            { "text": "Sired iḍebsiyen !", "fr": "Lave les assiettes !", "score": "wrong", "feedback": "C'est un ordre 😄 Pour dire ce que TU fais : « la ssirideɣ… ».", "reaction": { "text": "Nekk ?! Ala, ala 😂", "fr": "Moi ?! Non, non 😂" } },
+            { "text": "Walu.", "fr": "Rien.", "score": "ok", "feedback": "Ça passe, mais raconte-lui un peu 😉" }
+          ]
+        },
+        { "from": "them", "text": "Hhh ! Nekk aql-i ɣur jeddi, ad nsizdeg axxam akked ɛemti 😅", "fr": "Haha ! Moi je suis chez grand-père, on va nettoyer la maison avec ma tante 😅" },
+        {
+          "from": "me",
+          "prompt": "Demande-lui : « Où est grand-père ? »",
+          "build": {
+            "answer": ["anda", "yella", "jeddi", "?"],
+            "distractors": ["tella", "jida"],
+            "text": "Anda yella jeddi ?",
+            "fr": "Où est grand-père ?"
+          }
+        },
+        { "from": "them", "text": "Yessew lqahwa akked lǧiran, am yal ass 😄", "fr": "Il boit le café avec les voisins, comme chaque jour 😄" },
+        {
+          "from": "me",
+          "prompt": "Demande-lui de passer le bonjour à tout le monde",
+          "options": [
+            { "text": "Hhh ! Sellem-iyi ɣef jeddi d ɛemti ❤️", "fr": "Haha ! Passe le bonjour à grand-père et à ma tante ❤️", "score": "natural", "feedback": "Parfait : « sellem-iyi ɣef… » = passe le bonjour à… de ma part." },
+            { "text": "Aql-i ɣur jeddi.", "fr": "Je suis chez grand-père.", "score": "wrong", "feedback": "C'est Massi qui est chez votre grand-père, pas toi !" },
+            { "text": "Ar timlilit !", "fr": "Au revoir !", "score": "ok", "feedback": "Poli, mais tu pourrais passer le bonjour à la famille : « sellem-iyi ɣef… »." }
+          ]
+        },
+        { "from": "them", "text": "Ih ! Mbeɛd, ase-d ɣur jeddi 😎", "fr": "Promis ! Et après, viens chez grand-père 😎" }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "id": "kab6-e1", "type": "matchPairs", "instruction": "Relie chaque mot à sa traduction", "pairs": ["kab6-axxam", "kab6-taxxamt", "kab6-tanwalt", "kab6-aqli", "kab6-tabburt", "kab6-tasarut"] },
+    {
+      "id": "kab6-e2", "type": "mcq",
+      "instruction": "Comment demander « Où est la clé ? »",
+      "options": ["Anda tella tsarut ?", "Anda yella tsarut ?", "Ansi tella tsarut ?"], "answer": "Anda tella tsarut ?",
+      "explanation": "Anda = où (ansi = d'où). Tasarut est féminine (ta…t) : tella. Placée après le verbe, tasarut devient tsarut."
+    },
+    {
+      "id": "kab6-e3", "type": "letterHunt",
+      "instruction": "Quelle lettre kabyle manque ?",
+      "items": [
+        { "masked": "l_iran", "answer": "ǧ", "full": "lǧiran" },
+        { "masked": "i_ebsiyen", "answer": "ḍ", "full": "iḍebsiyen" },
+        { "masked": "ad kem-_iwneɣ", "answer": "ɛ", "full": "ad kem-ɛiwneɣ" },
+        { "masked": "ad t-xedme_", "answer": "ɣ", "full": "ad t-xedmeɣ" }
+      ],
+      "options": ["ǧ", "ḍ", "ɛ", "ɣ", "g"]
+    },
+    {
+      "id": "kab6-e4", "type": "mcq",
+      "instruction": "Ta mère commence la vaisselle. Que lui dis-tu pour prendre le relais ?",
+      "options": ["Eǧǧ, a yemma, ad t-xedmeɣ nekk !", "Acu la txeddmeḍ ?", "Ɛyiɣ aṭas."], "answer": "Eǧǧ, a yemma, ad t-xedmeɣ nekk !",
+      "explanation": "« Eǧǧ » = laisse, « ad t-xedmeɣ nekk » = c'est moi qui vais le faire. Ta mère te répondra sûrement par une bénédiction !"
+    },
+    {
+      "id": "kab6-e5", "type": "cloze",
+      "instruction": "Massi écrit à Lina. Complète.",
+      "lines": [
+        { "who": "Massi → Lina", "text": "Acu {{1}} txeddmeḍ ?" },
+        { "who": "Lina", "text": "La {{2}} iḍebsiyen." }
+      ],
+      "blanks": {
+        "1": { "options": ["la", "ad", "ur"], "answer": "la", "hint": "En ce moment → « la » devant le verbe." },
+        "2": { "options": ["ssirideɣ", "tessirideḍ", "sired"], "answer": "ssirideɣ", "hint": "Lina parle d'elle-même : …eɣ." }
+      },
+      "explanation": "« La » + verbe = en train de. …eɣ pour « je », t…eḍ pour « tu »."
+    },
+    {
+      "id": "kab6-e6", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu demandes où est ta mère.",
+      "tokens": ["Anda", "yella", "yemma", "?"],
+      "intruderIndex": 1, "fix": "tella",
+      "explanation": "Yemma est une femme : « anda tella yemma ? »."
+    },
+    {
+      "id": "kab6-e7", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu proposes ton aide à ta tante Taous.",
+      "tokens": ["Ad", "k-ɛiwneɣ", ",", "a", "ɛemti", "?"],
+      "intruderIndex": 1, "fix": "kem-ɛiwneɣ",
+      "explanation": "Ɛemti est une femme : « ad kem-ɛiwneɣ ? ». À un homme : « ad k-ɛiwneɣ ? »."
+    },
+    {
+      "id": "kab6-e8", "type": "registerSort",
+      "instruction": "À qui parles-tu ? Regarde les petites marques.",
+      "bins": [
+        { "id": "mere", "label": "Yemma", "avatar": "👩🏽‍🦱" },
+        { "id": "cousin", "label": "Massi, ton cousin", "avatar": "🧑🏻" }
+      ],
+      "items": [
+        { "text": "Ad kem-ɛiwneɣ ?", "bin": "mere" },
+        { "text": "Ma d kečč, acu la txeddmeḍ ?", "bin": "cousin" },
+        { "text": "Tanemmirt-im !", "bin": "mere" },
+        { "text": "Sellem-iyi ɣef yemma-k !", "bin": "cousin" }
+      ],
+      "explanation": "Kem, -im : on parle à une femme. Kečč, -k : à un homme. Le verbe, lui, ne change pas (txeddmeḍ)."
+    },
+    {
+      "id": "kab6-e9", "type": "sentenceBuilder",
+      "instruction": "Traduis : « Ma tante (la sœur de papa) est à la maison »",
+      "fr": "Ma tante (la sœur de papa) est à la maison",
+      "answer": ["ɛemti", "tella", "deg", "uxxam"],
+      "distractors": ["xalti", "yella"],
+      "explanation": "Côté papa : ɛemti (xalti, c'est côté maman). Pour une femme : tella. Après « deg », axxam devient uxxam."
+    },
+    {
+      "id": "kab6-e10", "type": "typeAnswer",
+      "instruction": "Écris en kabyle : « mon cousin » (le fils de mon oncle, côté papa)",
+      "fr": "Mon cousin (côté papa)",
+      "accept": ["mmi-s n ɛemmi", "mmis n ɛemmi"],
+      "asciiTolerance": true,
+      "explanation": "Mot à mot « son fils de mon oncle ». Sans clavier kabyle, « mmis n 3emmi » est accepté."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["kab6-axxam", "kab6-taxxamt", "kab6-tanwalt", "kab6-anda", "kab6-aqli", "kab6-acula", "kab6-imensi", "kab6-sired", "kab6-ewen", "kab6-ejj"],
+    "bonus": ["kab6-tabburt", "kab6-tasarut", "kab6-tafat", "kab6-ulac", "kab6-sizdeg", "kab6-emti", "kab6-mmis", "kab6-ljiran"]
+  }
+}

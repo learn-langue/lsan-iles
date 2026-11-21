@@ -1,0 +1,296 @@
+{
+  "id": "dz-n1-l02",
+  "language": "darija",
+  "level": 1,
+  "order": 2,
+  "title": "Chhal ? Les chiffres et l'argent",
+  "goal": "Compter jusqu'à 100, demander un prix, comprendre les prix annoncés en centimes, négocier gentiment et payer.",
+  "estimatedMinutes": 12,
+  "regionNote": "Chiffres du centre (Alger). Pour « deux », on entend « zoudj » au centre et à l'ouest, et souvent « tnin » à l'est.",
+
+  "grammarNotes": [
+    {
+      "id": "dz2-g-centimes",
+      "title": "Le piège des centimes : « mya alf » = 1 000 dinars",
+      "body": "Au marché, beaucoup d'Algériens annoncent les prix en centimes, une habitude héritée de l'ancien franc. 1 dinar = 100 centimes, donc « alf » (mille) tout court = 1 000 centimes = 10 DA. Pour retrouver les dinars, on divise par 100. Si le chiffre te paraît énorme, c'est qu'il est en centimes !",
+      "examples": [
+        { "chat": "3echrin alf", "fr": "20 000 centimes = 200 DA" },
+        { "chat": "khamsin alf", "fr": "50 000 centimes = 500 DA" },
+        { "chat": "mya alf", "fr": "100 000 centimes = 1 000 DA" },
+        { "chat": "malyoun", "fr": "1 000 000 centimes = 10 000 DA" }
+      ]
+    },
+    {
+      "id": "dz2-g-compter",
+      "title": "De 21 à 99 : l'unité d'abord, comme en allemand",
+      "body": "On dit l'unité, puis « w » (et), puis la dizaine : 25 = khamsa w 3echrin, mot à mot « cinq et vingt ». Dizaines : 3echrin (20), tlatin (30), rab3in (40), khamsin (50), settin (60), seb3in (70), tmanin (80), tes3in (90). De 11 à 19, des formes spéciales en -ach : hdach (11), tnach (12), khmestach (15).",
+      "examples": [
+        { "chat": "wahed w 3echrin", "fr": "21" },
+        { "chat": "khamsa w tlatin", "fr": "35" },
+        { "chat": "khmestach", "fr": "15" }
+      ]
+    },
+    {
+      "id": "dz2-g-3andi",
+      "title": "3andi : « j'ai » (mot à mot « chez moi »)",
+      "body": "Pour la possession, on n'utilise pas de verbe : 3andi (j'ai), 3andek (tu as), 3andou (il a), 3andha (elle a). La négation reprend le sandwich ma … ch : ma 3andich (je n'ai pas).",
+      "examples": [
+        { "chat": "3andek sarf ?", "fr": "Tu as de la monnaie ?" },
+        { "chat": "La, ma 3andich.", "fr": "Non, je n'en ai pas." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "dz2-wahed", "chat": "wahed", "latin": "waḥed", "ar": "واحد", "fr": "Un (1)", "pos": "nombre", "register": "neutre", "mnemonic": "« Wahed » ressemble à « wa-ID » : l'identité, ce qui est unique." },
+    { "id": "dz2-zoudj", "chat": "zoudj", "latin": "zoudj", "ar": "زوج", "fr": "Deux (2)", "pos": "nombre", "register": "neutre", "mnemonic": "Zoudj, c'est aussi « la paire », « le couple » : on est deux.", "variants": ["zouj", "tnin (à l'est)"] },
+    { "id": "dz2-tlata", "chat": "tlata", "latin": "tlata", "ar": "تلاتة", "fr": "Trois (3)", "pos": "nombre", "register": "neutre", "mnemonic": "Tla-ta-ta : trois syllabes qui claquent, trois." },
+    { "id": "dz2-rab3a", "chat": "rab3a", "latin": "rabʿa", "ar": "ربعة", "fr": "Quatre (4)", "pos": "nombre", "register": "neutre", "mnemonic": "« Rob3 », c'est aussi un quart : quatre parts." },
+    { "id": "dz2-khamsa", "chat": "khamsa", "latin": "khamsa", "ar": "خمسة", "fr": "Cinq (5)", "pos": "nombre", "register": "neutre", "mnemonic": "La « khamsa », la main de Fatma porte-bonheur, a cinq doigts." },
+    { "id": "dz2-setta", "chat": "setta", "latin": "setta", "ar": "ستة", "fr": "Six (6)", "pos": "nombre", "register": "neutre", "mnemonic": "Setta → « sixte », « sextuor »." },
+    { "id": "dz2-seb3a", "chat": "seb3a", "latin": "sebʿa", "ar": "سبعة", "fr": "Sept (7)", "pos": "nombre", "register": "neutre", "mnemonic": "« Seb3a » sonne comme « sept » avec un « b » en plus." },
+    { "id": "dz2-tmenya", "chat": "tmenya", "latin": "tmenya", "ar": "تمنية", "fr": "Huit (8)", "pos": "nombre", "register": "neutre", "mnemonic": "Tmenya → « huit-minutes » : imagine un sablier de huit minutes." },
+    { "id": "dz2-tes3a", "chat": "tes3a", "latin": "tesʿa", "ar": "تسعة", "fr": "Neuf (9)", "pos": "nombre", "register": "neutre", "mnemonic": "Tes3a / seb3a : 9 et 7 riment, attention à les distinguer !" },
+    { "id": "dz2-3achra", "chat": "3achra", "latin": "ʿachra", "ar": "عشرة", "fr": "Dix (10)", "pos": "nombre", "register": "neutre", "mnemonic": "3achra → 3echrin (20) : même racine, comme dix et vingt." },
+    { "id": "dz2-3echrin", "chat": "3echrin", "latin": "ʿechrin", "ar": "عشرين", "fr": "Vingt (20)", "pos": "nombre", "register": "neutre", "mnemonic": "La terminaison -in fait les dizaines : tlatin, rab3in, khamsin…" },
+    { "id": "dz2-mya", "chat": "mya", "latin": "mya", "ar": "مية", "fr": "Cent (100)", "pos": "nombre", "register": "neutre", "mnemonic": "Mya, comme « mille-pattes »… qui n'a que cent pattes.", "variants": ["miya", "mitin (200)"] },
+    { "id": "dz2-alf", "chat": "alf", "latin": "alf", "ar": "ألف", "fr": "Mille (1 000)", "pos": "nombre", "register": "neutre", "mnemonic": "Alf, comme « Alif », la première lettre : le premier gros nombre.", "note": "Au marché, « alf » seul veut souvent dire 1 000 centimes, soit 10 DA !", "variants": ["alfin (2 000)"] },
+    { "id": "dz2-chhal", "chat": "chhal ? / bechhal ?", "latin": "chḥal ? / bechḥal ?", "ar": "شحال؟ / بشحال؟", "fr": "Combien ? / À combien ? (le prix)", "pos": "expression", "register": "neutre", "mnemonic": "« Chhal » : imagine un châle (chhal) dont tu demandes le prix.", "variants": ["b chhal", "chhal hada ?"] },
+    { "id": "dz2-drahem", "chat": "drahem", "latin": "drahem", "ar": "دراهم", "fr": "L'argent (les sous)", "pos": "nom", "register": "neutre", "mnemonic": "Le « dirham » marocain vient du même mot." },
+    { "id": "dz2-ghali", "chat": "ghali / rkhis", "latin": "ghali / rkhiṣ", "ar": "غالي / رخيص", "fr": "Cher / pas cher", "pos": "adjectif", "register": "neutre", "mnemonic": "Ghali → « galère » pour ton porte-monnaie. Rkhis → « risque » zéro.", "variants": ["ghalia / rkhisa (au féminin)"] },
+    { "id": "dz2-3tini", "chat": "3tini", "latin": "ʿṭini", "ar": "عطيني", "fr": "Donne-moi", "pos": "verbe", "register": "neutre", "mnemonic": "-ni = moi : 3tini = donne-moi. On ajoute « llah ykhalik » pour être poli.", "variants": ["a3tini"] },
+    { "id": "dz2-n7ebb", "chat": "n7ebb", "latin": "nḥebb", "ar": "نحب", "fr": "Je veux / j'aime", "pos": "verbe", "register": "neutre", "mnemonic": "Le même mot que dans « habibi » : ce qu'on aime, ce qu'on veut.", "variants": ["nhab", "n7ab"] },
+    { "id": "dz2-naqqes", "chat": "naqqesli chwiya", "latin": "naqqesli chwiya", "ar": "نقّصلي شوية", "fr": "Baisse-moi (le prix) un peu", "pos": "expression", "register": "neutre", "mnemonic": "« Chwiya » = un peu : le mot magique du marchandage.", "variants": ["na99esli chwiya", "naqasli chwiya"] },
+    { "id": "dz2-sarf", "chat": "sarf", "latin": "ṣarf", "ar": "صرف", "fr": "La monnaie (petite monnaie)", "pos": "nom", "register": "neutre", "mnemonic": "Sarf → « bureau de change » (sarf en arabe)." },
+    { "id": "dz2-3andi", "chat": "3andi / ma 3andich", "latin": "ʿandi / ma ʿandich", "ar": "عندي / ما عنديش", "fr": "J'ai / je n'ai pas", "pos": "expression", "register": "neutre", "mnemonic": "Mot à mot « chez moi » : ce qui est chez moi, je l'ai." },
+    { "id": "dz2-khallest", "chat": "nkhalles / khallest", "latin": "nkhalleṣ / khalleṣt", "ar": "نخلّص / خلّصت", "fr": "Je paie / j'ai payé", "pos": "verbe", "register": "neutre", "mnemonic": "Khalles = « solder » : quand on a payé, c'est khlas, c'est fini." },
+    { "id": "dz2-nos", "chat": "nos", "latin": "noṣṣ", "ar": "نص", "fr": "La moitié, demi", "pos": "nom", "register": "neutre", "mnemonic": "« Nos kilo » : un demi-kilo, nos-nos = moitié-moitié." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "dz2-c1",
+      "chat": "Bechhal el kilo, 3ammi ?",
+      "fr": "À combien le kilo, mon oncle ?",
+      "when": "Au marché, devant un étal de fruits et légumes.",
+      "with": "Un vendeur plus âgé",
+      "register": "poli",
+      "culturalNote": "Les prix ne sont pas toujours affichés : on demande, et la réponse arrive souvent en centimes (« 3echrin alf » = 200 DA)."
+    },
+    {
+      "id": "dz2-c2",
+      "chat": "Ghali bezzaf ! Naqqesli chwiya, llah ykhalik.",
+      "fr": "C'est trop cher ! Baisse-moi un peu, s'il te plaît.",
+      "when": "Le prix te paraît trop élevé.",
+      "with": "Un vendeur au marché ou au souk",
+      "register": "neutre",
+      "culturalNote": "Marchander se fait avec le sourire et ne vexe personne au souk. Dans un magasin aux prix affichés, en revanche, ça ne se fait pas."
+    },
+    {
+      "id": "dz2-c3",
+      "chat": "3andek sarf ? Ma 3andi ghir billet ta3 alf dinar.",
+      "fr": "Tu as de la monnaie ? Je n'ai qu'un billet de 1 000 dinars.",
+      "when": "Tu dois payer une petite somme avec un gros billet.",
+      "with": "Commerçant",
+      "register": "neutre",
+      "culturalNote": "La petite monnaie manque souvent : prévoir des billets de 200 et de 500 DA évite bien des soucis. « Ghir » veut dire « seulement »."
+    },
+    {
+      "id": "dz2-c4",
+      "chat": "La la, ana nkhalles !",
+      "fr": "Non non, c'est moi qui paie !",
+      "when": "Au café, au moment de l'addition.",
+      "with": "Amis, famille",
+      "register": "familier",
+      "culturalNote": "Se battre (gentiment) pour payer est un vrai rituel. Laisser payer l'autre sans protester peut passer pour un manque d'éducation. Celui qui invite finit en général par payer."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "dz2-d1",
+      "type": "chatSim",
+      "title": "Au marché avec 3ammi Rabah",
+      "contact": { "name": "3ammi Rabah", "avatar": "👴🏽", "relation": "marchand de légumes", "register": "poli" },
+      "turns": [
+        { "from": "them", "chat": "Marhba benti ! Wach n3tik ?", "fr": "Bienvenue ma fille ! Qu'est-ce que je te donne ?" },
+        {
+          "from": "me",
+          "prompt": "Demande un kilo de tomates, poliment",
+          "options": [
+            { "chat": "3tini kilo tomatich, llah ykhalik.", "fr": "Donne-moi un kilo de tomates, s'il te plaît.", "score": "natural", "feedback": "Parfait, c'est exactement ce qu'on entend au marché." },
+            { "chat": "Kam thaman at-tamatim ?", "fr": "Quel est le prix des tomates ? (arabe littéraire)", "score": "wrong", "feedback": "C'est de l'arabe littéraire, ça sonne comme un manuel scolaire. En darija : « bechhal tomatich ? ».", "reaction": { "chat": "Hhh, rak f l'école benti ? 😄 Tomatich, kilo b 3echrin alf.", "fr": "Haha, tu es à l'école ma fille ? 😄 Les tomates, c'est 200 DA le kilo." } },
+            { "chat": "Ana n7ebb tomatich bezzaf.", "fr": "Moi j'adore les tomates.", "score": "ok", "feedback": "Compréhensible, mais « n7ebb » + nom sonne ici comme « j'adore ». Pour acheter, « 3tini » est plus clair." }
+          ]
+        },
+        { "from": "them", "chat": "Hak benti. El kilo b 3echrin alf.", "fr": "Tiens ma fille. Le kilo est à 20 000 (centimes), donc 200 DA." },
+        {
+          "from": "me",
+          "prompt": "Dis que c'est trop cher et demande-lui de baisser un peu",
+          "build": {
+            "answer": ["ghali", "bezzaf", "!", "naqqesli", "chwiya"],
+            "distractors": ["rkhis", "3tini"],
+            "fr": "C'est trop cher ! Baisse-moi un peu"
+          }
+        },
+        { "from": "them", "chat": "Khlas, ndirlek khmestach alf. Mlih ?", "fr": "Bon, je te le fais à 15 000 (centimes), 150 DA. Ça va ?" },
+        {
+          "from": "me",
+          "prompt": "Accepte et remercie-le",
+          "options": [
+            { "chat": "Mlih, saha 3ammi !", "fr": "D'accord, merci mon oncle !", "score": "natural", "feedback": "Bien joué : tu as gagné 50 DA et un sourire." },
+            { "chat": "La, 3echrin alf.", "fr": "Non, 200 DA.", "score": "wrong", "feedback": "Tu viens de lui proposer de payer plus cher que son nouveau prix 😅", "reaction": { "chat": "Hhh nti t7ebbi tkhallsi kter ?! 😂", "fr": "Haha tu veux payer plus ?! 😂" } },
+            { "chat": "Saha.", "fr": "Merci.", "score": "ok", "feedback": "Correct, juste un peu sec. Ajoute « 3ammi » pour la chaleur." }
+          ]
+        },
+        { "from": "them", "chat": "3andek sarf ?", "fr": "Tu as de la monnaie ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds que tu n'as qu'un billet de 1 000 dinars",
+          "build": {
+            "answer": ["ma", "3andi", "ghir", "billet", "ta3", "alf", "dinar"],
+            "distractors": ["3andek", "mya"],
+            "fr": "Je n'ai qu'un billet de 1 000 dinars"
+          }
+        },
+        { "from": "them", "chat": "Machi mouchkil, hak. Bslama benti !", "fr": "Pas de souci, tiens (ta monnaie). Au revoir ma fille !" }
+      ]
+    },
+    {
+      "id": "dz2-d2",
+      "type": "chatSim",
+      "title": "Ta sœur Sara t'écrit",
+      "contact": { "name": "Sara", "avatar": "👩🏻", "relation": "sœur", "register": "familier" },
+      "turns": [
+        { "from": "them", "chat": "Ida fetti 3la l7anout, jib m3ak zoudj khobzat 🙏", "fr": "Si tu passes à la boutique, ramène deux baguettes 🙏" },
+        {
+          "from": "me",
+          "prompt": "Accepte",
+          "options": [
+            { "chat": "Wah, machi mouchkil !", "fr": "Oui, pas de problème !", "score": "natural", "feedback": "Naturel et sympa." },
+            { "chat": "La, saha.", "fr": "Non, merci.", "score": "wrong", "feedback": "Tu viens de refuser… ta sœur risque de bouder 😄" },
+            { "chat": "Zoudj ? Wah.", "fr": "Deux ? Oui.", "score": "ok", "feedback": "Ça marche, un peu télégraphique." }
+          ]
+        },
+        { "from": "them", "chat": "Saha ! 3andek drahem ?", "fr": "Merci ! Tu as des sous ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds que oui, tu en as",
+          "options": [
+            { "chat": "Wah, 3andi.", "fr": "Oui, j'en ai.", "score": "natural", "feedback": "Parfait : 3andi = j'ai." },
+            { "chat": "Wah, 3andek.", "fr": "Oui, tu en as.", "score": "wrong", "feedback": "3andek = tu as. Pour toi-même : 3andi." },
+            { "chat": "Ma 3andich.", "fr": "Je n'en ai pas.", "score": "ok", "feedback": "Grammaticalement juste, mais ce n'est pas ce qu'on t'a demandé de répondre !" }
+          ]
+        },
+        { "from": "them", "chat": "Mlih ! Hayya, bslama 👋", "fr": "Super ! Allez, à plus 👋" }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "dz2-e1",
+      "type": "matchPairs",
+      "instruction": "Relie chaque chiffre à sa valeur",
+      "pairs": ["dz2-wahed", "dz2-zoudj", "dz2-tlata", "dz2-khamsa", "dz2-seb3a", "dz2-3achra"]
+    },
+    {
+      "id": "dz2-e2",
+      "type": "mcq",
+      "instruction": "Le vendeur annonce « khamsin alf ». Combien vas-tu payer ?",
+      "options": ["500 DA", "50 DA", "50 000 DA"],
+      "answer": "500 DA",
+      "explanation": "Le prix est en centimes : 50 000 centimes ÷ 100 = 500 DA."
+    },
+    {
+      "id": "dz2-e3",
+      "type": "hiddenDigit",
+      "instruction": "Quel chiffre manque ? (3 = ع, 7 = ح, 9 = ق)",
+      "items": [
+        { "masked": "seb_a", "answer": "3", "full": "seb3a" },
+        { "masked": "n_ebb", "answer": "7", "full": "n7ebb" },
+        { "masked": "_tini", "answer": "3", "full": "3tini" },
+        { "masked": "l_anout", "answer": "7", "full": "l7anout" }
+      ],
+      "options": ["3", "7", "9"]
+    },
+    {
+      "id": "dz2-e4",
+      "type": "mcq",
+      "instruction": "Comment dit-on 25 ?",
+      "options": ["khamsa w 3echrin", "3echrin w khamsa", "khamsin"],
+      "answer": "khamsa w 3echrin",
+      "explanation": "L'unité vient d'abord : « cinq et vingt ». Khamsin, c'est 50."
+    },
+    {
+      "id": "dz2-e5",
+      "type": "cloze",
+      "instruction": "Complète l'échange",
+      "lines": [
+        { "who": "Toi", "chat": "{{1}} kilo tomatich, llah ykhalik." },
+        { "who": "Vendeur", "chat": "Hak. 3andek sarf ?" },
+        { "who": "Toi", "chat": "La, ma {{2}} ." }
+      ],
+      "blanks": {
+        "1": { "options": ["3tini", "khallest", "n3tik"], "answer": "3tini" },
+        "2": { "options": ["3andich", "3andi", "3andek"], "answer": "3andich", "hint": "Négation = ma + 3andi + ch." }
+      },
+      "explanation": "3tini = donne-moi. « Ma 3andich » = je n'ai pas."
+    },
+    {
+      "id": "dz2-e6",
+      "type": "registerHunt",
+      "instruction": "Une expression d'arabe littéraire s'est glissée. Touche-la.",
+      "tokens": ["Salam", "3ammi", ",", "kam ath-thaman", "el", "kilo", "?"],
+      "intruderIndex": 3,
+      "fix": "bechhal",
+      "explanation": "« Kam ath-thaman » (quel est le prix) est littéraire. Au marché on dit simplement « bechhal el kilo ? »."
+    },
+    {
+      "id": "dz2-e7",
+      "type": "registerSort",
+      "instruction": "À qui dirais-tu ça ?",
+      "bins": [
+        { "id": "elder", "label": "3ammi Rabah (vendeur âgé)", "avatar": "👴🏽" },
+        { "id": "friend", "label": "Amine (ton cousin)", "avatar": "🧑🏻" }
+      ],
+      "items": [
+        { "chat": "Naqqesli chwiya, llah ykhalik.", "bin": "elder" },
+        { "chat": "Wesh kho, chhal khallest ?", "bin": "friend" },
+        { "chat": "Saha 3ammi, llah ybarek fik.", "bin": "elder" },
+        { "chat": "Jib m3ak zoudj khobzat !", "bin": "friend" }
+      ],
+      "explanation": "« Kho » et les ordres directs (« jib ! ») se disent entre proches. Avec un aîné : « llah ykhalik », « 3ammi », les bénédictions."
+    },
+    {
+      "id": "dz2-e8",
+      "type": "sentenceBuilder",
+      "instruction": "Traduis : « Donne-moi un demi-kilo, s'il te plaît »",
+      "fr": "Donne-moi un demi-kilo, s'il te plaît",
+      "answer": ["3tini", "nos", "kilo", ",", "llah", "ykhalik"],
+      "distractors": ["n3tik", "zoudj"],
+      "explanation": "« Nos » = moitié. « N3tik » voudrait dire « je te donne »."
+    },
+    {
+      "id": "dz2-e9",
+      "type": "typeAnswer",
+      "instruction": "Écris en darija : « C'est trop cher ! »",
+      "fr": "C'est trop cher !",
+      "accept": ["ghali bezzaf", "ghalia bezzaf", "rah ghali bezzaf", "raha ghalia bezzaf"],
+      "explanation": "Ghali (masculin) ou ghalia (féminin) selon la chose, + bezzaf (beaucoup)."
+    },
+    {
+      "id": "dz2-e10",
+      "type": "typeAnswer",
+      "instruction": "Écris en darija : « À combien ? »",
+      "fr": "À combien ?",
+      "accept": ["bechhal", "b chhal", "bchhal", "chhal"],
+      "explanation": "« Chhal » seul se comprend aussi très bien."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["dz2-wahed", "dz2-zoudj", "dz2-tlata", "dz2-khamsa", "dz2-3achra", "dz2-chhal", "dz2-ghali", "dz2-3tini", "dz2-naqqes", "dz2-3andi"],
+    "bonus": ["dz2-rab3a", "dz2-setta", "dz2-seb3a", "dz2-tmenya", "dz2-tes3a", "dz2-3echrin", "dz2-mya", "dz2-alf", "dz2-drahem", "dz2-n7ebb", "dz2-sarf", "dz2-khallest", "dz2-nos"]
+  }
+}

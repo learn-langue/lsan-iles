@@ -1,0 +1,291 @@
+{
+  "id": "dz-n1-l03",
+  "language": "darija",
+  "level": 1,
+  "order": 3,
+  "title": "Ana… Se présenter en détail",
+  "goal": "Dire son âge, d'où l'on vient, où l'on habite, ce que l'on fait, et parler de sa famille proche.",
+  "estimatedMinutes": 12,
+  "regionNote": "Darija du centre. Pour « grand-mère », on entend aussi « mima » ou « mani » à Alger, « jedda » ailleurs.",
+
+  "grammarNotes": [
+    {
+      "id": "dz3-g-n",
+      "title": "Je = n-, tu = t- (et -i pour une femme)",
+      "body": "Au présent, le verbe commence par n- pour « je » et par t- pour « tu ». Si l'on parle à une femme, on ajoute -i à la fin : tskoun (tu habites, à un homme) → tskouni (à une femme).",
+      "examples": [
+        { "chat": "Nskoun f Lyon.", "fr": "J'habite à Lyon." },
+        { "chat": "Win tskouni ?", "fr": "Où habites-tu ? (à une femme)" },
+        { "chat": "Wach tekhdem ?", "fr": "Que fais-tu (comme travail) ? (à un homme)" }
+      ]
+    },
+    {
+      "id": "dz3-g-age",
+      "title": "L'âge se « possède » : 3andi 23 3am",
+      "body": "Comme en français (« j'ai 23 ans »), on utilise 3andi (j'ai), vu dans la leçon précédente. « 3am » veut dire « an, année ».",
+      "examples": [
+        { "chat": "Chhal 3andek men 3am ?", "fr": "Quel âge as-tu ?" },
+        { "chat": "3andi tlata w 3echrin 3am.", "fr": "J'ai 23 ans." }
+      ]
+    },
+    {
+      "id": "dz3-g-poss",
+      "title": "Mon, ton : -i et -ek collés au nom",
+      "body": "Le possessif se colle à la fin du mot : -i (mon), -ek (ton), -ou (son, à lui), -ha (son, à elle), -na (notre). Quelques mots de la famille ont une forme spéciale : khouya (mon frère), yemma (ma mère), baba (mon père).",
+      "examples": [
+        { "chat": "yemmak", "fr": "ta mère" },
+        { "chat": "3aylti", "fr": "ma famille" },
+        { "chat": "darna", "fr": "notre maison, chez nous" }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "dz3-age", "chat": "chhal 3andek men 3am ?", "latin": "chḥal ʿandek men ʿam ?", "ar": "شحال عندك من عام؟", "fr": "Quel âge as-tu ?", "pos": "expression", "register": "neutre", "answer": { "chat": "3andi … 3am", "fr": "J'ai … ans" }, "mnemonic": "Mot à mot « combien tu as d'années ? » : chhal (combien), 3andek (tu as), 3am (année).", "variants": ["chhal 3amrek ?"] },
+    { "id": "dz3-mnin", "chat": "mnin nta ? / mnin nti ?", "latin": "mnin nta ? / mnin nti ?", "ar": "منين نتا؟ / منين نتي؟", "fr": "D'où es-tu ? (à un homme / à une femme)", "pos": "expression", "register": "neutre", "answer": { "chat": "ana men …", "fr": "Je suis de …" }, "mnemonic": "« Mnin » = d'où. Nta (toi, homme), nti (toi, femme)." },
+    { "id": "dz3-nskoun", "chat": "nskoun f …", "latin": "nskoun f …", "ar": "نسكن ف…", "fr": "J'habite à …", "pos": "verbe", "register": "neutre", "mnemonic": "Sken = habiter, comme dans « maskan » (logement).", "variants": ["rani nskoun f …", "win tskoun ? (où habites-tu ?)"] },
+    { "id": "dz3-tekhdem", "chat": "wach tekhdem ? / wach tekhedmi ?", "latin": "wach tekhdem ? / wach tekhedmi ?", "ar": "واش تخدم؟ / واش تخدمي؟", "fr": "Que fais-tu (comme travail) ? (homme / femme)", "pos": "expression", "register": "neutre", "answer": { "chat": "nekhdem f …", "fr": "Je travaille dans/à …" }, "mnemonic": "« Khedma » = le travail. Tekhdem = tu travailles." },
+    { "id": "dz3-naqra", "chat": "mazal naqra", "latin": "mazal naqra", "ar": "مازال نقرا", "fr": "J'étudie encore (je suis étudiant·e)", "pos": "expression", "register": "neutre", "mnemonic": "« Naqra » = je lis, j'étudie. « Mazal » = encore, toujours." },
+    { "id": "dz3-yemma", "chat": "yemma / baba", "latin": "yemma / baba", "ar": "يما / بابا", "fr": "Ma mère (maman) / mon père (papa)", "pos": "nom", "register": "neutre", "mnemonic": "Les premiers mots des bébés : yemma, baba.", "variants": ["yemmak / babak (ta mère / ton père)"] },
+    { "id": "dz3-khawti", "chat": "khawti", "latin": "khawti", "ar": "خاوتي", "fr": "Mes frères et sœurs", "pos": "nom", "register": "neutre", "mnemonic": "Le pluriel de « kho » (frère) : khawti = ma fratrie." },
+    { "id": "dz3-kbir", "chat": "kbir / sghir", "latin": "kbir / ṣghir", "ar": "كبير / صغير", "fr": "Grand, aîné / petit, cadet", "pos": "adjectif", "register": "neutre", "mnemonic": "« Allahou akbar » : Dieu est le plus grand. Kbir = grand.", "variants": ["kbira / sghira (au féminin)", "khouya el kbir (mon grand frère)"] },
+    { "id": "dz3-jeddi", "chat": "jeddi / jedda", "latin": "jeddi / jedda", "ar": "جدي / جدة", "fr": "Mon grand-père / grand-mère", "pos": "nom", "register": "neutre", "mnemonic": "Jedd = ancêtre. Jedda à la fin en -a = la grand-mère.", "variants": ["mima", "mani", "setti"] },
+    { "id": "dz3-3ayla", "chat": "3ayla", "latin": "ʿayla", "ar": "عايلة", "fr": "La famille", "pos": "nom", "register": "neutre", "mnemonic": "3ayla ressemble à « ailes » : la famille te protège sous ses ailes.", "variants": ["familia", "3aylti (ma famille)"] },
+    { "id": "dz3-wlad", "chat": "wlad / weld / bent", "latin": "wlad / weld / bent", "ar": "ولاد / ولد / بنت", "fr": "Les enfants / un garçon, un fils / une fille", "pos": "nom", "register": "neutre", "mnemonic": "« Weld » = fils, comme le « Ould » des noms de famille." },
+    { "id": "dz3-mzewwej", "chat": "mzewwej / mzewwja", "latin": "mzewwej / mzewwja", "ar": "مزوج / مزوجة", "fr": "Marié / mariée", "pos": "adjectif", "register": "neutre", "mnemonic": "Même racine que « zoudj » (deux, couple) : marié = en couple.", "variants": ["mazal ma tzewwejt (pas encore marié·e)"] },
+    { "id": "dz3-nt3allem", "chat": "rani nt3allem ed-darja", "latin": "rani ntʿallem ed-darja", "ar": "راني نتعلم الدارجة", "fr": "J'apprends la darija", "pos": "expression", "register": "neutre", "mnemonic": "« 3ilm » = le savoir. Nt3allem = j'apprends. Phrase magique qui fait sourire tout le monde." },
+    { "id": "dz3-tcharrafna", "chat": "tcharrafna", "latin": "tcharrafna", "ar": "تشرّفنا", "fr": "Enchanté·e", "pos": "expression", "register": "poli", "mnemonic": "Mot à mot « on est honorés » : on se dit enchantés à deux." },
+    { "id": "dz3-bessah", "chat": "bessah", "latin": "bessaḥ", "ar": "بصح", "fr": "Mais", "pos": "mot", "register": "neutre", "mnemonic": "Mot à mot « en vérité » : « mais, en vrai… ».", "variants": ["bes", "walakin (plus formel)"] },
+    { "id": "dz3-ybarek", "chat": "llah ybarek", "latin": "llah ybarek", "ar": "الله يبارك", "fr": "Que Dieu bénisse (admiration bienveillante)", "pos": "expression", "register": "neutre", "mnemonic": "« Baraka » : la bénédiction. On la souhaite à ce qu'on admire.", "note": "On le dit quand on complimente un enfant, un mariage, une réussite : c'est une façon de protéger du mauvais œil.", "variants": ["tbarkallah"] }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "dz3-c1",
+      "chat": "3andi khamsa w 3echrin 3am, w nskoun f Lyon.",
+      "fr": "J'ai 25 ans et j'habite à Lyon.",
+      "when": "Tu te présentes à quelqu'un de la famille ou à un nouvel ami.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "Les questions personnelles (âge, mariage, travail) arrivent vite en Algérie : c'est une marque d'intérêt, pas de l'indiscrétion."
+    },
+    {
+      "id": "dz3-c2",
+      "chat": "Baba men Tizi, w yemma men Dzayer.",
+      "fr": "Mon père est de Tizi Ouzou, et ma mère d'Alger.",
+      "when": "On te demande d'où vient ta famille.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "« Dzayer » désigne à la fois Alger et l'Algérie : le contexte fait la différence. Beaucoup de familles sont mixtes arabophones et kabylophones."
+    },
+    {
+      "id": "dz3-c3",
+      "chat": "Rani nt3allem ed-darja bach nahder m3a jeddi.",
+      "fr": "J'apprends la darija pour parler avec mon grand-père.",
+      "when": "On te complimente sur ton effort.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "« Bach » = pour (que). Cette phrase ouvre beaucoup de cœurs : on te répondra sûrement « llah ybarek ! »."
+    },
+    {
+      "id": "dz3-c4",
+      "chat": "— Mazal ma tzewwejtich ? — Mazal, nchallah !",
+      "fr": "— Tu n'es pas encore mariée ? — Pas encore, si Dieu le veut !",
+      "when": "Une tante te pose LA question aux réunions de famille.",
+      "with": "Tantes, voisines",
+      "register": "familier",
+      "culturalNote": "La question est presque un passage obligé. Répondre avec humour et un « nchallah » clôt le sujet en douceur."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "dz3-d1",
+      "type": "chatSim",
+      "title": "Khalti Fatiha, dans le groupe WhatsApp de la famille",
+      "contact": { "name": "Khalti Fatiha", "avatar": "👵🏽", "relation": "tante", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "chat": "Salam 3likoum benti ! Nti Lina, bent Samira ?", "fr": "Bonjour ma fille ! Tu es Lina, la fille de Samira ?" },
+        {
+          "from": "me",
+          "prompt": "Confirme qui tu es et prends de ses nouvelles",
+          "options": [
+            { "chat": "Wah khalti, ana Lina. Wach raki ?", "fr": "Oui ma tante, c'est moi Lina. Comment vas-tu ?", "score": "natural", "feedback": "Parfait : « khalti » pour le respect et « raki » au féminin." },
+            { "chat": "Wah, ana Samira.", "fr": "Oui, je suis Samira.", "score": "wrong", "feedback": "Samira, c'est ta mère !", "reaction": { "chat": "Hhh la benti, Samira hiya yemmak ! 😂", "fr": "Haha non ma fille, Samira c'est ta mère ! 😂" } },
+            { "chat": "Na3am.", "fr": "Oui. (très formel)", "score": "ok", "feedback": "« Na3am » existe, mais c'est très formel. En famille : « wah » ou « ih »." }
+          ]
+        },
+        { "from": "them", "chat": "Labas l7amdoulah. Chhal 3andek men 3am drok ?", "fr": "Ça va, Dieu merci. Quel âge as-tu maintenant ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds que tu as 23 ans",
+          "build": {
+            "answer": ["3andi", "tlata", "w", "3echrin", "3am"],
+            "distractors": ["3andek", "tlatin"],
+            "fr": "J'ai 23 ans"
+          }
+        },
+        { "from": "them", "chat": "Llah ybarek ! W wach tekhedmi ?", "fr": "Que Dieu te bénisse ! Et qu'est-ce que tu fais ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que tu étudies encore, à la fac",
+          "options": [
+            { "chat": "Mazal naqra f la fac.", "fr": "J'étudie encore, à la fac.", "score": "natural", "feedback": "Très naturel, et le mélange avec « la fac » est typiquement algérien." },
+            { "chat": "Wach tekhdem ?", "fr": "Que fais-tu ? (à un homme)", "score": "wrong", "feedback": "Tu lui retournes la question, au masculin en plus. Réponds d'abord !" },
+            { "chat": "Naqra.", "fr": "J'étudie.", "score": "ok", "feedback": "Juste, mais un peu court pour une tante curieuse 😄" }
+          ]
+        },
+        { "from": "them", "chat": "Mliha benti ! Sellemli 3la yemmak 🌸", "fr": "C'est bien ma fille ! Passe le bonjour à ta mère 🌸" },
+        {
+          "from": "me",
+          "prompt": "Promets de le faire et remercie-la",
+          "options": [
+            { "chat": "Nchallah khalti, ya3tik saha !", "fr": "Promis ma tante, merci !", "score": "natural", "feedback": "Chaleureux et respectueux." },
+            { "chat": "Smahili.", "fr": "Pardon.", "score": "wrong", "feedback": "« Smahili » veut dire « pardon », ça n'a pas de sens ici." },
+            { "chat": "Bslama.", "fr": "Au revoir.", "score": "ok", "feedback": "Poli, mais un peu abrupt : ajoute un merci." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dz3-d2",
+      "type": "chatSim",
+      "title": "Rencontre au café avec Yacine, un ami de Nadia",
+      "contact": { "name": "Yacine", "avatar": "🧑🏽", "relation": "ami d'une amie", "register": "neutre" },
+      "turns": [
+        { "from": "them", "chat": "Salam ! Nti sa7bet Nadia ?", "fr": "Salut ! Tu es l'amie de Nadia ?" },
+        {
+          "from": "me",
+          "prompt": "Confirme et dis-lui « enchantée »",
+          "options": [
+            { "chat": "Wah, ana Lina. Tcharrafna !", "fr": "Oui, moi c'est Lina. Enchantée !", "score": "natural", "feedback": "Parfait pour une première rencontre." },
+            { "chat": "Wesh khouya, kirak ?", "fr": "Salut frérot, ça va ?", "score": "ok", "feedback": "Ça passe entre jeunes, mais c'est très familier pour quelqu'un que tu viens de rencontrer." },
+            { "chat": "Ana Nadia.", "fr": "Je suis Nadia.", "score": "wrong", "feedback": "Nadia, c'est votre amie commune 😉" }
+          ]
+        },
+        { "from": "them", "chat": "Tcharrafna ! Mnin nti ? Darja ta3ek mliha !", "fr": "Enchanté ! Tu viens d'où ? Ta darija est bonne !" },
+        {
+          "from": "me",
+          "prompt": "Dis que tu viens de France, mais que ton père est d'Oran",
+          "build": {
+            "answer": ["ana", "men", "França", ",", "bessah", "baba", "men", "Wahran"],
+            "distractors": ["mnin", "yemmak"],
+            "fr": "Je viens de France, mais mon père est d'Oran"
+          }
+        },
+        { "from": "them", "chat": "Wahran, el Bahia ! Ana nskoun temma 😄", "fr": "Oran, la Radieuse ! Moi j'habite là-bas 😄" },
+        {
+          "from": "me",
+          "prompt": "Réagis avec enthousiasme",
+          "options": [
+            { "chat": "Mlih bezzaf ! Nchallah nrouh l Wahran had sif.", "fr": "Génial ! J'espère aller à Oran cet été.", "score": "natural", "feedback": "Bravo, tu relances la conversation." },
+            { "chat": "Ana nskoun f Wahran.", "fr": "Moi j'habite à Oran.", "score": "wrong", "feedback": "Tu viens de dire que tu habites en France !" },
+            { "chat": "Saha.", "fr": "Merci.", "score": "ok", "feedback": "Poli mais ça coupe la conversation." }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "dz3-e1",
+      "type": "matchPairs",
+      "instruction": "Relie chaque mot à sa traduction",
+      "pairs": ["dz3-yemma", "dz3-khawti", "dz3-jeddi", "dz3-3ayla", "dz3-mzewwej", "dz3-tcharrafna"]
+    },
+    {
+      "id": "dz3-e2",
+      "type": "mcq",
+      "instruction": "Que veut dire « Mazal naqra » ?",
+      "options": ["J'étudie encore", "Je lis le journal", "Je travaille encore"],
+      "answer": "J'étudie encore",
+      "explanation": "Naqra = je lis, j'étudie. Mazal = encore."
+    },
+    {
+      "id": "dz3-e3",
+      "type": "hiddenDigit",
+      "instruction": "Quel chiffre manque ? (3 = ع, 7 = ح)",
+      "items": [
+        { "masked": "_ayla", "answer": "3", "full": "3ayla" },
+        { "masked": "rani nt_allem", "answer": "3", "full": "rani nt3allem" },
+        { "masked": "sa_bet Nadia", "answer": "7", "full": "sa7bet Nadia" }
+      ],
+      "options": ["3", "7", "9"]
+    },
+    {
+      "id": "dz3-e4",
+      "type": "cloze",
+      "instruction": "Complète la conversation",
+      "lines": [
+        { "who": "Khalti", "chat": "Chhal {{1}} men 3am ?" },
+        { "who": "Toi", "chat": "3andi 23 3am." },
+        { "who": "Khalti", "chat": "W wach {{2}} , benti ?" }
+      ],
+      "blanks": {
+        "1": { "options": ["3andek", "3andi", "3andha"], "answer": "3andek", "hint": "Elle te demande TON âge : 3andek (tu as)." },
+        "2": { "options": ["tekhedmi", "tekhdem", "nekhdem"], "answer": "tekhedmi", "hint": "Elle parle à sa nièce : forme féminine en -i." }
+      },
+      "explanation": "3andek = tu as. Tekhedmi = tu travailles (à une femme)."
+    },
+    {
+      "id": "dz3-e5",
+      "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu parles à ta tante.",
+      "tokens": ["W", "nti", ",", "wach", "tekhdem", ",", "khalti", "?"],
+      "intruderIndex": 4,
+      "fix": "tekhedmi",
+      "explanation": "Khalti est une femme : on ajoute -i au verbe, tekhedmi."
+    },
+    {
+      "id": "dz3-e6",
+      "type": "registerHunt",
+      "instruction": "Un mot d'arabe littéraire s'est glissé. Touche-le.",
+      "tokens": ["Ana", "a3ich", "f", "França", ",", "bessah", "baba", "men", "Dzayer", "."],
+      "intruderIndex": 1,
+      "fix": "nskoun",
+      "explanation": "« A3ich » (je vis) est littéraire. En darija : « nskoun » (j'habite)."
+    },
+    {
+      "id": "dz3-e7",
+      "type": "sentenceBuilder",
+      "instruction": "Traduis : « J'ai deux frères et sœurs »",
+      "fr": "J'ai deux frères et sœurs",
+      "answer": ["3andi", "zoudj", "khawti"],
+      "distractors": ["3andek", "khouya"],
+      "explanation": "3andi = j'ai, khawti = mes frères et sœurs."
+    },
+    {
+      "id": "dz3-e8",
+      "type": "sentenceBuilder",
+      "instruction": "Traduis : « J'apprends la darija pour parler avec ma grand-mère »",
+      "fr": "J'apprends la darija pour parler avec ma grand-mère",
+      "answer": ["rani", "nt3allem", "ed-darja", "bach", "nahder", "m3a", "jedda"],
+      "alternatives": [["nt3allem", "ed-darja", "bach", "nahder", "m3a", "jedda"]],
+      "distractors": ["men", "yemma"],
+      "explanation": "« Bach » = pour (que). « M3a » = avec."
+    },
+    {
+      "id": "dz3-e9",
+      "type": "typeAnswer",
+      "instruction": "Écris en darija : « J'habite à Lyon »",
+      "fr": "J'habite à Lyon",
+      "accept": ["nskoun f lyon", "ana nskoun f lyon", "rani nskoun f lyon", "nskoun fi lyon"],
+      "explanation": "« F » = à, dans."
+    },
+    {
+      "id": "dz3-e10",
+      "type": "mcq",
+      "instruction": "Une voisine te montre son nouveau-né. Que dis-tu ?",
+      "options": ["Llah ybarek !", "Smahli !", "Bslama !"],
+      "answer": "Llah ybarek !",
+      "explanation": "On bénit ce qu'on admire : c'est la formule attendue (et elle éloigne le mauvais œil)."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["dz3-age", "dz3-mnin", "dz3-nskoun", "dz3-tekhdem", "dz3-naqra", "dz3-yemma", "dz3-khawti", "dz3-3ayla", "dz3-tcharrafna", "dz3-ybarek"],
+    "bonus": ["dz3-kbir", "dz3-jeddi", "dz3-wlad", "dz3-mzewwej", "dz3-nt3allem", "dz3-bessah"]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "id": "kab-n1-l03",
+  "language": "kabyle",
+  "level": 1,
+  "order": 3,
+  "title": "Nekk… Se présenter en détail",
+  "goal": "Dire son âge, où l'on habite, ce que l'on fait, parler de sa famille proche et de son village d'origine.",
+  "estimatedMinutes": 12,
+  "regionNote": "Kabyle courant de Grande Kabylie. Pour « grand-mère », on entend « jida », « setti » ou « nanna » selon les familles.",
+
+  "grammarNotes": [
+    {
+      "id": "kab3-g-conj",
+      "title": "Je = …eɣ, tu = t…eḍ",
+      "body": "Les verbes portent la personne : …eɣ pour « je », t…eḍ pour « tu », et c'est la même forme pour un homme et une femme. Tu les as déjà vus : fhimeɣ, telliḍ, sɛiɣ, tesɛiḍ.",
+      "examples": [
+        { "text": "Zedɣeɣ di Lyon.", "fr": "J'habite à Lyon." },
+        { "text": "Anda tzedɣeḍ ?", "fr": "Où habites-tu ?" },
+        { "text": "Acu txeddmeḍ ?", "fr": "Que fais-tu (comme travail) ?" }
+      ]
+    },
+    {
+      "id": "kab3-g-poss",
+      "title": "Mon, ton, notre : -iw, -ik / -im, -nneɣ",
+      "body": "Le possessif se colle au nom : -iw (mon), -ik (ton, à un homme), -im (ton, à une femme), -is (son), -nneɣ (notre). Les mots de la famille proche ont des formes à eux : yemma (ma mère), baba (mon père), gma (mon frère), weltma (ma sœur).",
+      "examples": [
+        { "text": "taddart-iw", "fr": "mon village" },
+        { "text": "yemma-k / yemma-m", "fr": "ta mère (à un homme / à une femme)" },
+        { "text": "tawacult-nneɣ", "fr": "notre famille" }
+      ]
+    },
+    {
+      "id": "kab3-g-age",
+      "title": "L'âge : sɛiɣ … n yiseggasen",
+      "body": "On « a » ses années, comme en français : sɛiɣ (j'ai) + nombre + n yiseggasen (d'années). Aseggas = année, iseggasen = années (après « n », on dit yiseggasen).",
+      "examples": [
+        { "text": "Acḥal n yiseggasen i tesɛiḍ ?", "fr": "Quel âge as-tu ?" },
+        { "text": "Sɛiɣ tlata w ɛecrin n yiseggasen.", "fr": "J'ai 23 ans." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "kab3-age", "text": "acḥal n yiseggasen i tesɛiḍ ?", "ascii": "achal n yiseggasen i tes3id ?", "fr": "Quel âge as-tu ?", "pos": "expression", "register": "neutre", "answer": { "text": "sɛiɣ … n yiseggasen", "fr": "J'ai … ans" }, "mnemonic": "Mot à mot « combien d'années as-tu ? ». Aseggas (année), comme « Aseggas ameggaz » (bonne année)." },
+    { "id": "kab3-anda", "text": "anda tzedɣeḍ ?", "ascii": "anda tzedghed ?", "fr": "Où habites-tu ?", "pos": "expression", "register": "neutre", "answer": { "text": "zedɣeɣ di …", "fr": "J'habite à …" }, "mnemonic": "« Anda » = où. Zdeɣ = habiter." },
+    { "id": "kab3-zedgheg", "text": "zedɣeɣ di …", "ascii": "zedghegh di …", "fr": "J'habite à …", "pos": "verbe", "register": "neutre", "mnemonic": "« Di » = à, dans (devant une voyelle, on dit « deg »)." },
+    { "id": "kab3-xdem", "text": "acu txeddmeḍ ?", "ascii": "acu txeddmed ?", "fr": "Que fais-tu (comme travail) ?", "pos": "expression", "register": "neutre", "answer": { "text": "xeddmeɣ di …", "fr": "Je travaille à/dans …" }, "mnemonic": "Xdem = travailler, comme le « khedma » de la darija." },
+    { "id": "kab3-ghuri", "text": "mazal ttɣuriɣ", "ascii": "mazal ttghurigh", "fr": "J'étudie encore (je suis étudiant·e)", "pos": "expression", "register": "neutre", "mnemonic": "« Ɣer » = lire, étudier. Mazal = encore (comme en darija).", "variants": ["ttɣuriɣ di tesdawit (j'étudie à l'université)"] },
+    { "id": "kab3-yemma", "text": "yemma / baba", "ascii": "yemma / baba", "fr": "Ma mère (maman) / mon père (papa)", "pos": "nom", "register": "neutre", "mnemonic": "Les mêmes qu'en darija : yemma, baba.", "variants": ["yemma-k / yemma-m (ta mère)", "baba-k / baba-m (ton père)"] },
+    { "id": "kab3-gma", "text": "gma / weltma", "ascii": "gma / weltma", "fr": "Mon frère / ma sœur", "pos": "nom", "register": "neutre", "mnemonic": "Gma est court et costaud comme un grand frère. Weltma, avec son -t, est féminin." },
+    { "id": "kab3-atmaten", "text": "atmaten / isetma", "ascii": "atmaten / isetma", "fr": "Frères / sœurs", "pos": "nom", "register": "neutre", "mnemonic": "Atmaten → « tant » de frères ! Isetma → « sisters »… presque." },
+    { "id": "kab3-jeddi", "text": "jeddi / jida", "ascii": "jeddi / jida", "fr": "Mon grand-père / ma grand-mère", "pos": "nom", "register": "neutre", "mnemonic": "Proches de la darija (jeddi, jedda).", "variants": ["setti", "nanna"] },
+    { "id": "kab3-tawacult", "text": "tawacult", "ascii": "tawacult", "fr": "La famille", "pos": "nom", "register": "neutre", "mnemonic": "Ta…t : un mot féminin, comme la famille qui nous porte.", "variants": ["twacult (après un verbe : amek tella twacult ?)"] },
+    { "id": "kab3-arraw", "text": "arraw", "ascii": "arraw", "fr": "Les enfants (la descendance)", "pos": "nom", "register": "neutre", "mnemonic": "Arraw → « marmaille » : les enfants qui courent partout." },
+    { "id": "kab3-meqqer", "text": "ameqqran / ameẓyan", "ascii": "ameqqran / amezyan", "fr": "Grand, aîné / petit, cadet", "pos": "adjectif", "register": "neutre", "mnemonic": "Le « q » profond de ameqqran fait « grand ». Ameẓyan est plus léger.", "variants": ["tameqqrant / tameẓyant (au féminin)", "gma ameqqran (mon grand frère)"] },
+    { "id": "kab3-zweg", "text": "yezweǧ / tezweǧ", "ascii": "yezwej / tezwej", "fr": "Il est marié / elle est mariée", "pos": "verbe", "register": "neutre", "mnemonic": "Zweǧ, comme le « zoudj » darija : se mettre à deux.", "variants": ["mazal ur zewǧeɣ ara (je ne suis pas encore marié·e)"] },
+    { "id": "kab3-taddart", "text": "taddart", "ascii": "taddart", "fr": "Le village", "pos": "nom", "register": "neutre", "mnemonic": "Taddart → la « tarte » qu'on partage au village.", "note": "En Kabylie, le village d'origine fait partie de l'identité : on le cite volontiers en se présentant.", "variants": ["taddart-iw (mon village)", "taddart-nneɣ (notre village)"] },
+    { "id": "kab3-tlemmid", "text": "ttlemmideɣ taqbaylit", "ascii": "ttlemmidegh taqbaylit", "fr": "J'apprends le kabyle", "pos": "expression", "register": "neutre", "mnemonic": "Lmed = apprendre. Phrase magique qui fait sourire tout le monde." },
+    { "id": "kab3-ayuz", "text": "ayuz !", "ascii": "ayuz !", "fr": "Bravo ! Félicitations !", "pos": "expression", "register": "neutre", "mnemonic": "Ayuz sonne comme un « youpi » kabyle." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "kab3-c1",
+      "text": "Sɛiɣ xemsa w ɛecrin n yiseggasen, zedɣeɣ di Lyon.",
+      "fr": "J'ai 25 ans, j'habite à Lyon.",
+      "when": "Tu te présentes à la famille ou à un nouvel ami.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "Âge, mariage, travail : ces questions arrivent vite et sont une marque d'intérêt, pas de l'indiscrétion."
+    },
+    {
+      "id": "kab3-c2",
+      "text": "Baba seg Tizi Wezzu, yemma seg Bgayet.",
+      "fr": "Mon père est de Tizi Ouzou, ma mère de Béjaïa.",
+      "when": "On te demande d'où vient ta famille.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "Grande Kabylie (Tizi Wezzu) et Petite Kabylie (Bgayet) ont des parlers un peu différents : on se comprend, mais certains mots changent."
+    },
+    {
+      "id": "kab3-c3",
+      "text": "Ttlemmideɣ taqbaylit akken ad hedreɣ d jida.",
+      "fr": "J'apprends le kabyle pour parler avec ma grand-mère.",
+      "when": "On te complimente sur ton effort.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "« Akken » = pour (que). Pour beaucoup de familles, transmettre la langue aux enfants nés à l'étranger compte énormément : cette phrase touchera."
+    },
+    {
+      "id": "kab3-c4",
+      "text": "Gma ameqqran yezweǧ, yesɛa sin warraw.",
+      "fr": "Mon grand frère est marié, il a deux enfants.",
+      "when": "Tu parles de ta famille.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "Après « sin », arraw devient « warraw » : en kabyle, le début des noms change souvent selon leur place dans la phrase (« état d'annexion »). Pas de panique, ça viendra avec l'oreille… et la lecture."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "kab3-d1",
+      "type": "chatSim",
+      "title": "Nna Ɛini te reconnaît à un mariage",
+      "contact": { "name": "Nna Ɛini", "avatar": "👵🏼", "relation": "voisine de la famille", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "text": "Azul a yelli ! Kemm d yelli-s n Samira ?", "fr": "Bonjour ma fille ! Tu es la fille de Samira ?" },
+        {
+          "from": "me",
+          "prompt": "Confirme qui tu es",
+          "options": [
+            { "text": "Ih a Nna Ɛini, nekk d Lina.", "fr": "Oui Nna Aïni, c'est moi Lina.", "score": "natural", "feedback": "Parfait, avec le « Nna » respectueux." },
+            { "text": "Ih, nekk d Samira.", "fr": "Oui, je suis Samira.", "score": "wrong", "feedback": "Samira, c'est ta mère !", "reaction": { "text": "Hhh ala, Samira d yemma-m ! 😂", "fr": "Haha non, Samira c'est ta mère ! 😂" } },
+            { "text": "Ih.", "fr": "Oui.", "score": "ok", "feedback": "Juste, mais présente-toi : « nekk d Lina »." }
+          ]
+        },
+        { "from": "them", "text": "Ay aṭas i temɣeṛḍ ! Acḥal n yiseggasen i tesɛiḍ tura ?", "fr": "Comme tu as grandi ! Quel âge as-tu maintenant ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds que tu as 23 ans",
+          "build": {
+            "answer": ["sɛiɣ", "tlata", "w", "ɛecrin", "n", "yiseggasen"],
+            "distractors": ["tesɛiḍ", "aseggas"],
+            "text": "Sɛiɣ tlata w ɛecrin n yiseggasen.",
+            "fr": "J'ai 23 ans."
+          }
+        },
+        { "from": "them", "text": "Ayuz a yelli ! Acu txeddmeḍ ?", "fr": "Bravo ma fille ! Qu'est-ce que tu fais ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que tu étudies encore, à l'université",
+          "options": [
+            { "text": "Mazal ttɣuriɣ di tesdawit.", "fr": "J'étudie encore à l'université.", "score": "natural", "feedback": "Très bien !" },
+            { "text": "Acu txeddmeḍ ?", "fr": "Que fais-tu ?", "score": "wrong", "feedback": "Tu lui renvoies sa question. Réponds d'abord !" },
+            { "text": "Xeddmeɣ.", "fr": "Je travaille.", "score": "ok", "feedback": "Juste, mais un peu vague pour une voisine curieuse 😄" }
+          ]
+        },
+        { "from": "them", "text": "Ṣaḥḥa-m a yelli ! Sellem-iyi ɣef yemma-m 🌸", "fr": "Bravo à toi ma fille ! Salue ta mère de ma part 🌸" },
+        {
+          "from": "me",
+          "prompt": "Remercie-la",
+          "options": [
+            { "text": "Ih a Nna Ɛini, tanemmirt-im !", "fr": "Oui Nna Aïni, merci !", "score": "natural", "feedback": "Parfait, -im au féminin." },
+            { "text": "Tanemmirt-ik !", "fr": "Merci ! (au masculin)", "score": "wrong", "feedback": "-ik s'adresse à un homme. Pour Nna Ɛini : tanemmirt-im." },
+            { "text": "Ar azekka.", "fr": "À demain.", "score": "ok", "feedback": "Poli, mais vous ne vous revoyez pas forcément demain : un merci conviendrait mieux." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kab3-d2",
+      "type": "chatSim",
+      "title": "Tanina, une nouvelle amie, t'écrit",
+      "contact": { "name": "Tanina", "avatar": "👩🏽", "relation": "nouvelle amie", "register": "familier" },
+      "turns": [
+        { "from": "them", "text": "Azul ! Anda tzedɣeḍ ?", "fr": "Salut ! Où habites-tu ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds que tu habites à Lyon",
+          "build": {
+            "answer": ["zedɣeɣ", "di", "Lyon"],
+            "distractors": ["tzedɣeḍ", "seg"],
+            "text": "Zedɣeɣ di Lyon.",
+            "fr": "J'habite à Lyon."
+          }
+        },
+        { "from": "them", "text": "Ayuz ! Tesɛiḍ atmaten d isetma ?", "fr": "Cool ! Tu as des frères et sœurs ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que tu as un frère et une sœur",
+          "options": [
+            { "text": "Ih, sɛiɣ gma d weltma.", "fr": "Oui, j'ai un frère et une sœur.", "score": "natural", "feedback": "Parfait ! « D » entre deux noms veut dire « et »." },
+            { "text": "Ih, sɛiɣ yemma.", "fr": "Oui, j'ai ma mère.", "score": "wrong", "feedback": "Yemma, c'est ta mère, pas ta sœur." },
+            { "text": "Ih.", "fr": "Oui.", "score": "ok", "feedback": "Juste, mais un peu court." }
+          ]
+        },
+        { "from": "them", "text": "Nekk sɛiɣ xemsa ! 😅 Tawacult tameqqrant !", "fr": "Moi j'en ai cinq ! 😅 Une grande famille !" }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "kab3-e1",
+      "type": "matchPairs",
+      "instruction": "Relie chaque mot à sa traduction",
+      "pairs": ["kab3-yemma", "kab3-gma", "kab3-jeddi", "kab3-tawacult", "kab3-arraw", "kab3-taddart"]
+    },
+    {
+      "id": "kab3-e2",
+      "type": "mcq",
+      "instruction": "Que veut dire « gma ameqqran » ?",
+      "options": ["Mon grand frère", "Mon grand-père", "Mon petit frère"],
+      "answer": "Mon grand frère",
+      "explanation": "Gma = mon frère, ameqqran = grand, aîné. Le grand-père, c'est jeddi."
+    },
+    {
+      "id": "kab3-e3",
+      "type": "letterHunt",
+      "instruction": "Quelle lettre kabyle manque ?",
+      "items": [
+        { "masked": "zed_eɣ", "answer": "ɣ", "full": "zedɣeɣ" },
+        { "masked": "_ecrin", "answer": "ɛ", "full": "ɛecrin" },
+        { "masked": "acu txeddme_ ?", "answer": "ḍ", "full": "acu txeddmeḍ ?" },
+        { "masked": "ur zew_eɣ ara", "answer": "ǧ", "full": "ur zewǧeɣ ara" }
+      ],
+      "options": ["ɣ", "ɛ", "ḍ", "ǧ", "g"]
+    },
+    {
+      "id": "kab3-e4",
+      "type": "cloze",
+      "instruction": "Complète la conversation",
+      "lines": [
+        { "who": "Tanina", "text": "Anda {{1}} ?" },
+        { "who": "Toi", "text": "{{2}} di Lyon." }
+      ],
+      "blanks": {
+        "1": { "options": ["tzedɣeḍ", "zedɣeɣ", "yezdeɣ"], "answer": "tzedɣeḍ", "hint": "Elle te pose la question : « tu » = t…eḍ." },
+        "2": { "options": ["Zedɣeɣ", "Tzedɣeḍ", "Xeddmeɣ"], "answer": "Zedɣeɣ", "hint": "Tu réponds : « je » = …eɣ." }
+      },
+      "explanation": "Tu = t…eḍ, je = …eɣ."
+    },
+    {
+      "id": "kab3-e5",
+      "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu parles à Nna Ɛini.",
+      "tokens": ["Acu", "i", "d", "taddart-ik", ",", "a", "Nna", "Ɛini", "?"],
+      "intruderIndex": 3,
+      "fix": "taddart-im",
+      "explanation": "Nna Ɛini est une femme : ton village = taddart-im."
+    },
+    {
+      "id": "kab3-e6",
+      "type": "registerSort",
+      "instruction": "À qui dirais-tu ça ?",
+      "bins": [
+        { "id": "elder", "label": "Nna Ɛini (voisine âgée)", "avatar": "👵🏼" },
+        { "id": "friend", "label": "Tanina (nouvelle amie)", "avatar": "👩🏽" }
+      ],
+      "items": [
+        { "text": "Azul a Nna Ɛini, amek tella twacult ?", "bin": "elder" },
+        { "text": "Ayuz ! Ar tura 👋", "bin": "friend" },
+        { "text": "Ih a Nna Ɛini, tanemmirt-im !", "bin": "elder" },
+        { "text": "Acu txeddmeḍ, ihi ?", "bin": "friend" }
+      ],
+      "explanation": "Avec une aînée : « Nna », des nouvelles de la famille, des remerciements. Entre amies : « ihi », « ar tura », des émojis."
+    },
+    {
+      "id": "kab3-e7",
+      "type": "sentenceBuilder",
+      "instruction": "Traduis : « J'apprends le kabyle pour parler avec ma grand-mère »",
+      "fr": "J'apprends le kabyle pour parler avec ma grand-mère",
+      "answer": ["ttlemmideɣ", "taqbaylit", "akken", "ad", "hedreɣ", "d", "jida"],
+      "distractors": ["ttlemmideḍ", "seg"],
+      "explanation": "« Akken ad » = pour que (je). « D » = avec."
+    },
+    {
+      "id": "kab3-e8",
+      "type": "sentenceBuilder",
+      "instruction": "Traduis : « Mon père est de Tizi Ouzou »",
+      "fr": "Mon père est de Tizi Ouzou",
+      "answer": ["baba", "seg", "Tizi", "Wezzu"],
+      "distractors": ["di", "baba-k"],
+      "explanation": "« Seg » = de (origine). « Baba-k » voudrait dire « ton père »."
+    },
+    {
+      "id": "kab3-e9",
+      "type": "typeAnswer",
+      "instruction": "Écris en kabyle : « J'habite à Paris »",
+      "fr": "J'habite à Paris",
+      "accept": ["zedɣeɣ di paris", "zedɣeɣ deg paris"],
+      "asciiTolerance": true,
+      "explanation": "Sans clavier kabyle, « zedghegh di paris » est accepté."
+    },
+    {
+      "id": "kab3-e10",
+      "type": "mcq",
+      "instruction": "Comment dit-on « J'ai 23 ans » ?",
+      "options": ["Sɛiɣ tlata w ɛecrin n yiseggasen.", "Tesɛiḍ tlata w ɛecrin n yiseggasen.", "Nekk d tlata w ɛecrin."],
+      "answer": "Sɛiɣ tlata w ɛecrin n yiseggasen.",
+      "explanation": "Sɛiɣ = j'ai (tesɛiḍ = tu as). « Nekk d… » voudrait dire « je suis 23 »."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["kab3-age", "kab3-anda", "kab3-zedgheg", "kab3-xdem", "kab3-ghuri", "kab3-yemma", "kab3-gma", "kab3-tawacult", "kab3-taddart", "kab3-tlemmid"],
+    "bonus": ["kab3-atmaten", "kab3-jeddi", "kab3-arraw", "kab3-meqqer", "kab3-zweg", "kab3-ayuz"]
+  }
+}

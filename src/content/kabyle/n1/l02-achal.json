@@ -1,0 +1,302 @@
+{
+  "id": "kab-n1-l02",
+  "language": "kabyle",
+  "level": 1,
+  "order": 2,
+  "title": "Acḥal ? Les chiffres et les prix",
+  "goal": "Compter, demander un prix au marché, comprendre les prix en centimes, négocier gentiment et payer.",
+  "estimatedMinutes": 12,
+  "regionNote": "Usage courant de Grande Kabylie : 1 à 3 en berbère, puis des chiffres d'origine arabe. Certains militants et enseignants utilisent aussi les chiffres berbères jusqu'à 10 (ukkuẓ, semmus…).",
+
+  "grammarNotes": [
+    {
+      "id": "kab2-g-chiffres",
+      "title": "1, 2, 3 en berbère et accordés ; ensuite des chiffres d'origine arabe",
+      "body": "Un, deux et trois sont berbères et s'accordent avec le nom : yiwen / yiwet (1, masculin / féminin), sin / snat (2), kraḍ / kraḍet (3). À partir de 4, on utilise des chiffres d'origine arabe, invariables : rebɛa, xemsa, setta, sebɛa, tmanya, tesɛa, ɛecra. Les nombres composés suivent la même logique que la darija : 25 = xemsa w ɛecrin.",
+      "examples": [
+        { "text": "yiwen uɣrum", "fr": "un pain (aɣrum est masculin)" },
+        { "text": "yiwet tmeṭṭut", "fr": "une femme (tameṭṭut est féminin)" },
+        { "text": "sin yiɣrumen", "fr": "deux pains" }
+      ]
+    },
+    {
+      "id": "kab2-g-centimes",
+      "title": "Le piège des centimes",
+      "body": "Comme partout en Algérie, les prix sont souvent annoncés en centimes : 1 dinar = 100 centimes. « Ɛecrin alef » = 20 000 centimes = 200 DA. Si le prix te paraît énorme, divise par 100 !",
+      "examples": [
+        { "text": "ɛecrin alef", "fr": "200 DA" },
+        { "text": "xemsin alef", "fr": "500 DA" },
+        { "text": "miya alef", "fr": "1 000 DA" }
+      ]
+    },
+    {
+      "id": "kab2-g-s3u",
+      "title": "Sɛu, « avoir » : sɛiɣ, tesɛiḍ",
+      "body": "Le verbe avoir se conjugue : sɛiɣ (j'ai), tesɛiḍ (tu as, homme ou femme), yesɛa (il a), tesɛa (elle a). On retrouve les marques de « je » (…eɣ / …iɣ) et de « tu » (t…ḍ). Négation : ur sɛiɣ ara (je n'ai pas).",
+      "examples": [
+        { "text": "Tesɛiḍ ṣṣerf ?", "fr": "Tu as de la monnaie ?" },
+        { "text": "Ur sɛiɣ ara.", "fr": "Je n'en ai pas." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "kab2-yiwen", "text": "yiwen / yiwet", "ascii": "yiwen / yiwet", "fr": "Un, une (1)", "pos": "nombre", "register": "neutre", "mnemonic": "-t final = féminin, comme dans beaucoup de mots kabyles (tameṭṭut, taddart)." },
+    { "id": "kab2-sin", "text": "sin / snat", "ascii": "sin / snat", "fr": "Deux (2) (masculin / féminin)", "pos": "nombre", "register": "neutre", "mnemonic": "Sin → « cinq » ? Non ! Sin = deux, comme les deux S de « sinus »." },
+    { "id": "kab2-krad", "text": "kraḍ / kraḍet", "ascii": "krad / kradet", "fr": "Trois (3) (masculin / féminin)", "pos": "nombre", "register": "neutre", "mnemonic": "Kraḍ → « carré » à trois côtés… ou un « krach » en trois temps." },
+    { "id": "kab2-rebea", "text": "rebɛa", "ascii": "reb3a", "fr": "Quatre (4)", "pos": "nombre", "register": "neutre", "mnemonic": "Le même que la darija « rab3a »." },
+    { "id": "kab2-xemsa", "text": "xemsa", "ascii": "xemsa", "fr": "Cinq (5)", "pos": "nombre", "register": "neutre", "mnemonic": "La « khamsa », la main à cinq doigts. Le x se prononce kh." },
+    { "id": "kab2-setta", "text": "setta", "ascii": "setta", "fr": "Six (6)", "pos": "nombre", "register": "neutre", "mnemonic": "Setta → « sextuor »." },
+    { "id": "kab2-sebea", "text": "sebɛa", "ascii": "seb3a", "fr": "Sept (7)", "pos": "nombre", "register": "neutre", "mnemonic": "Sebɛa et tesɛa riment : 7 et 9, attention !" },
+    { "id": "kab2-tmanya", "text": "tmanya", "ascii": "tmanya", "fr": "Huit (8)", "pos": "nombre", "register": "neutre", "mnemonic": "Tmanya → « huit » se cache dans « t-MAN-ya »… imagine huit mains." },
+    { "id": "kab2-tesea", "text": "tesɛa", "ascii": "tes3a", "fr": "Neuf (9)", "pos": "nombre", "register": "neutre", "mnemonic": "Tesɛa, le neuf, juste avant ɛecra (10)." },
+    { "id": "kab2-ecra", "text": "ɛecra", "ascii": "3ecra", "fr": "Dix (10)", "pos": "nombre", "register": "neutre", "mnemonic": "ɛecra → ɛecrin (20) : même racine, comme dix et vingt." },
+    { "id": "kab2-ecrin", "text": "ɛecrin", "ascii": "3ecrin", "fr": "Vingt (20)", "pos": "nombre", "register": "neutre", "mnemonic": "-in pour les dizaines : tlatin (30), xemsin (50)…" },
+    { "id": "kab2-miya", "text": "miya", "ascii": "miya", "fr": "Cent (100)", "pos": "nombre", "register": "neutre", "mnemonic": "Comme la darija « mya »." },
+    { "id": "kab2-alef", "text": "alef", "ascii": "alef", "fr": "Mille (1 000)", "pos": "nombre", "register": "neutre", "mnemonic": "Alef, la première lettre de l'alphabet arabe : le premier gros nombre.", "note": "Au marché, « alef » seul = 1 000 centimes = 10 DA." },
+    { "id": "kab2-achal", "text": "acḥal ? / s acḥal ?", "ascii": "achal ? / s achal ?", "fr": "Combien ? / À combien ? (le prix)", "pos": "expression", "register": "neutre", "mnemonic": "« Acḥal » ressemble au « chhal » de la darija, avec un a devant." },
+    { "id": "kab2-idrimen", "text": "idrimen", "ascii": "idrimen", "fr": "L'argent (les sous)", "pos": "nom", "register": "neutre", "mnemonic": "Idrimen → « drahem » en darija, « dirham » : même origine." },
+    { "id": "kab2-yeghla", "text": "yeɣla aṭas !", "ascii": "yeghla atas !", "fr": "C'est très cher !", "pos": "expression", "register": "neutre", "mnemonic": "Yeɣla ressemble au « ghali » darija (cher). Aṭas = beaucoup.", "variants": ["yeɣla (c'est cher)", "ur yeɣli ara (ce n'est pas cher)"] },
+    { "id": "kab2-atas", "text": "aṭas / cwiṭ", "ascii": "atas / cwit", "fr": "Beaucoup / un peu", "pos": "mot", "register": "neutre", "mnemonic": "Aṭas → « un tas ». Cwiṭ ressemble au « chwiya » darija.", "variants": ["cwiṭ kan (juste un peu)"] },
+    { "id": "kab2-efk", "text": "efk-iyi", "ascii": "efk-iyi", "fr": "Donne-moi", "pos": "verbe", "register": "neutre", "mnemonic": "-iyi = moi, comme dans ssmeḥ-iyi (pardonne-moi).", "variants": ["efk-iyi-d (donne-le-moi, vers moi)"] },
+    { "id": "kab2-bghigh", "text": "bɣiɣ", "ascii": "bghigh", "fr": "Je veux", "pos": "verbe", "register": "neutre", "mnemonic": "Deux ɣ dans un mot court : on « veut » fort.", "variants": ["tebɣiḍ ? (tu veux ?)"] },
+    { "id": "kab2-ssenqes", "text": "ssenqes cwiṭ", "ascii": "ssenqes cwit", "fr": "Baisse (le prix) un peu", "pos": "expression", "register": "neutre", "mnemonic": "Le même verbe que le « naqqes » darija : réduire." },
+    { "id": "kab2-sserf", "text": "ṣṣerf", "ascii": "sserf", "fr": "La monnaie (petite monnaie)", "pos": "nom", "register": "neutre", "mnemonic": "Comme le « sarf » darija." },
+    { "id": "kab2-s3igh", "text": "sɛiɣ / ur sɛiɣ ara", "ascii": "s3igh / ur s3igh ara", "fr": "J'ai / je n'ai pas", "pos": "verbe", "register": "neutre", "mnemonic": "Toujours le sandwich ur … ara pour dire non." },
+    { "id": "kab2-xelles", "text": "ad xellṣeɣ", "ascii": "ad xellsegh", "fr": "Je vais payer / c'est moi qui paie", "pos": "verbe", "register": "neutre", "mnemonic": "« Ad » annonce le futur. Xelleṣ = payer, comme le « khalles » darija." },
+    { "id": "kab2-kan", "text": "kan", "ascii": "kan", "fr": "Seulement, juste", "pos": "mot", "register": "neutre", "mnemonic": "« Kan » se place après ce qu'il limite : cwiṭ kan = juste un peu." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "kab2-c1",
+      "text": "S acḥal tibexsisin, a Dda Ɛmer ?",
+      "fr": "À combien les figues, Dda Amer ?",
+      "when": "Au marché du village, en été.",
+      "with": "Un vendeur plus âgé",
+      "register": "poli",
+      "culturalNote": "La figue (tabexsist, pluriel tibexsisin) est un symbole de la Kabylie, avec l'olivier. En août, les figues fraîches sont partout."
+    },
+    {
+      "id": "kab2-c2",
+      "text": "Yeɣla aṭas ! Ssenqes cwiṭ, ttxil-k.",
+      "fr": "C'est très cher ! Baisse un peu, s'il te plaît.",
+      "when": "Le prix annoncé te paraît trop élevé.",
+      "with": "Un vendeur (homme)",
+      "register": "neutre",
+      "culturalNote": "On marchande avec le sourire et sans insister lourdement. Pour une vendeuse, dis « ttxil-m »."
+    },
+    {
+      "id": "kab2-c3",
+      "text": "Efk-iyi yiwet n tqerɛet n zzit, ttxil-k.",
+      "fr": "Donne-moi une bouteille d'huile d'olive, s'il te plaît.",
+      "when": "Tu achètes de l'huile d'olive au village.",
+      "with": "Un producteur",
+      "register": "neutre",
+      "culturalNote": "L'huile d'olive (zzit) de Kabylie est une fierté. Beaucoup de familles ont leurs propres oliviers et vont au pressoir (tamaɛṣart) en hiver."
+    },
+    {
+      "id": "kab2-c4",
+      "text": "Ala, ala, ad xellṣeɣ nekk !",
+      "fr": "Non non, c'est moi qui paie !",
+      "when": "Au café, au moment de payer.",
+      "with": "Amis, famille",
+      "register": "familier",
+      "culturalNote": "Comme en darija, insister pour payer fait partie de la politesse. Celui qui a invité finit en général par l'emporter."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "kab2-d1",
+      "type": "chatSim",
+      "title": "Au marché avec Dda Ɛmer",
+      "contact": { "name": "Dda Ɛmer", "avatar": "👴🏼", "relation": "vendeur de figues", "register": "poli" },
+      "turns": [
+        { "from": "them", "text": "Azul a yelli ! Acu tebɣiḍ ?", "fr": "Bonjour ma fille ! Qu'est-ce que tu veux ?" },
+        {
+          "from": "me",
+          "prompt": "Salue-le et demande le prix des figues",
+          "options": [
+            { "text": "Azul a Dda Ɛmer. S acḥal tibexsisin ?", "fr": "Bonjour Dda Amer. À combien les figues ?", "score": "natural", "feedback": "Parfait : salutation respectueuse, puis la question." },
+            { "text": "Acu tebɣiḍ ?", "fr": "Qu'est-ce que tu veux ?", "score": "wrong", "feedback": "Tu lui renvoies sa propre question 😄 Demande plutôt « s acḥal ? »." },
+            { "text": "Bɣiɣ tibexsisin.", "fr": "Je veux des figues.", "score": "ok", "feedback": "Clair, mais un « azul » avant aurait été plus poli avec un aîné." }
+          ]
+        },
+        { "from": "them", "text": "Lkilu s ɛecrin alef.", "fr": "Le kilo à 20 000 (centimes), donc 200 DA." },
+        {
+          "from": "me",
+          "prompt": "Dis que c'est très cher et demande-lui de baisser un peu",
+          "build": {
+            "answer": ["yeɣla", "aṭas", "!", "ssenqes", "cwiṭ"],
+            "distractors": ["bɣiɣ", "miya"],
+            "text": "Yeɣla aṭas ! Ssenqes cwiṭ.",
+            "fr": "C'est très cher ! Baisse un peu."
+          }
+        },
+        { "from": "them", "text": "Ihi… xemsṭac alef. Akka ?", "fr": "Bon… 15 000 (centimes), donc 150 DA. Ça te va ?" },
+        {
+          "from": "me",
+          "prompt": "Accepte et remercie-le",
+          "options": [
+            { "text": "Ih, tanemmirt-ik a Dda Ɛmer !", "fr": "Oui, merci Dda Amer !", "score": "natural", "feedback": "Bravo, et le -ik est bien au masculin." },
+            { "text": "Ala, ɛecrin alef.", "fr": "Non, 200 DA.", "score": "wrong", "feedback": "Tu proposes de payer plus que son nouveau prix 😅", "reaction": { "text": "Hhh, tebɣiḍ ad txellṣeḍ ugar ? 😂", "fr": "Haha, tu veux payer plus ? 😂" } },
+            { "text": "Tanemmirt-im !", "fr": "Merci ! (au féminin)", "score": "wrong", "feedback": "-im s'adresse à une femme. Pour Dda Ɛmer : tanemmirt-ik." }
+          ]
+        },
+        { "from": "them", "text": "Tesɛiḍ ṣṣerf ?", "fr": "Tu as de la monnaie ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds que tu as seulement un billet de 1 000 dinars",
+          "build": {
+            "answer": ["sɛiɣ", "kan", "tawriqt", "n", "alef", "dinar"],
+            "distractors": ["tesɛiḍ", "aṭas"],
+            "text": "Sɛiɣ kan tawriqt n alef dinar.",
+            "fr": "J'ai seulement un billet de 1 000 dinars."
+          }
+        },
+        { "from": "them", "text": "Ulac aɣilif, ṭṭef. Ar timlilit a yelli !", "fr": "Pas de souci, tiens (ta monnaie). Au revoir ma fille !" }
+      ]
+    },
+    {
+      "id": "kab2-d2",
+      "type": "chatSim",
+      "title": "Ton cousin Massi t'écrit",
+      "contact": { "name": "Massi", "avatar": "🧑🏻", "relation": "cousin", "register": "familier" },
+      "turns": [
+        { "from": "them", "text": "Azul ! Ma tɛeddaḍ ɣer tḥanut, awi-d sin yiɣrumen 🙏", "fr": "Salut ! Si tu passes à la boutique, ramène deux pains 🙏" },
+        {
+          "from": "me",
+          "prompt": "Accepte",
+          "options": [
+            { "text": "Ih, ulac aɣilif !", "fr": "Oui, pas de souci !", "score": "natural", "feedback": "Naturel et sympa." },
+            { "text": "Ala, tanemmirt.", "fr": "Non, merci.", "score": "wrong", "feedback": "Tu viens de refuser… Massi risque de bouder 😄" },
+            { "text": "Sin ? Ih.", "fr": "Deux ? Oui.", "score": "ok", "feedback": "Ça marche, un peu télégraphique." }
+          ]
+        },
+        { "from": "them", "text": "Saḥit ! Tesɛiḍ idrimen ?", "fr": "Merci ! Tu as des sous ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds que oui, tu en as",
+          "options": [
+            { "text": "Ih, sɛiɣ.", "fr": "Oui, j'en ai.", "score": "natural", "feedback": "Parfait : sɛiɣ = j'ai." },
+            { "text": "Ih, tesɛiḍ.", "fr": "Oui, tu en as.", "score": "wrong", "feedback": "Tesɛiḍ = tu as. Pour toi-même : sɛiɣ." },
+            { "text": "Ur sɛiɣ ara.", "fr": "Je n'en ai pas.", "score": "ok", "feedback": "Grammaticalement juste, mais ce n'est pas la réponse demandée !" }
+          ]
+        },
+        { "from": "them", "text": "Ayuz ! Ar tura 👋", "fr": "Super ! À tout à l'heure 👋" }
+      ]
+    }
+  ],
+
+  "exercises": [
+    {
+      "id": "kab2-e1",
+      "type": "matchPairs",
+      "instruction": "Relie chaque chiffre à sa valeur",
+      "pairs": ["kab2-yiwen", "kab2-sin", "kab2-krad", "kab2-rebea", "kab2-xemsa", "kab2-ecra"]
+    },
+    {
+      "id": "kab2-e2",
+      "type": "mcq",
+      "instruction": "Le vendeur annonce « xemsin alef ». Combien vas-tu payer ?",
+      "options": ["500 DA", "50 DA", "50 000 DA"],
+      "answer": "500 DA",
+      "explanation": "Le prix est en centimes : 50 000 centimes ÷ 100 = 500 DA."
+    },
+    {
+      "id": "kab2-e3",
+      "type": "letterHunt",
+      "instruction": "Quelle lettre kabyle manque ?",
+      "items": [
+        { "masked": "reb_a", "answer": "ɛ", "full": "rebɛa" },
+        { "masked": "a_rum", "answer": "ɣ", "full": "aɣrum" },
+        { "masked": "ac_al ?", "answer": "ḥ", "full": "acḥal ?" },
+        { "masked": "ye_la aṭas", "answer": "ɣ", "full": "yeɣla aṭas" }
+      ],
+      "options": ["ɛ", "ɣ", "ḥ", "g"]
+    },
+    {
+      "id": "kab2-e4",
+      "type": "mcq",
+      "instruction": "Comment dit-on 25 ?",
+      "options": ["xemsa w ɛecrin", "ɛecrin w xemsa", "xemsin"],
+      "answer": "xemsa w ɛecrin",
+      "explanation": "L'unité d'abord : « cinq et vingt ». Xemsin, c'est 50."
+    },
+    {
+      "id": "kab2-e5",
+      "type": "cloze",
+      "instruction": "Complète l'échange",
+      "lines": [
+        { "who": "Toi", "text": "{{1}} tibexsisin ?" },
+        { "who": "Dda Ɛmer", "text": "Lkilu s ɛecrin alef. Tesɛiḍ ṣṣerf ?" },
+        { "who": "Toi", "text": "Ala, ur {{2}} ara." }
+      ],
+      "blanks": {
+        "1": { "options": ["S acḥal", "Acu", "Ansi"], "answer": "S acḥal" },
+        "2": { "options": ["sɛiɣ", "tesɛiḍ", "yesɛa"], "answer": "sɛiɣ", "hint": "Tu parles de toi : sɛiɣ (j'ai)." }
+      },
+      "explanation": "S acḥal = à combien. Ur sɛiɣ ara = je n'ai pas."
+    },
+    {
+      "id": "kab2-e6",
+      "type": "genreHunt",
+      "instruction": "Il y a une erreur d'accord. Touche le mot fautif.",
+      "context": "Taqerɛet (bouteille) est un mot féminin.",
+      "tokens": ["Efk-iyi", "yiwen", "n", "tqerɛet", "n", "zzit", "."],
+      "intruderIndex": 1,
+      "fix": "yiwet",
+      "explanation": "Les mots en ta…t sont féminins : on dit « yiwet », pas « yiwen »."
+    },
+    {
+      "id": "kab2-e7",
+      "type": "genreHunt",
+      "instruction": "Trouve l'erreur de genre",
+      "context": "Tu parles à Dda Ɛmer.",
+      "tokens": ["Tanemmirt-im", ",", "a", "Dda", "Ɛmer", "!"],
+      "intruderIndex": 0,
+      "fix": "Tanemmirt-ik",
+      "explanation": "Dda Ɛmer est un homme : -ik."
+    },
+    {
+      "id": "kab2-e8",
+      "type": "registerSort",
+      "instruction": "À qui dirais-tu ça ?",
+      "bins": [
+        { "id": "elder", "label": "Dda Ɛmer (vendeur âgé)", "avatar": "👴🏼" },
+        { "id": "friend", "label": "Massi (ton cousin)", "avatar": "🧑🏻" }
+      ],
+      "items": [
+        { "text": "Azul a Dda Ɛmer, s acḥal ?", "bin": "elder" },
+        { "text": "Awi-d aɣrum, saḥit !", "bin": "friend" },
+        { "text": "Ssenqes cwiṭ, ttxil-k.", "bin": "elder" },
+        { "text": "Ayuz, ar tura !", "bin": "friend" }
+      ],
+      "explanation": "Les ordres directs (« awi-d ! ») et « saḥit » sont familiers. Avec un aîné : « Dda », « ttxil-k »."
+    },
+    {
+      "id": "kab2-e9",
+      "type": "sentenceBuilder",
+      "instruction": "Traduis : « Donne-moi deux pains, s'il te plaît » (à un homme)",
+      "fr": "Donne-moi deux pains, s'il te plaît",
+      "answer": ["efk-iyi", "sin", "yiɣrumen", ",", "ttxil-k"],
+      "distractors": ["snat", "ttxil-m"],
+      "explanation": "Aɣrum est masculin, donc « sin ». À un homme : « ttxil-k »."
+    },
+    {
+      "id": "kab2-e10",
+      "type": "typeAnswer",
+      "instruction": "Écris en kabyle : « C'est très cher ! »",
+      "fr": "C'est très cher !",
+      "accept": ["yeɣla aṭas", "yeɣla"],
+      "asciiTolerance": true,
+      "explanation": "Sans clavier kabyle, « yeghla atas » est accepté."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["kab2-yiwen", "kab2-sin", "kab2-krad", "kab2-xemsa", "kab2-ecra", "kab2-achal", "kab2-yeghla", "kab2-efk", "kab2-ssenqes", "kab2-s3igh"],
+    "bonus": ["kab2-rebea", "kab2-setta", "kab2-sebea", "kab2-tmanya", "kab2-tesea", "kab2-ecrin", "kab2-miya", "kab2-alef", "kab2-idrimen", "kab2-atas", "kab2-bghigh", "kab2-sserf", "kab2-xelles", "kab2-kan"]
+  }
+}

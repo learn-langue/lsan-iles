@@ -18,6 +18,11 @@ npm run build      # site statique dans dist/
 
 Le dossier `dist/` peut être ouvert avec n'importe quel hébergeur statique (GitHub Pages, Netlify) ou servi en local avec `npm run preview`. Les routes utilisent `#/`, donc aucune configuration serveur n'est nécessaire.
 
+## Mise en ligne
+
+Chaque push sur `main` lance `.github/workflows/deploy.yml` : tests, build, puis publication sur GitHub Pages.
+Pour l'activer une fois : **Settings → Pages → Source : GitHub Actions**. L'adresse du site est publique, même si le dépôt est privé.
+
 ## Ce qu'il y a dedans
 
 | Module | Contenu |

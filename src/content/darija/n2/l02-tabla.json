@@ -1,0 +1,270 @@
+{
+  "id": "dz-n2-l02",
+  "language": "darija",
+  "level": 2,
+  "order": 2,
+  "title": "Arwahi tekli ! À table",
+  "goal": "Nommer les plats et boissons du quotidien, dire faim, soif ou « j'ai assez mangé », et réagir comme il faut quand on est invité·e.",
+  "estimatedMinutes": 12,
+  "regionNote": "Le couscous s'appelle « ta3am » à Alger et dans beaucoup de régions, « kesksou » ou « seksou » ailleurs. La garantita (flan de pois chiches) s'appelle « karantika » à Oran.",
+
+  "grammarNotes": [
+    {
+      "id": "dz5-g-imperatif",
+      "title": "L'impératif : -i pour une femme, -ou pour plusieurs",
+      "body": "Pour inviter ou donner un ordre : koul (mange !, à un homme), kouli (à une femme), koulou (à plusieurs). Même chose pour arwah / arwahi / arwahou (viens !) et zid / zidi / zidou (reprends-en !).",
+      "examples": [
+        { "chat": "Arwahi, kouli !", "fr": "Viens, mange ! (à une femme)" },
+        { "chat": "Tfaddlou !", "fr": "Servez-vous, je vous en prie !" }
+      ]
+    },
+    {
+      "id": "dz5-g-etat",
+      "title": "Rani + état : faim, soif, rassasié·e",
+      "body": "Pour un état passager, on utilise rani + adjectif, accordé : rani ji3an (homme) / ji3ana (femme) = j'ai faim ; rani 3atchan / 3atchana = j'ai soif. Pour « j'ai assez mangé », on utilise le passé : chba3t.",
+      "examples": [
+        { "chat": "Rani ji3ana bezzaf !", "fr": "J'ai très faim ! (une femme parle)" },
+        { "chat": "Chba3t, l7amdoulah.", "fr": "J'ai assez mangé, Dieu merci." }
+      ]
+    },
+    {
+      "id": "dz5-g-gout",
+      "title": "Aimer / ne pas aimer : n7ebb / ma n7ebbch",
+      "body": "On retrouve n7ebb (leçon des chiffres) et la négation en sandwich : ma n7ebbch = je n'aime pas. Pour refuser poliment un plat, on ajoute souvent une excuse : « smahli, ma n7ebbch l7ar » (désolé·e, je n'aime pas le piquant).",
+      "examples": [
+        { "chat": "N7ebb ta3am bezzaf.", "fr": "J'adore le couscous." },
+        { "chat": "Ma n7ebbch l7ar.", "fr": "Je n'aime pas le piquant." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "dz5-koul", "chat": "koul / kouli", "latin": "koul / kouli", "ar": "كول / كولي", "fr": "Mange ! (à un homme / à une femme)", "pos": "verbe", "register": "neutre", "mnemonic": "Koul → « cool » : mange, détends-toi.", "variants": ["nakoul (je mange)", "klit (j'ai mangé)"] },
+    { "id": "dz5-nechrob", "chat": "nechrob", "latin": "nechrob", "ar": "نشرب", "fr": "Je bois", "pos": "verbe", "register": "neutre", "mnemonic": "Chrob → « sirop » : même racine que « sorbet » et « sirop » !" },
+    { "id": "dz5-lma", "chat": "lma", "latin": "lma", "ar": "الما", "fr": "L'eau", "pos": "nom", "register": "neutre", "mnemonic": "Lma → « lama », qui crache de l'eau." },
+    { "id": "dz5-khobz", "chat": "khobz", "latin": "khobz", "ar": "خبز", "fr": "Le pain", "pos": "nom", "register": "neutre", "mnemonic": "« Khobzat » = des baguettes (leçon des chiffres).", "note": "Le pain est sacré : on ne le jette jamais. S'il tombe, on le ramasse et on le pose à part, en hauteur." },
+    { "id": "dz5-l7am", "chat": "l7am / djaj", "latin": "lḥam / djaj", "ar": "اللحم / الدجاج", "fr": "La viande / le poulet", "pos": "nom", "register": "neutre", "mnemonic": "Djaj → « déjà » : le poulet est déjà prêt." },
+    { "id": "dz5-ta3am", "chat": "ta3am", "latin": "ṭaʿam", "ar": "طعام", "fr": "Le couscous", "pos": "nom", "register": "neutre", "mnemonic": "Ta3am veut dire « nourriture » : le couscous, c'est LA nourriture.", "variants": ["kesksou", "seksou"] },
+    { "id": "dz5-chorba", "chat": "chorba", "latin": "chorba", "ar": "شربة", "fr": "La soupe (chorba)", "pos": "nom", "register": "neutre", "mnemonic": "Même racine que « chrob » (boire) : la soupe se boit.", "note": "La chorba frik est le plat incontournable du ftour pendant le Ramadan." },
+    { "id": "dz5-qahwa", "chat": "qahwa / atay", "latin": "qahwa / atay", "ar": "قهوة / أتاي", "fr": "Le café / le thé", "pos": "nom", "register": "neutre", "mnemonic": "Qahwa → « café » (même origine !). Atay ressemble à « thé ».", "variants": ["gahwa", "thé"] },
+    { "id": "dz5-bnin", "chat": "bnin", "latin": "bnin", "ar": "بنين", "fr": "Délicieux, bon", "pos": "adjectif", "register": "neutre", "mnemonic": "Bnin → « bonbon » : c'est bon !", "variants": ["bnina (au féminin)"] },
+    { "id": "dz5-saha-yeddik", "chat": "saha l yeddik", "latin": "ṣaḥḥa l yeddik", "ar": "صحة ليديك", "fr": "Bravo au cuisinier (mot à mot « santé à tes mains »)", "pos": "expression", "register": "neutre", "mnemonic": "On félicite les mains qui ont cuisiné.", "note": "Le compliment indispensable à la fin d'un repas chez quelqu'un." },
+    { "id": "dz5-chba3t", "chat": "chba3t", "latin": "chbaʿt", "ar": "شبعت", "fr": "J'ai assez mangé, je suis rassasié·e", "pos": "verbe", "register": "neutre", "mnemonic": "Chba3t → « j'ai mes sept (seb3a) assiettes » : je n'en peux plus !" },
+    { "id": "dz5-ji3an", "chat": "rani ji3an / ji3ana", "latin": "rani jiʿan / jiʿana", "ar": "راني جيعان / جيعانة", "fr": "J'ai faim (homme / femme)", "pos": "expression", "register": "neutre", "mnemonic": "Ji3an → « gêné » par un ventre qui gargouille." },
+    { "id": "dz5-3atchan", "chat": "rani 3atchan / 3atchana", "latin": "rani ʿaṭchan / ʿaṭchana", "ar": "راني عطشان / عطشانة", "fr": "J'ai soif (homme / femme)", "pos": "expression", "register": "neutre", "mnemonic": "3atchan → « atchoum »… avec la gorge sèche." },
+    { "id": "dz5-zid", "chat": "zid / zidi", "latin": "zid / zidi", "ar": "زيد / زيدي", "fr": "Reprends-en ! Encore ! (homme / femme)", "pos": "verbe", "register": "neutre", "mnemonic": "Zid → « zèle » : l'hôte est zélé, il te ressert." },
+    { "id": "dz5-tfaddal", "chat": "tfaddal / tfaddli", "latin": "tfaḍḍal / tfaḍḍli", "ar": "تفضّل / تفضّلي", "fr": "Je t'en prie, sers-toi, entre (homme / femme)", "pos": "expression", "register": "poli", "mnemonic": "Le « faites donc » de l'hospitalité algérienne." },
+    { "id": "dz5-arwah", "chat": "arwah / arwahi", "latin": "arwaḥ / arwaḥi", "ar": "أرواح / أرواحي", "fr": "Viens ! (homme / femme)", "pos": "verbe", "register": "neutre", "mnemonic": "Arwah → « arrive » !" },
+    { "id": "dz5-bismillah", "chat": "bismillah", "latin": "bismillah", "ar": "بسم الله", "fr": "Au nom de Dieu (avant de manger)", "pos": "expression", "register": "neutre", "mnemonic": "On le dit en commençant : manger, entrer, démarrer la voiture…", "note": "Même les non-pratiquants le disent souvent par habitude." },
+    { "id": "dz5-l7ar", "chat": "l7ar", "latin": "lḥar", "ar": "الحار", "fr": "Le piquant (piment)", "pos": "nom", "register": "neutre", "mnemonic": "Même racine que « harissa » : ça brûle !" }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "dz5-c1",
+      "chat": "Arwahou, tfaddlou ! Bismillah.",
+      "fr": "Venez, servez-vous ! Bon appétit.",
+      "when": "L'hôte invite tout le monde à table.",
+      "with": "Invités",
+      "register": "poli",
+      "culturalNote": "On attend que l'hôte ou le plus âgé commence. Traditionnellement, on mange de la main droite et dans le plat commun, on se sert devant soi."
+    },
+    {
+      "id": "dz5-c2",
+      "chat": "Bnin bezzaf ! Saha l yeddik, khalti.",
+      "fr": "C'est délicieux ! Bravo, ma tante.",
+      "when": "Pendant ou après le repas.",
+      "with": "La personne qui a cuisiné",
+      "register": "poli",
+      "culturalNote": "Complimenter la cuisine est attendu. Oublier de le faire peut vexer, même si personne ne le dira."
+    },
+    {
+      "id": "dz5-c3",
+      "chat": "Chba3t, l7amdoulah… sah, chba3t !",
+      "fr": "J'ai assez mangé, Dieu merci… vraiment, j'ai assez mangé !",
+      "when": "L'hôte te ressert pour la troisième fois.",
+      "with": "L'hôte",
+      "register": "neutre",
+      "culturalNote": "L'hôte insiste toujours, c'est de la politesse. Il faut souvent refuser plusieurs fois, en souriant, pour qu'il comprenne que tu as vraiment fini."
+    },
+    {
+      "id": "dz5-c4",
+      "chat": "Smahili khalti, ma n7ebbch l7ar.",
+      "fr": "Désolée ma tante, je n'aime pas le piquant.",
+      "when": "On te propose un plat trop épicé.",
+      "with": "L'hôte",
+      "register": "poli",
+      "culturalNote": "Refuser un plat passe mieux avec une excuse et un compliment sur le reste du repas."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "dz5-d1",
+      "type": "chatSim",
+      "title": "Dîner chez Khalti Fatiha",
+      "contact": { "name": "Khalti Fatiha", "avatar": "👵🏽", "relation": "tante", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "chat": "Arwahi benti, tfaddli ! Dert ta3am 😊", "fr": "Viens ma fille, je t'en prie ! J'ai fait du couscous 😊" },
+        {
+          "from": "me",
+          "prompt": "Remercie-la et commence le repas",
+          "options": [
+            { "chat": "Ya3tik saha khalti ! Bismillah.", "fr": "Merci ma tante ! Bon appétit.", "score": "natural", "feedback": "Parfait : remerciement et « bismillah »." },
+            { "chat": "Ma n7ebbch ta3am.", "fr": "Je n'aime pas le couscous.", "score": "wrong", "feedback": "Aïe… refuser le couscous de ta tante, c'est presque un drame familial 😅", "reaction": { "chat": "Kifach ?! Ta3am ta3 khaltek ?! 😱", "fr": "Comment ?! Le couscous de ta tante ?! 😱" } },
+            { "chat": "Rani 3atchana.", "fr": "J'ai soif.", "score": "ok", "feedback": "Juste, mais commence par la remercier." }
+          ]
+        },
+        { "from": "them", "chat": "Kifach, bnin ?", "fr": "Alors, c'est bon ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que c'est délicieux et félicite-la",
+          "build": {
+            "answer": ["bnin", "bezzaf", "!", "saha", "l", "yeddik"],
+            "distractors": ["ji3ana", "koul"],
+            "fr": "C'est délicieux ! Bravo à toi"
+          }
+        },
+        { "from": "them", "chat": "Zidi, zidi ! Kouli mlih !", "fr": "Reprends-en, reprends-en ! Mange bien !" },
+        {
+          "from": "me",
+          "prompt": "Refuse poliment : tu as assez mangé",
+          "options": [
+            { "chat": "Saha khalti, chba3t l7amdoulah !", "fr": "Merci ma tante, j'ai assez mangé, Dieu merci !", "score": "natural", "feedback": "Bien : remercier + « chba3t » + « l7amdoulah »." },
+            { "chat": "Wah, zidi !", "fr": "Oui, reprends-en ! (à elle)", "score": "wrong", "feedback": "Tu lui demandes à ELLE de se resservir 😄" },
+            { "chat": "La.", "fr": "Non.", "score": "ok", "feedback": "Un « non » sec sonne impoli. Ajoute un merci et une formule." }
+          ]
+        },
+        { "from": "them", "chat": "Ma kliti walou ! Ndirlek atay ?", "fr": "Tu n'as rien mangé ! Je te fais du thé ?" },
+        {
+          "from": "me",
+          "prompt": "Accepte le thé",
+          "options": [
+            { "chat": "Wah, ya3tik saha !", "fr": "Oui, merci !", "score": "natural", "feedback": "Accepter le thé fait plaisir à l'hôte." },
+            { "chat": "Nakoul atay.", "fr": "Je mange le thé.", "score": "wrong", "feedback": "Le thé se boit : nechrob atay." },
+            { "chat": "La, saha, rani mliha hakda.", "fr": "Non merci, je suis bien comme ça.", "score": "ok", "feedback": "Poli, mais elle insistera sûrement 😄" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dz5-d2",
+      "type": "chatSim",
+      "title": "Amine a faim",
+      "contact": { "name": "Amine", "avatar": "🧑🏻", "relation": "cousin", "register": "familier" },
+      "turns": [
+        { "from": "them", "chat": "Rani ji3an bezzaf 😩 Nakoulou pizza wella garantita ?", "fr": "J'ai super faim 😩 On mange une pizza ou de la garantita ?" },
+        {
+          "from": "me",
+          "prompt": "Choisis la garantita",
+          "options": [
+            { "chat": "Garantita ! B lharissa w lkemmoun 😋", "fr": "Garantita ! Avec harissa et cumin 😋", "score": "natural", "feedback": "Le combo classique de la garantita, bien vu !" },
+            { "chat": "Nechrob garantita.", "fr": "Je bois de la garantita.", "score": "wrong", "feedback": "La garantita se mange (nakoul), même si elle est bien fondante 😄" },
+            { "chat": "Rani ji3ana tani !", "fr": "Moi aussi j'ai faim !", "score": "ok", "feedback": "Juste, mais tu n'as pas choisi !" }
+          ]
+        },
+        { "from": "them", "chat": "Top ! Ana nkhalles lyoum.", "fr": "Top ! C'est moi qui paie aujourd'hui." },
+        {
+          "from": "me",
+          "prompt": "Fais le rituel : insiste pour payer",
+          "options": [
+            { "chat": "La la, ana nkhalles !", "fr": "Non non, c'est moi qui paie !", "score": "natural", "feedback": "Le rituel est respecté 😄" },
+            { "chat": "Saha, ya3tik saha !", "fr": "Merci beaucoup !", "score": "ok", "feedback": "Entre cousins ça passe, mais protester un peu est plus élégant." },
+            { "chat": "Rani 3atchana.", "fr": "J'ai soif.", "score": "wrong", "feedback": "Ça ne répond pas à sa proposition." }
+          ]
+        },
+        { "from": "them", "chat": "Hhh nchoufou ! Arwahi, rani qoddam l7anout.", "fr": "Haha on verra ! Viens, je suis devant la boutique." }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "id": "dz5-e1", "type": "matchPairs", "instruction": "Relie chaque mot à sa traduction", "pairs": ["dz5-lma", "dz5-khobz", "dz5-ta3am", "dz5-chorba", "dz5-bnin", "dz5-chba3t"] },
+    {
+      "id": "dz5-e2", "type": "mcq",
+      "instruction": "Ton hôtesse te ressert pour la troisième fois. Que dis-tu ?",
+      "options": ["Chba3t, l7amdoulah !", "Zidi !", "Ma n7ebbch."], "answer": "Chba3t, l7amdoulah !",
+      "explanation": "On refuse poliment, avec « l7amdoulah », et souvent plusieurs fois."
+    },
+    {
+      "id": "dz5-e3", "type": "mcq",
+      "instruction": "Un morceau de pain tombe par terre. Que fait-on ?",
+      "options": ["On le ramasse et on le pose à part", "On le jette à la poubelle", "On le laisse par terre"], "answer": "On le ramasse et on le pose à part",
+      "explanation": "Le pain est sacré : on ne le jette pas et on ne le laisse pas au sol."
+    },
+    {
+      "id": "dz5-e4", "type": "cloze",
+      "instruction": "Khalti parle à Lina. Choisis la bonne forme.",
+      "lines": [
+        { "who": "Khalti → Lina", "chat": "{{1}} benti, tfaddli !" },
+        { "who": "Khalti → Lina", "chat": "{{2}} mlih !" }
+      ],
+      "blanks": {
+        "1": { "options": ["Arwahi", "Arwah", "Arwahou"], "answer": "Arwahi", "hint": "Lina est une femme : -i." },
+        "2": { "options": ["Kouli", "Koul", "Koulou"], "answer": "Kouli", "hint": "Une seule personne, une femme : -i." }
+      },
+      "explanation": "À une femme, l'impératif prend -i : arwahi, kouli."
+    },
+    {
+      "id": "dz5-e5", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Khalti invite Lina à table.",
+      "tokens": ["Arwah", ",", "Lina", ",", "kouli", "!"],
+      "intruderIndex": 0, "fix": "Arwahi",
+      "explanation": "Lina est une femme : arwahi (comme kouli)."
+    },
+    {
+      "id": "dz5-e6", "type": "registerHunt",
+      "instruction": "Un mot d'arabe littéraire s'est glissé. Touche-le.",
+      "tokens": ["Had", "ta3am", "ladhidh", "bezzaf", "!"],
+      "intruderIndex": 2, "fix": "bnin",
+      "explanation": "« Ladhidh » est littéraire. En darija : « bnin »."
+    },
+    {
+      "id": "dz5-e7", "type": "hiddenDigit",
+      "instruction": "Quel chiffre manque ? (3 = ع, 7 = ح)",
+      "items": [
+        { "masked": "l_am", "answer": "7", "full": "l7am" },
+        { "masked": "rani _atchana", "answer": "3", "full": "rani 3atchana" },
+        { "masked": "chba_t", "answer": "3", "full": "chba3t" },
+        { "masked": "ta_am", "answer": "3", "full": "ta3am" }
+      ],
+      "options": ["3", "7", "9"]
+    },
+    {
+      "id": "dz5-e8", "type": "registerSort",
+      "instruction": "Où entendrais-tu ça ?",
+      "bins": [
+        { "id": "elder", "label": "Dîner chez Khalti", "avatar": "👵🏽" },
+        { "id": "friend", "label": "Snack avec Amine", "avatar": "🧑🏻" }
+      ],
+      "items": [
+        { "chat": "Saha l yeddik, khalti !", "bin": "elder" },
+        { "chat": "Garantita wella pizza ?", "bin": "friend" },
+        { "chat": "Bnin bezzaf, ya3tik saha.", "bin": "elder" },
+        { "chat": "Rani ji3an, arwah nakoulou !", "bin": "friend" }
+      ],
+      "explanation": "Chez une aînée : compliments et remerciements appuyés. Entre cousins : on va droit au but."
+    },
+    {
+      "id": "dz5-e9", "type": "sentenceBuilder",
+      "instruction": "Traduis : « Je n'aime pas le piquant »",
+      "fr": "Je n'aime pas le piquant",
+      "answer": ["ma", "n7ebbch", "l7ar"],
+      "distractors": ["n7ebb", "bnin"],
+      "explanation": "Négation en sandwich : ma + n7ebb + ch."
+    },
+    {
+      "id": "dz5-e10", "type": "typeAnswer",
+      "instruction": "Écris en darija : « J'ai faim »",
+      "fr": "J'ai faim",
+      "accept": ["rani ji3ana", "rani ji3an", "ji3ana", "ji3an"],
+      "explanation": "Ji3an pour un homme, ji3ana pour une femme ; « rani » est fréquent devant."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["dz5-koul", "dz5-lma", "dz5-khobz", "dz5-ta3am", "dz5-bnin", "dz5-saha-yeddik", "dz5-chba3t", "dz5-ji3an", "dz5-zid", "dz5-tfaddal"],
+    "bonus": ["dz5-nechrob", "dz5-l7am", "dz5-chorba", "dz5-qahwa", "dz5-3atchan", "dz5-arwah", "dz5-bismillah", "dz5-l7ar"]
+  }
+}

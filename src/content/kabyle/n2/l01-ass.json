@@ -1,0 +1,262 @@
+{
+  "id": "kab-n2-l01",
+  "language": "kabyle",
+  "level": 2,
+  "order": 1,
+  "title": "Ass-iw… Raconter sa journée",
+  "goal": "Dire l'heure, nommer les jours, raconter ce qu'on a fait (passé) et ce qu'on va faire (futur avec « ad »).",
+  "estimatedMinutes": 12,
+  "regionNote": "Kabyle courant de Grande Kabylie. Pour « avant / après », on entend « send / seld » et aussi « uqbel / mbeɛd ».",
+
+  "grammarNotes": [
+    {
+      "id": "kab4-g-passe",
+      "title": "Le passé : mêmes marques …eɣ / t…eḍ",
+      "body": "Le passé garde les marques de personne déjà vues : kkreɣ (je me suis levé·e), tekkreḍ (tu t'es levé·e), ikker (il s'est levé), tekker (elle s'est levée). Pour beaucoup de verbes, c'est le contexte (iḍelli = hier) qui situe dans le passé.",
+      "examples": [
+        { "text": "Iḍelli xedmeɣ aṭas.", "fr": "Hier, j'ai beaucoup travaillé." },
+        { "text": "Kkreɣ zik.", "fr": "Je me suis levé·e tôt." }
+      ]
+    },
+    {
+      "id": "kab4-g-ad",
+      "title": "Le futur : « ad » devant le verbe",
+      "body": "Pour le futur, on place « ad » devant le verbe : ad ṛuḥeɣ (j'irai), ad tṛuḥeḍ (tu iras). Dans une question avec un mot interrogatif, « ad » devient « ara » : acu ara txedmeḍ ? (que feras-tu ?).",
+      "examples": [
+        { "text": "Azekka ad ṛuḥeɣ ɣer Tigzirt.", "fr": "Demain, j'irai à Tigzirt." },
+        { "text": "Acu ara txedmeḍ ssebt ?", "fr": "Que feras-tu samedi ?" }
+      ]
+    },
+    {
+      "id": "kab4-g-heure",
+      "title": "L'heure : « ɣef » + chiffre",
+      "body": "« Acḥal i tella tsaɛet ? » = quelle heure est-il ? Réponse : « d tmanya » (il est 8 h). Pour « à … heures », on dit « ɣef » + chiffre : ɣef tmanya (à 8 h). On ajoute « d nnefṣ » (et demie) ou « d rrbeɛ » (et quart).",
+      "examples": [
+        { "text": "Tura d tesɛa d nnefṣ.", "fr": "Il est 9 h 30." },
+        { "text": "Kkreɣ ɣef sebɛa.", "fr": "Je me suis levé·e à 7 h." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "kab4-assa", "text": "ass-a", "ascii": "ass-a", "fr": "Aujourd'hui", "pos": "mot", "register": "neutre", "mnemonic": "« Ass » = jour, « -a » = ce. Ass-a = ce jour-ci." },
+    { "id": "kab4-azekka", "text": "azekka", "ascii": "azekka", "fr": "Demain", "pos": "mot", "register": "neutre", "mnemonic": "Comme dans « ar azekka » (à demain), vu en niveau 1." },
+    { "id": "kab4-idelli", "text": "iḍelli", "ascii": "idelli", "fr": "Hier", "pos": "mot", "register": "neutre", "mnemonic": "Iḍelli → « il y a délai » : c'est passé." },
+    { "id": "kab4-tura", "text": "tura", "ascii": "tura", "fr": "Maintenant", "pos": "mot", "register": "neutre", "mnemonic": "Comme dans « ar tura » (à tout de suite)." },
+    { "id": "kab4-tasebhit", "text": "taṣebḥit / tameddit / iḍ", "ascii": "tasebhit / tameddit / id", "fr": "Le matin / l'après-midi, le soir / la nuit", "pos": "nom", "register": "neutre", "mnemonic": "Taṣebḥit rappelle « sbaḥ ». Iḍ comme dans « iḍ ameggaz » (bonne nuit)." },
+    { "id": "kab4-saeet", "text": "acḥal i tella tsaɛet ?", "ascii": "achal i tella tsa3et ?", "fr": "Quelle heure est-il ?", "pos": "expression", "register": "neutre", "mnemonic": "Tasaɛet = l'heure, la montre, comme le « ssa3a » darija." },
+    { "id": "kab4-nnefs", "text": "d nnefṣ / d rrbeɛ", "ascii": "d nnefs / d rrbe3", "fr": "Et demie / et quart", "pos": "expression", "register": "neutre", "mnemonic": "Nnefṣ = moitié, rrbeɛ = quart, comme en darija (nos, rob3)." },
+    { "id": "kab4-kker", "text": "kkreɣ", "ascii": "kkregh", "fr": "Je me suis levé·e", "pos": "verbe", "register": "neutre", "mnemonic": "« Kker ! » = lève-toi ! Kkreɣ = je me suis levé·e.", "variants": ["ttekkreɣ (je me lève, d'habitude)", "kker ! (lève-toi !)"] },
+    { "id": "kab4-ruh", "text": "ad ṛuḥeɣ", "ascii": "ad ruhegh", "fr": "J'irai, je vais aller", "pos": "verbe", "register": "neutre", "mnemonic": "Ṛuḥ = aller, comme le « rouh » darija.", "variants": ["ṛuḥeɣ (je suis allé·e)"] },
+    { "id": "kab4-ughal", "text": "uɣaleɣ-d", "ascii": "ughalegh-d", "fr": "Je suis rentré·e, je suis revenu·e", "pos": "verbe", "register": "neutre", "mnemonic": "Le « -d » indique le retour vers ici.", "variants": ["ad d-uɣaleɣ (je rentrerai)"] },
+    { "id": "kab4-ttes", "text": "ṭṭseɣ", "ascii": "ttsegh", "fr": "J'ai dormi, je dors", "pos": "verbe", "register": "neutre", "mnemonic": "Ṭṭes → « tête » sur l'oreiller.", "variants": ["ttgen (dormir, habitude ou négation)"] },
+    { "id": "kab4-eyigh", "text": "ɛyiɣ", "ascii": "3yigh", "fr": "Je suis fatigué·e", "pos": "verbe", "register": "neutre", "mnemonic": "ɛyiɣ → « ouille, aïe » : je suis crevé·e." },
+    { "id": "kab4-zik", "text": "zik", "ascii": "zik", "fr": "Tôt (et aussi « autrefois »)", "pos": "mot", "register": "neutre", "mnemonic": "Zik → « zigzag » du réveil matinal." },
+    { "id": "kab4-yal", "text": "yal ass / tikwal", "ascii": "yal ass / tikwal", "fr": "Chaque jour / parfois", "pos": "mot", "register": "neutre", "mnemonic": "Yal = chaque. Tikwal → « tic » de temps en temps." },
+    { "id": "kab4-urzrig", "text": "ur ẓriɣ ara", "ascii": "ur zrigh ara", "fr": "Je ne sais pas", "pos": "expression", "register": "neutre", "mnemonic": "Encore le sandwich ur … ara." },
+    { "id": "kab4-ussan", "text": "lḥedd, letnayen, ttlata, larbeɛ, lexmis, lǧemɛa, ssebt", "ascii": "lhedd, letnayen, ttlata, larbe3, lexmis, ljem3a, ssebt", "fr": "Dimanche, lundi, mardi, mercredi, jeudi, vendredi, samedi", "pos": "nom", "register": "neutre", "mnemonic": "Presque les mêmes qu'en darija ! « Ass n » (le jour de) peut précéder : ass n lǧemɛa.", "note": "Comme partout en Algérie, le week-end, c'est vendredi et samedi." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "kab4-c1",
+      "text": "Kker, ad tɛeṭṭleḍ !",
+      "fr": "Lève-toi, tu vas être en retard !",
+      "when": "Le matin, à la maison.",
+      "with": "Une mère à son enfant",
+      "register": "familier",
+      "culturalNote": "Au pluriel : « kkret ! ». Une phrase que beaucoup d'enfants de la diaspora connaissent avant même de parler kabyle 😄"
+    },
+    {
+      "id": "kab4-c2",
+      "text": "Ass-a xedmeɣ aṭas, ɛyiɣ !",
+      "fr": "Aujourd'hui j'ai beaucoup travaillé, je suis fatigué·e !",
+      "when": "Le soir, on te demande comment s'est passée ta journée.",
+      "with": "Famille, amis",
+      "register": "neutre",
+      "culturalNote": "On te répondra peut-être « Ṛebbi ad k/m-iɛiwen » (que Dieu t'aide)."
+    },
+    {
+      "id": "kab4-c3",
+      "text": "Ur ẓriɣ ara, ad nwali azekka.",
+      "fr": "Je ne sais pas, on verra demain.",
+      "when": "On te demande tes plans et tu n'as rien décidé.",
+      "with": "Amis",
+      "register": "familier",
+      "culturalNote": "« Ad nwali » = on verra. Pratique pour rester vague sans vexer."
+    },
+    {
+      "id": "kab4-c4",
+      "text": "Lǧemɛa d ssebt d ussan n usteɛfu.",
+      "fr": "Vendredi et samedi sont les jours de repos.",
+      "when": "Tu parles de la semaine en Algérie.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "Le vendredi, beaucoup de familles se retrouvent au village pour le déjeuner."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "kab4-d1",
+      "type": "chatSim",
+      "title": "Yemma s'inquiète",
+      "contact": { "name": "Yemma", "avatar": "👩🏽‍🦱", "relation": "maman", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "text": "Anda telliḍ a yelli ? Tura d ɛecra, mazal ur d-tuɣaleḍ ara !", "fr": "Où es-tu ma fille ? Il est 10 h, tu n'es toujours pas rentrée !" },
+        {
+          "from": "me",
+          "prompt": "Rassure-la : tu es dans le tram, tu arrives",
+          "options": [
+            { "text": "Ssmeḥ-iyi a yemma, aql-i deg ṭṭramway, ad d-aseɣ !", "fr": "Pardon maman, je suis dans le tram, j'arrive !", "score": "natural", "feedback": "Parfait : « aql-i » = me voici, « ad d-aseɣ » = je vais arriver." },
+            { "text": "Ṭṭseɣ.", "fr": "Je dors.", "score": "wrong", "feedback": "Elle te demande où tu es… et tu lui dis que tu dors 😅", "reaction": { "text": "Ṭṭseḍ ?! Anda ?!", "fr": "Tu dors ?! Où ça ?!" } },
+            { "text": "Ur ẓriɣ ara.", "fr": "Je ne sais pas.", "score": "wrong", "feedback": "Dire « je ne sais pas » à une maman inquiète à 22 h… mauvaise idée !" }
+          ]
+        },
+        { "from": "them", "text": "Ɣef acḥal ara d-tuɣaleḍ ?", "fr": "À quelle heure rentreras-tu ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds : « Je rentrerai à 11 h 30 »",
+          "build": {
+            "answer": ["ad", "d-uɣaleɣ", "ɣef", "ḥdac", "d", "nnefṣ"],
+            "distractors": ["tuɣaleḍ", "iḍelli"],
+            "text": "Ad d-uɣaleɣ ɣef ḥdac d nnefṣ.",
+            "fr": "Je rentrerai à 11 h 30."
+          }
+        },
+        { "from": "them", "text": "Ihi. Ur tettu ara aɣrum ! 🙏", "fr": "D'accord. N'oublie pas le pain ! 🙏" },
+        {
+          "from": "me",
+          "prompt": "Promets de ne pas oublier",
+          "options": [
+            { "text": "Ih a yemma, ur ttuɣ ara !", "fr": "Oui maman, je n'oublie pas !", "score": "natural", "feedback": "Négation ur … ara, bien utilisée." },
+            { "text": "Ih, ttuɣ.", "fr": "Oui, j'ai oublié.", "score": "wrong", "feedback": "« Ttuɣ » = j'ai oublié. Pas très rassurant !" },
+            { "text": "Ih.", "fr": "Oui.", "score": "ok", "feedback": "Ça passe, mais une phrase complète lui fera plaisir." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kab4-d2",
+      "type": "chatSim",
+      "title": "Tanina propose une sortie",
+      "contact": { "name": "Tanina", "avatar": "👩🏽", "relation": "amie", "register": "familier" },
+      "turns": [
+        { "from": "them", "text": "Azul ! Acu ara txedmeḍ ssebt ?", "fr": "Salut ! Que feras-tu samedi ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que tu ne sais pas encore et retourne-lui la question",
+          "options": [
+            { "text": "Ur ẓriɣ ara mazal. Ma d kemm ?", "fr": "Je ne sais pas encore. Et toi ?", "score": "natural", "feedback": "Très naturel, et « kemm » bien au féminin." },
+            { "text": "Iḍelli xedmeɣ aṭas.", "fr": "Hier j'ai beaucoup travaillé.", "score": "wrong", "feedback": "Elle te parle de samedi prochain, pas d'hier." },
+            { "text": "Ad ṭṭseɣ ass meṛṛa !", "fr": "Je vais dormir toute la journée !", "score": "ok", "feedback": "Honnête 😄 et grammaticalement juste." }
+          ]
+        },
+        { "from": "them", "text": "Ad nṛuḥ ɣer Tigzirt. Tebɣiḍ ad d-taseḍ yid-neɣ ?", "fr": "On va à Tigzirt. Tu veux venir avec nous ?" },
+        {
+          "from": "me",
+          "prompt": "Accepte et demande à quelle heure",
+          "build": {
+            "answer": ["ih", "!", "ɣef", "acḥal", "?"],
+            "distractors": ["iḍelli", "ala"],
+            "text": "Ih ! Ɣef acḥal ?",
+            "fr": "Oui ! À quelle heure ?"
+          }
+        },
+        { "from": "them", "text": "Ɣef tesɛa, taṣebḥit. Ur ttgen ara aṭas 😄", "fr": "À 9 h, le matin. Ne dors pas trop 😄" },
+        {
+          "from": "me",
+          "prompt": "Promets de te lever tôt",
+          "options": [
+            { "text": "Hhh ih, ad kkreɣ zik !", "fr": "Haha oui, je me lèverai tôt !", "score": "natural", "feedback": "Parfait, zik = tôt." },
+            { "text": "Ad ṭṭseɣ ass meṛṛa.", "fr": "Je vais dormir toute la journée.", "score": "wrong", "feedback": "Pas idéal pour une sortie à 9 h…", "reaction": { "text": "Hhh ala ! Kker zik ! 😂", "fr": "Haha non ! Lève-toi tôt ! 😂" } },
+            { "text": "Saḥit.", "fr": "Merci.", "score": "ok", "feedback": "Poli, mais elle attendait une promesse !" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "id": "kab4-e1", "type": "matchPairs", "instruction": "Relie chaque mot à sa traduction", "pairs": ["kab4-assa", "kab4-azekka", "kab4-idelli", "kab4-tura", "kab4-zik", "kab4-eyigh"] },
+    {
+      "id": "kab4-e2", "type": "mcq",
+      "instruction": "« Tura d tesɛa d nnefṣ » : quelle heure est-il ?",
+      "options": ["9 h 30", "9 h 15", "10 h 30"], "answer": "9 h 30",
+      "explanation": "Tesɛa = 9, d nnefṣ = et demie."
+    },
+    {
+      "id": "kab4-e3", "type": "letterHunt",
+      "instruction": "Quelle lettre kabyle manque ?",
+      "items": [
+        { "masked": "ta_ebḥit", "answer": "ṣ", "full": "taṣebḥit" },
+        { "masked": "_yiɣ", "answer": "ɛ", "full": "ɛyiɣ" },
+        { "masked": "i_elli", "answer": "ḍ", "full": "iḍelli" },
+        { "masked": "ṭṭse_", "answer": "ɣ", "full": "ṭṭseɣ" }
+      ],
+      "options": ["ṣ", "ɛ", "ḍ", "ɣ", "s"]
+    },
+    {
+      "id": "kab4-e4", "type": "cloze",
+      "instruction": "Passé ou futur ? Complète.",
+      "lines": [
+        { "who": "Lina", "text": "Iḍelli {{1}} aṭas." },
+        { "who": "Lina", "text": "Azekka {{2}} ṛuḥeɣ ɣer Tigzirt." }
+      ],
+      "blanks": {
+        "1": { "options": ["xedmeɣ", "ad xedmeɣ", "txedmeḍ"], "answer": "xedmeɣ", "hint": "Hier → passé, sans « ad »." },
+        "2": { "options": ["ad", "ur", "d"], "answer": "ad", "hint": "Demain → futur avec « ad »." }
+      },
+      "explanation": "Le passé n'a pas de particule ; le futur prend « ad »."
+    },
+    {
+      "id": "kab4-e5", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu écris à ton amie Tanina.",
+      "tokens": ["Ma", "d", "kečč", ",", "a", "Tanina", "?"],
+      "intruderIndex": 2, "fix": "kemm",
+      "explanation": "Tanina est une femme : « ma d kemm ? »."
+    },
+    {
+      "id": "kab4-e6", "type": "genreHunt",
+      "instruction": "Il y a une erreur de temps. Touche le mot fautif.",
+      "context": "Tu parles de demain.",
+      "tokens": ["Azekka", "kkreɣ", "zik", "."],
+      "intruderIndex": 1, "fix": "ad kkreɣ",
+      "explanation": "Demain → futur : « azekka ad kkreɣ zik » (demain je me lèverai tôt)."
+    },
+    {
+      "id": "kab4-e7", "type": "mcq",
+      "instruction": "En Algérie, le vendredi, c'est…",
+      "options": ["Le week-end (avec le samedi)", "Le premier jour de la semaine", "Un jour de travail comme les autres"], "answer": "Le week-end (avec le samedi)",
+      "explanation": "Le week-end algérien est vendredi-samedi."
+    },
+    {
+      "id": "kab4-e8", "type": "sentenceBuilder",
+      "instruction": "Traduis : « Chaque jour, je me lève à 7 h »",
+      "fr": "Chaque jour, je me lève à 7 h",
+      "answer": ["yal", "ass", "ttekkreɣ", "ɣef", "sebɛa"],
+      "distractors": ["iḍelli", "tekkreḍ"],
+      "explanation": "Pour une habitude, le verbe prend la forme « tt- » : ttekkreɣ (je me lève, d'habitude)."
+    },
+    {
+      "id": "kab4-e9", "type": "typeAnswer",
+      "instruction": "Écris en kabyle : « Je suis fatigué·e »",
+      "fr": "Je suis fatigué·e",
+      "accept": ["ɛyiɣ", "ɛyiɣ aṭas"],
+      "asciiTolerance": true,
+      "explanation": "Sans clavier kabyle, « 3yigh » est accepté."
+    },
+    {
+      "id": "kab4-e10", "type": "mcq",
+      "instruction": "Comment demander « Que feras-tu samedi ? »",
+      "options": ["Acu ara txedmeḍ ssebt ?", "Acu ad txedmeḍ ssebt ?", "Acu txedmeḍ iḍelli ?"], "answer": "Acu ara txedmeḍ ssebt ?",
+      "explanation": "Après un mot interrogatif (acu, anda, melmi…), « ad » devient « ara »."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["kab4-assa", "kab4-azekka", "kab4-idelli", "kab4-saeet", "kab4-nnefs", "kab4-kker", "kab4-ruh", "kab4-ughal", "kab4-eyigh", "kab4-urzrig"],
+    "bonus": ["kab4-tura", "kab4-tasebhit", "kab4-ttes", "kab4-zik", "kab4-yal", "kab4-ussan"]
+  }
+}

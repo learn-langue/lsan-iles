@@ -1,0 +1,261 @@
+{
+  "id": "dz-n2-l01",
+  "language": "darija",
+  "level": 2,
+  "order": 1,
+  "title": "Nhari… Raconter sa journée",
+  "goal": "Dire l'heure, nommer les jours, raconter ce qu'on a fait (passé) et ce qu'on va faire (futur proche).",
+  "estimatedMinutes": 12,
+  "regionNote": "Darija du centre. Le futur avec « rayah » est typique du centre et de l'est ; à l'ouest on entend aussi « ghadi ».",
+
+  "grammarNotes": [
+    {
+      "id": "dz4-g-passe",
+      "title": "Le passé : -t pour « je »",
+      "body": "Au passé, on ajoute -t au verbe pour « je » : khdem (il a travaillé) → khdemt (j'ai travaillé). Pour « tu », c'est la même forme quand on parle à un homme, et on ajoute -i pour une femme : khdemti. Le contexte fait la différence.",
+      "examples": [
+        { "chat": "Lbareh khdemt bezzaf.", "fr": "Hier, j'ai beaucoup travaillé." },
+        { "chat": "Win rohti lbareh ?", "fr": "Où es-tu allée hier ? (à une femme)" },
+        { "chat": "Nodt bekri.", "fr": "Je me suis levé·e tôt." }
+      ]
+    },
+    {
+      "id": "dz4-g-futur",
+      "title": "Le futur proche : rani rayah / rayha + verbe",
+      "body": "Comme « je vais faire » en français : rani rayah (homme) ou rani rayha (femme), puis le verbe au présent. Sans « rani », ça marche aussi : « rayha nrouh » = je vais y aller.",
+      "examples": [
+        { "chat": "Ghadwa rani rayha nkhdem.", "fr": "Demain, je vais travailler (une femme parle)." },
+        { "chat": "Wach rayah tdir nhar sebt ?", "fr": "Qu'est-ce que tu vas faire samedi ? (à un homme)" }
+      ]
+    },
+    {
+      "id": "dz4-g-heure",
+      "title": "L'heure : ssa3a + chiffre",
+      "body": "« Chhal f ssa3a ? » = quelle heure est-il ? On répond avec ssa3a + chiffre : ssa3a tmenya (8 h). On ajoute « w nos » (et demie), « w rob3 » (et quart) ou « ghir rob3 » (moins le quart). « F ssa3a… » = à … heures.",
+      "examples": [
+        { "chat": "Ssa3a tes3a w nos.", "fr": "9 h 30" },
+        { "chat": "Ssa3a 3achra ghir rob3.", "fr": "10 h moins le quart (9 h 45)" },
+        { "chat": "Nnod f ssa3a seb3a.", "fr": "Je me lève à 7 h." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "dz4-lyoum", "chat": "lyoum", "latin": "lyoum", "ar": "اليوم", "fr": "Aujourd'hui", "pos": "mot", "register": "neutre", "mnemonic": "« Youm » = jour. Lyoum = ce jour-ci." },
+    { "id": "dz4-ghadwa", "chat": "ghadwa", "latin": "ghadwa", "ar": "غدوة", "fr": "Demain", "pos": "mot", "register": "neutre", "mnemonic": "Ghadwa → « gare d'oie » : demain je prends le train… à la gare." },
+    { "id": "dz4-lbareh", "chat": "lbareh", "latin": "lbareḥ", "ar": "البارح", "fr": "Hier", "pos": "mot", "register": "neutre", "mnemonic": "Lbareh → « le bar » d'hier soir.", "variants": ["lbare7"] },
+    { "id": "dz4-drok", "chat": "drok", "latin": "drok", "ar": "درك", "fr": "Maintenant", "pos": "mot", "register": "neutre", "mnemonic": "Drok → « direct » : tout de suite.", "variants": ["dork", "daba (à l'ouest)"] },
+    { "id": "dz4-sbah", "chat": "sbah / l3achiya / lil", "latin": "ṣbaḥ / lʿachiya / lil", "ar": "صباح / العشية / الليل", "fr": "Le matin / l'après-midi / la nuit", "pos": "nom", "register": "neutre", "mnemonic": "Sbah comme « sbah lkhir ». L3achiya, l'heure du goûter. Lil comme « Laila » (la nuit)." },
+    { "id": "dz4-ssa3a", "chat": "chhal f ssa3a ?", "latin": "chḥal f ssaʿa ?", "ar": "شحال ف الساعة؟", "fr": "Quelle heure est-il ?", "pos": "expression", "register": "neutre", "mnemonic": "Ssa3a = l'heure et la montre. « Combien dans la montre ? »" },
+    { "id": "dz4-nos", "chat": "w nos / w rob3 / ghir rob3", "latin": "w noṣṣ / w robʿ / ghir robʿ", "ar": "و نص / و ربع / غير ربع", "fr": "Et demie / et quart / moins le quart", "pos": "expression", "register": "neutre", "mnemonic": "Nos = moitié (leçon des chiffres). Rob3 = quart, comme rab3a (4)." },
+    { "id": "dz4-nnod", "chat": "nnod", "latin": "nnoḍ", "ar": "ننوض", "fr": "Je me lève", "pos": "verbe", "register": "neutre", "mnemonic": "« Nod ! » (lève-toi !) : le cri des mamans le matin.", "variants": ["nodt (je me suis levé·e)", "nod ! (lève-toi !)"] },
+    { "id": "dz4-nrouh", "chat": "nrouh", "latin": "nrouḥ", "ar": "نروح", "fr": "Je vais, je pars", "pos": "verbe", "register": "neutre", "mnemonic": "« Rouh ! » = va-t'en ! Nrouh = je vais.", "variants": ["roht (je suis allé·e)", "nrouh l khedma (je vais au travail)"] },
+    { "id": "dz4-nwelli", "chat": "nwelli", "latin": "nwelli", "ar": "نولّي", "fr": "Je rentre, je reviens", "pos": "verbe", "register": "neutre", "mnemonic": "Welli → « revenir » comme on « revient au bercail ».", "variants": ["wellit (je suis rentré·e)"] },
+    { "id": "dz4-nergod", "chat": "nergod", "latin": "nergod", "ar": "نرقد", "fr": "Je dors, je me couche", "pos": "verbe", "register": "neutre", "mnemonic": "Rqad = dormir. Nergod → « je regarde »… mes paupières tomber.", "variants": ["rqadt (j'ai dormi)"] },
+    { "id": "dz4-3iyan", "chat": "rani 3iyan / 3iyana", "latin": "rani ʿiyyan / ʿiyyana", "ar": "راني عيّان / عيّانة", "fr": "Je suis fatigué / fatiguée", "pos": "expression", "register": "neutre", "mnemonic": "3iyan → « il y en a » marre : je suis fatigué." },
+    { "id": "dz4-bekri", "chat": "bekri", "latin": "bekri", "ar": "بكري", "fr": "Tôt (et aussi « autrefois »)", "pos": "mot", "register": "neutre", "mnemonic": "« Bekri » = autrefois, le bon vieux temps… où on se levait tôt." },
+    { "id": "dz4-dima", "chat": "dima / marrat", "latin": "dima / marrat", "ar": "ديما / مرات", "fr": "Toujours / parfois", "pos": "mot", "register": "neutre", "mnemonic": "Dima → « dimanche » ? Non : « toujours ». Marrat = des fois." },
+    { "id": "dz4-ga3", "chat": "ga3", "latin": "gaʿ", "ar": "ڨاع", "fr": "Tout, tous, complètement", "pos": "mot", "register": "familier", "mnemonic": "Mot très algérien : « ga3 nhar » = toute la journée." },
+    { "id": "dz4-ma3labalich", "chat": "ma3labalich", "latin": "maʿlabalich", "ar": "ما علاباليش", "fr": "Je ne sais pas", "pos": "expression", "register": "familier", "mnemonic": "Mot à mot « ce n'est pas dans mon esprit ». Le plus algérien des « je ne sais pas ».", "variants": ["ma n3arafch"] },
+    { "id": "dz4-jours", "chat": "nhar el had, letnin, tlata, larb3a, lkhmis, ljem3a, sebt", "latin": "nhar el ḥad, letnin, tlata, larbʿa, lkhmis, ljemʿa, sebt", "ar": "الحد، الاثنين، الثلاثاء، الأربعاء، الخميس، الجمعة، السبت", "fr": "Dimanche, lundi, mardi, mercredi, jeudi, vendredi, samedi", "pos": "nom", "register": "neutre", "mnemonic": "Lundi, mardi, mercredi, jeudi sont le 2e, 3e, 4e, 5e jour : tnin, tlata, rab3a, khamsa !", "note": "En Algérie, le week-end, c'est vendredi et samedi. La semaine commence le dimanche." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "dz4-c1",
+      "chat": "Nod, rah ssa3a tmenya !",
+      "fr": "Lève-toi, il est 8 h !",
+      "when": "Le matin, à la maison.",
+      "with": "Une mère à son enfant",
+      "register": "familier",
+      "culturalNote": "« Rah » = il est (voici). Tu entendras aussi « nodi » pour une fille et « nodou » pour plusieurs."
+    },
+    {
+      "id": "dz4-c2",
+      "chat": "Lyoum khdemt bezzaf, rani 3iyana.",
+      "fr": "Aujourd'hui j'ai beaucoup travaillé, je suis fatiguée.",
+      "when": "Le soir, on te demande comment s'est passée ta journée.",
+      "with": "Famille, amis",
+      "register": "neutre",
+      "culturalNote": "Réponse attendue : « Llah y3awnek » (que Dieu t'aide), formule de soutien très courante."
+    },
+    {
+      "id": "dz4-c3",
+      "chat": "Ma3labalich, nchoufou ghadwa.",
+      "fr": "Je ne sais pas, on verra demain.",
+      "when": "On te demande tes plans et tu n'as rien décidé.",
+      "with": "Amis",
+      "register": "familier",
+      "culturalNote": "« Nchoufou » = on verra. Très pratique pour ne pas s'engager… sans vexer."
+    },
+    {
+      "id": "dz4-c4",
+      "chat": "Nhar ljem3a ma nekhdemch.",
+      "fr": "Le vendredi, je ne travaille pas.",
+      "when": "Tu parles de ton emploi du temps.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "Le vendredi est le jour de la grande prière et des repas de famille, souvent autour d'un couscous."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "dz4-d1",
+      "type": "chatSim",
+      "title": "Yemma s'inquiète",
+      "contact": { "name": "Yemma", "avatar": "👩🏽‍🦱", "relation": "maman", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "chat": "Win raki benti ? Ssa3a 3achra w mazal ma wellitich !", "fr": "Où es-tu ma fille ? Il est 10 h et tu n'es toujours pas rentrée !" },
+        {
+          "from": "me",
+          "prompt": "Rassure-la : tu es dans le tram, tu arrives",
+          "options": [
+            { "chat": "Smahili yemma, rani f tramway, rani jaya !", "fr": "Pardon maman, je suis dans le tram, j'arrive !", "score": "natural", "feedback": "Parfait : « jaya » = j'arrive (au féminin)." },
+            { "chat": "Rani nergod.", "fr": "Je dors.", "score": "wrong", "feedback": "Elle te demande où tu es… et tu lui dis que tu dors 😅", "reaction": { "chat": "Kifach nergod ?! Win ?!", "fr": "Comment ça tu dors ?! Où ?!" } },
+            { "chat": "Ma3labalich.", "fr": "Je ne sais pas.", "score": "wrong", "feedback": "Dire « je ne sais pas » à une maman inquiète à 22 h… mauvaise idée !" }
+          ]
+        },
+        { "from": "them", "chat": "Waqtach twelli ?", "fr": "Tu rentres quand ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds : « Je rentre à 11 h moins le quart »",
+          "build": {
+            "answer": ["nwelli", "f", "ssa3a", "hdach", "ghir", "rob3"],
+            "distractors": ["twelli", "lbareh"],
+            "fr": "Je rentre à 11 h moins le quart"
+          }
+        },
+        { "from": "them", "chat": "Mlih. Ma tensaych tjibi lkhobz 🙏", "fr": "D'accord. N'oublie pas de ramener le pain 🙏" },
+        {
+          "from": "me",
+          "prompt": "Promets de ne pas oublier",
+          "options": [
+            { "chat": "Wah yemma, ma nensach !", "fr": "Oui maman, je n'oublierai pas !", "score": "natural", "feedback": "Négation ma … ch, bien utilisée." },
+            { "chat": "Wah, nsit.", "fr": "Oui, j'ai oublié.", "score": "wrong", "feedback": "« Nsit » = j'ai oublié. Pas très rassurant !" },
+            { "chat": "Ok.", "fr": "Ok.", "score": "ok", "feedback": "Ça passe, mais une petite phrase en darija fera plaisir à ta mère." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dz4-d2",
+      "type": "chatSim",
+      "title": "Amine propose une sortie",
+      "contact": { "name": "Amine", "avatar": "🧑🏻", "relation": "cousin", "register": "familier" },
+      "turns": [
+        { "from": "them", "chat": "Wesh ! Nhar sebt wach rayha tdiri ?", "fr": "Salut ! Samedi, qu'est-ce que tu vas faire ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que tu ne sais pas encore et retourne-lui la question",
+          "options": [
+            { "chat": "Ma3labalich mazal. W nta ?", "fr": "Je ne sais pas encore. Et toi ?", "score": "natural", "feedback": "Très naturel, avec le « ma3labalich » bien algérien." },
+            { "chat": "Lbareh roht l plage.", "fr": "Hier je suis allée à la plage.", "score": "wrong", "feedback": "Il te parle de samedi prochain, pas d'hier." },
+            { "chat": "Rayha nergod ga3 nhar !", "fr": "Je vais dormir toute la journée !", "score": "ok", "feedback": "Honnête 😄 et grammaticalement parfait." }
+          ]
+        },
+        { "from": "them", "chat": "Rana rayhin l Tipaza. Tji m3ana ?", "fr": "On va à Tipaza. Tu viens avec nous ?" },
+        {
+          "from": "me",
+          "prompt": "Accepte et demande à quelle heure",
+          "build": {
+            "answer": ["wah", "!", "chhal", "f", "ssa3a", "?"],
+            "distractors": ["ghadwa", "lbareh"],
+            "fr": "Oui ! À quelle heure ?"
+          }
+        },
+        { "from": "them", "chat": "F ssa3a tes3a, f sbah. Ma tergdich bezzaf 😄", "fr": "À 9 h du matin. Ne dors pas trop 😄" },
+        {
+          "from": "me",
+          "prompt": "Promets de te lever tôt",
+          "options": [
+            { "chat": "Hhh wah, nnod bekri !", "fr": "Haha oui, je me lève tôt !", "score": "natural", "feedback": "Parfait, bekri = tôt." },
+            { "chat": "Nergod ga3 nhar.", "fr": "Je dors toute la journée.", "score": "wrong", "feedback": "Pas idéal pour une sortie à 9 h…", "reaction": { "chat": "Hhh ya khti ! Nod bekri ! 😂", "fr": "Haha ma sœur ! Lève-toi tôt ! 😂" } },
+            { "chat": "Saha.", "fr": "Merci.", "score": "ok", "feedback": "Poli, mais il attendait une promesse !" }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "id": "dz4-e1", "type": "matchPairs", "instruction": "Relie chaque mot à sa traduction", "pairs": ["dz4-lyoum", "dz4-ghadwa", "dz4-lbareh", "dz4-drok", "dz4-bekri", "dz4-ma3labalich"] },
+    {
+      "id": "dz4-e2", "type": "mcq",
+      "instruction": "« Ssa3a tes3a ghir rob3 » : quelle heure est-il ?",
+      "options": ["8 h 45", "9 h 15", "9 h 45"], "answer": "8 h 45",
+      "explanation": "« Ghir rob3 » = moins le quart : 9 h moins le quart, donc 8 h 45."
+    },
+    {
+      "id": "dz4-e3", "type": "mcq",
+      "instruction": "En Algérie, le vendredi, c'est…",
+      "options": ["Le week-end (avec le samedi)", "Le premier jour de la semaine", "Un jour de travail comme les autres"], "answer": "Le week-end (avec le samedi)",
+      "explanation": "Le week-end algérien est vendredi-samedi ; la semaine reprend le dimanche (nhar el had)."
+    },
+    {
+      "id": "dz4-e4", "type": "hiddenDigit",
+      "instruction": "Quel chiffre manque ? (3 = ع, 7 = ح)",
+      "items": [
+        { "masked": "l_achiya", "answer": "3", "full": "l3achiya" },
+        { "masked": "rani _iyana", "answer": "3", "full": "rani 3iyana" },
+        { "masked": "lbare_", "answer": "7", "full": "lbare7" },
+        { "masked": "ljem_a", "answer": "3", "full": "ljem3a" }
+      ],
+      "options": ["3", "7", "9"]
+    },
+    {
+      "id": "dz4-e5", "type": "cloze",
+      "instruction": "Passé ou futur ? Complète.",
+      "lines": [
+        { "who": "Lina", "chat": "Lbareh {{1}} bezzaf." },
+        { "who": "Lina", "chat": "Ghadwa rani {{2}} nrouh l Tipaza." }
+      ],
+      "blanks": {
+        "1": { "options": ["khdemt", "nekhdem", "tekhdem"], "answer": "khdemt", "hint": "Hier → passé : -t pour « je »." },
+        "2": { "options": ["rayha", "roht", "rayah"], "answer": "rayha", "hint": "Demain → futur. Lina est une femme." }
+      },
+      "explanation": "Lbareh (hier) + passé en -t. Ghadwa (demain) + rayha + verbe."
+    },
+    {
+      "id": "dz4-e6", "type": "registerHunt",
+      "instruction": "Un mot d'arabe littéraire s'est glissé. Touche-le.",
+      "tokens": ["Ghadwa", "sawfa", "nrouh", "l", "khedma", "."],
+      "intruderIndex": 1, "fix": "rani rayah",
+      "explanation": "« Sawfa » marque le futur en arabe littéraire. En darija : « rani rayah/rayha nrouh »."
+    },
+    {
+      "id": "dz4-e7", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu écris à ton cousin Amine.",
+      "tokens": ["Win", "raki", ",", "Amine", "?"],
+      "intruderIndex": 1, "fix": "rak",
+      "explanation": "Amine est un homme : « win rak ? »."
+    },
+    {
+      "id": "dz4-e8", "type": "sentenceBuilder",
+      "instruction": "Traduis : « Je me lève à 7 h 30 »",
+      "fr": "Je me lève à 7 h 30",
+      "answer": ["nnod", "f", "ssa3a", "seb3a", "w", "nos"],
+      "distractors": ["nergod", "rob3"],
+      "explanation": "Nnod = je me lève (nergod = je dors). W nos = et demie."
+    },
+    {
+      "id": "dz4-e9", "type": "typeAnswer",
+      "instruction": "Écris en darija : « Je ne sais pas » (version bien algérienne)",
+      "fr": "Je ne sais pas",
+      "accept": ["ma3labalich", "ma 3labalich", "ma n3arafch"],
+      "explanation": "« Ma3labalich » est typiquement algérien ; « ma n3arafch » marche aussi."
+    },
+    {
+      "id": "dz4-e10", "type": "mcq",
+      "instruction": "Ta tante te dit : « Lyoum khdemt bezzaf, rani 3iyana. » Que réponds-tu ?",
+      "options": ["Llah y3awnek, khalti.", "Saha l yeddik !", "Ma3labalich."], "answer": "Llah y3awnek, khalti.",
+      "explanation": "« Llah y3awnek » (que Dieu t'aide) est la formule de soutien à quelqu'un de fatigué ou débordé."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["dz4-lyoum", "dz4-ghadwa", "dz4-lbareh", "dz4-ssa3a", "dz4-nos", "dz4-nnod", "dz4-nrouh", "dz4-nwelli", "dz4-3iyan", "dz4-ma3labalich"],
+    "bonus": ["dz4-drok", "dz4-sbah", "dz4-nergod", "dz4-bekri", "dz4-dima", "dz4-ga3", "dz4-jours"]
+  }
+}

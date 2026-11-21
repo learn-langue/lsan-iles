@@ -1,0 +1,271 @@
+{
+  "id": "kab-n2-l02",
+  "language": "kabyle",
+  "level": 2,
+  "order": 2,
+  "title": "Qqim, ečč ! À table",
+  "goal": "Nommer les plats et boissons du quotidien, dire faim, soif ou « je suis rassasié·e », et réagir comme il faut quand on est invité·e.",
+  "estimatedMinutes": 12,
+  "regionNote": "Kabyle courant de Grande Kabylie. « Seksu » (couscous) est le plat de fête par excellence ; chaque région a ses variantes (aux fèves, aux légumes, à l'huile d'olive…).",
+
+  "grammarNotes": [
+    {
+      "id": "kab5-g-imperatif",
+      "title": "L'impératif : même forme pour un homme et une femme",
+      "body": "Bonne nouvelle : à une seule personne, l'impératif est le même pour un homme et une femme : ečč ! (mange !), sew ! (bois !), qqim ! (assieds-toi !). À plusieurs, on ajoute -et (hommes ou groupe mixte) ou -emt (femmes) : eččet, qqimet.",
+      "examples": [
+        { "text": "Qqim, ečč !", "fr": "Assieds-toi, mange !" },
+        { "text": "Qqimet, eččet !", "fr": "Asseyez-vous, mangez !" }
+      ]
+    },
+    {
+      "id": "kab5-g-etats",
+      "title": "Faim, soif, rassasié·e : des verbes en …eɣ",
+      "body": "En kabyle, faim et soif sont des verbes : lluẓeɣ (j'ai faim), ffudeɣ (j'ai soif), rwiɣ (je suis rassasié·e). On reconnaît la marque de « je » (…eɣ / …iɣ), la même pour un homme et une femme.",
+      "examples": [
+        { "text": "Lluẓeɣ aṭas !", "fr": "J'ai très faim !" },
+        { "text": "Rwiɣ, lḥemdullah.", "fr": "Je suis rassasié·e, Dieu merci." }
+      ]
+    },
+    {
+      "id": "kab5-g-hemmel",
+      "title": "Aimer / ne pas aimer : ḥemmleɣ / ur ḥemmleɣ ara",
+      "body": "Ḥemmel = aimer. Ḥemmleɣ = j'aime. Avec le sandwich négatif : ur ḥemmleɣ ara = je n'aime pas. Pour refuser poliment un plat, on s'excuse : « ssmeḥ-iyi, ur ḥemmleɣ ara ifelfel ».",
+      "examples": [
+        { "text": "Ḥemmleɣ seksu aṭas.", "fr": "J'adore le couscous." },
+        { "text": "Ur ḥemmleɣ ara ifelfel.", "fr": "Je n'aime pas le piment." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "kab5-ecc", "text": "ečč !", "ascii": "ecc !", "fr": "Mange ! (à un homme ou à une femme)", "pos": "verbe", "register": "neutre", "mnemonic": "Ečč → « et chut » : on se tait et on mange.", "variants": ["ččiɣ (j'ai mangé)", "ad nečč (on va manger)"] },
+    { "id": "kab5-sew", "text": "sew !", "ascii": "sew !", "fr": "Bois !", "pos": "verbe", "register": "neutre", "mnemonic": "Sew → « s'eau » : bois de l'eau.", "variants": ["swiɣ (j'ai bu)"] },
+    { "id": "kab5-aman", "text": "aman", "ascii": "aman", "fr": "L'eau", "pos": "nom", "register": "neutre", "mnemonic": "Aman → « amande » rafraîchissante… ou « Amane » : l'eau qui sauve.", "variants": ["cwiṭ n waman (un peu d'eau)"] },
+    { "id": "kab5-aghrum", "text": "aɣrum", "ascii": "aghrum", "fr": "Le pain", "pos": "nom", "register": "neutre", "mnemonic": "Vu dans « sin yiɣrumen » (deux pains).", "note": "Le pain est sacré : on ne le jette jamais. S'il tombe, on le ramasse et on le pose à part." },
+    { "id": "kab5-aksum", "text": "aksum", "ascii": "aksum", "fr": "La viande", "pos": "nom", "register": "neutre", "mnemonic": "Aksum → « à consommer »." },
+    { "id": "kab5-seksu", "text": "seksu", "ascii": "seksu", "fr": "Le couscous", "pos": "nom", "register": "neutre", "mnemonic": "Seksu → « couscous » : le mot français vient du berbère !", "note": "Le couscous est un plat berbère d'origine ; en Kabylie, on le prépare pour les fêtes, les naissances, les retours de voyage…" },
+    { "id": "kab5-zzit", "text": "zzit / tamemt", "ascii": "zzit / tamemt", "fr": "L'huile d'olive / le miel", "pos": "nom", "register": "neutre", "mnemonic": "Zzit → « zeste » doré. Tamemt → « ta maman » qui te donne du miel." },
+    { "id": "kab5-latay", "text": "lqahwa / latay", "ascii": "lqahwa / latay", "fr": "Le café / le thé", "pos": "nom", "register": "neutre", "mnemonic": "Les mêmes qu'en darija, avec l'article « l- »." },
+    { "id": "kab5-yelha", "text": "yelha aṭas !", "ascii": "yelha atas !", "fr": "C'est très bon !", "pos": "expression", "register": "neutre", "mnemonic": "Yelha → « yé là ! » : c'est bon !", "variants": ["iẓid (c'est délicieux, c'est doux)"] },
+    { "id": "kab5-sahha", "text": "ṣaḥḥa i yifassen-im / -ik", "ascii": "sahha i yifassen-im / -ik", "fr": "Bravo au cuisinier (mot à mot « santé à tes mains », à une femme / à un homme)", "pos": "expression", "register": "neutre", "mnemonic": "Ifassen = les mains. On félicite les mains qui ont cuisiné, avec -im / -ik selon la personne.", "note": "Le compliment indispensable à la fin d'un repas chez quelqu'un." },
+    { "id": "kab5-rwigh", "text": "rwiɣ", "ascii": "rwigh", "fr": "Je suis rassasié·e, j'ai assez mangé", "pos": "verbe", "register": "neutre", "mnemonic": "Rwiɣ → « rassasié » commence aussi par r." },
+    { "id": "kab5-lluzeg", "text": "lluẓeɣ", "ascii": "lluzegh", "fr": "J'ai faim", "pos": "verbe", "register": "neutre", "mnemonic": "Lluẓeɣ → « l'usé » : j'ai le ventre usé par la faim." },
+    { "id": "kab5-ffudeg", "text": "ffudeɣ", "ascii": "ffudegh", "fr": "J'ai soif", "pos": "verbe", "register": "neutre", "mnemonic": "Ffudeɣ → « fou de » boire !" },
+    { "id": "kab5-rnu", "text": "rnu !", "ascii": "rnu !", "fr": "Reprends-en ! Encore !", "pos": "verbe", "register": "neutre", "mnemonic": "Rnu → « renouvelle » ton assiette." },
+    { "id": "kab5-qqim", "text": "qqim !", "ascii": "qqim !", "fr": "Assieds-toi !", "pos": "verbe", "register": "neutre", "mnemonic": "Qqim → « qu'il me… » s'asseoir ! Le q profond pose la personne." },
+    { "id": "kab5-bismillah", "text": "s yisem n Ṛebbi", "ascii": "s yisem n Rebbi", "fr": "Au nom de Dieu (avant de manger)", "pos": "expression", "register": "neutre", "mnemonic": "« Isem » = nom (comme dans isem-iw). On le dit en commençant.", "variants": ["bismillah"] },
+    { "id": "kab5-hemmel", "text": "ḥemmleɣ / ur ḥemmleɣ ara", "ascii": "hemmlegh / ur hemmlegh ara", "fr": "J'aime / je n'aime pas", "pos": "verbe", "register": "neutre", "mnemonic": "Ḥemmel → « aime-le »." },
+    { "id": "kab5-ifelfel", "text": "ifelfel", "ascii": "ifelfel", "fr": "Le piment, le poivron", "pos": "nom", "register": "neutre", "mnemonic": "Ifelfel → « filfil » en arabe : le poivre et le piment." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "kab5-c1",
+      "text": "Qqimet, eččet ! S yisem n Ṛebbi.",
+      "fr": "Asseyez-vous, mangez ! Au nom de Dieu.",
+      "when": "L'hôte invite tout le monde à table.",
+      "with": "Invités",
+      "register": "poli",
+      "culturalNote": "Dans les familles traditionnelles, on mange souvent dans un grand plat commun (tarbut) : chacun se sert devant soi, de la main droite ou à la cuillère."
+    },
+    {
+      "id": "kab5-c2",
+      "text": "Yelha aṭas ! Ṣaḥḥa i yifassen-im, a jida.",
+      "fr": "C'est délicieux ! Bravo à toi, grand-mère.",
+      "when": "Pendant ou après le repas.",
+      "with": "La personne qui a cuisiné (ici une femme)",
+      "register": "poli",
+      "culturalNote": "Complimenter la cuisine est attendu. À un homme : « ṣaḥḥa i yifassen-ik »."
+    },
+    {
+      "id": "kab5-c3",
+      "text": "Rwiɣ, lḥemdullah… s tidet, rwiɣ !",
+      "fr": "J'ai assez mangé, Dieu merci… vraiment, j'ai assez mangé !",
+      "when": "L'hôte te ressert pour la troisième fois.",
+      "with": "L'hôte",
+      "register": "neutre",
+      "culturalNote": "« S tidet » = vraiment. L'hôte insiste par politesse : il faut souvent refuser plusieurs fois, en souriant."
+    },
+    {
+      "id": "kab5-c4",
+      "text": "Efk-iyi-d cwiṭ n waman, ttxil-m.",
+      "fr": "Donne-moi un peu d'eau, s'il te plaît.",
+      "when": "À table, tu as soif.",
+      "with": "Une femme (à un homme : ttxil-k)",
+      "register": "neutre",
+      "culturalNote": "Après « n », aman devient « waman » : le début des noms change selon leur place dans la phrase."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "kab5-d1",
+      "type": "chatSim",
+      "title": "Dîner chez Jida",
+      "contact": { "name": "Jida", "avatar": "👵🏼", "relation": "grand-mère", "register": "affectueux" },
+      "turns": [
+        { "from": "them", "text": "Ansuf yis-m a yelli ! Qqim, ečč, xedmeɣ-d seksu 😊", "fr": "Bienvenue ma fille ! Assieds-toi, mange, j'ai fait du couscous 😊" },
+        {
+          "from": "me",
+          "prompt": "Remercie-la et commence le repas",
+          "options": [
+            { "text": "Tanemmirt a jida ! S yisem n Ṛebbi.", "fr": "Merci grand-mère ! Au nom de Dieu.", "score": "natural", "feedback": "Parfait : remerciement et formule d'ouverture." },
+            { "text": "Ur ḥemmleɣ ara seksu.", "fr": "Je n'aime pas le couscous.", "score": "wrong", "feedback": "Refuser le couscous de ta grand-mère, c'est presque un drame familial 😅", "reaction": { "text": "Acu ?! Seksu n jida-m ?! 😱", "fr": "Quoi ?! Le couscous de ta grand-mère ?! 😱" } },
+            { "text": "Ffudeɣ.", "fr": "J'ai soif.", "score": "ok", "feedback": "Juste, mais commence par la remercier." }
+          ]
+        },
+        { "from": "them", "text": "Amek, yelha ?", "fr": "Alors, c'est bon ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que c'est très bon et félicite-la",
+          "build": {
+            "answer": ["yelha", "aṭas", "!", "ṣaḥḥa", "i", "yifassen-im"],
+            "distractors": ["lluẓeɣ", "yifassen-ik"],
+            "text": "Yelha aṭas ! Ṣaḥḥa i yifassen-im.",
+            "fr": "C'est très bon ! Bravo à toi."
+          }
+        },
+        { "from": "them", "text": "Rnu, rnu ! Ečč mliḥ !", "fr": "Reprends-en, reprends-en ! Mange bien !" },
+        {
+          "from": "me",
+          "prompt": "Refuse poliment : tu es rassasiée",
+          "options": [
+            { "text": "Tanemmirt a jida, rwiɣ, lḥemdullah !", "fr": "Merci grand-mère, je suis rassasiée, Dieu merci !", "score": "natural", "feedback": "Bien : merci + « rwiɣ » + « lḥemdullah »." },
+            { "text": "Ih, rnu !", "fr": "Oui, reprends-en ! (à elle)", "score": "wrong", "feedback": "Tu lui demandes à ELLE de se resservir 😄" },
+            { "text": "Ala.", "fr": "Non.", "score": "ok", "feedback": "Un « non » sec sonne impoli. Ajoute un merci et une formule." }
+          ]
+        },
+        { "from": "them", "text": "Ur teččiḍ kra ! Ad am-d-xedmeɣ latay ?", "fr": "Tu n'as rien mangé ! Je te fais du thé ?" },
+        {
+          "from": "me",
+          "prompt": "Accepte le thé",
+          "options": [
+            { "text": "Ih, tanemmirt-im !", "fr": "Oui, merci !", "score": "natural", "feedback": "Accepter le thé fait plaisir à l'hôte." },
+            { "text": "Ad ččeɣ latay.", "fr": "Je vais manger le thé.", "score": "wrong", "feedback": "Le thé se boit : ad swuɣ latay." },
+            { "text": "Ala, tanemmirt.", "fr": "Non, merci.", "score": "ok", "feedback": "Poli, mais elle insistera sûrement 😄" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kab5-d2",
+      "type": "chatSim",
+      "title": "Massi a faim",
+      "contact": { "name": "Massi", "avatar": "🧑🏻", "relation": "cousin", "register": "familier" },
+      "turns": [
+        { "from": "them", "text": "Lluẓeɣ aṭas 😩 Ad nečč pizza neɣ garantita ?", "fr": "J'ai super faim 😩 On mange une pizza ou de la garantita ?" },
+        {
+          "from": "me",
+          "prompt": "Choisis la garantita",
+          "options": [
+            { "text": "Garantita ! S cwiṭ n lḥarisa 😋", "fr": "Garantita ! Avec un peu de harissa 😋", "score": "natural", "feedback": "Excellent choix 😄" },
+            { "text": "Ad nesw garantita.", "fr": "On va boire de la garantita.", "score": "wrong", "feedback": "La garantita se mange (ečč), même si elle est bien fondante 😄" },
+            { "text": "Lluẓeɣ ula d nekk !", "fr": "Moi aussi j'ai faim !", "score": "ok", "feedback": "Juste (« ula d nekk » = moi aussi), mais tu n'as pas choisi !" }
+          ]
+        },
+        { "from": "them", "text": "Ayuz ! Ad xellṣeɣ nekk ass-a.", "fr": "Top ! C'est moi qui paie aujourd'hui." },
+        {
+          "from": "me",
+          "prompt": "Fais le rituel : insiste pour payer",
+          "options": [
+            { "text": "Ala, ala, ad xellṣeɣ nekk !", "fr": "Non non, c'est moi qui paie !", "score": "natural", "feedback": "Le rituel est respecté 😄" },
+            { "text": "Saḥit, tanemmirt !", "fr": "Merci beaucoup !", "score": "ok", "feedback": "Entre cousins ça passe, mais protester un peu est plus élégant." },
+            { "text": "Ffudeɣ.", "fr": "J'ai soif.", "score": "wrong", "feedback": "Ça ne répond pas à sa proposition." }
+          ]
+        },
+        { "from": "them", "text": "Hhh ad nwali ! Ase-d, aql-i zdat tḥanut.", "fr": "Haha on verra ! Viens, je suis devant la boutique." }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "id": "kab5-e1", "type": "matchPairs", "instruction": "Relie chaque mot à sa traduction", "pairs": ["kab5-aman", "kab5-aghrum", "kab5-aksum", "kab5-seksu", "kab5-rwigh", "kab5-lluzeg"] },
+    {
+      "id": "kab5-e2", "type": "mcq",
+      "instruction": "Jida te ressert pour la troisième fois. Que dis-tu ?",
+      "options": ["Rwiɣ, lḥemdullah !", "Rnu !", "Ur ḥemmleɣ ara."], "answer": "Rwiɣ, lḥemdullah !",
+      "explanation": "On refuse poliment, avec « lḥemdullah », et souvent plusieurs fois."
+    },
+    {
+      "id": "kab5-e3", "type": "mcq",
+      "instruction": "Comment dit-on « Mange ! » à une femme ?",
+      "options": ["Ečč !", "Eččemt !", "Eččet !"], "answer": "Ečč !",
+      "explanation": "À une seule personne, l'impératif est le même pour un homme et une femme. Eččet / eččemt, c'est pour plusieurs personnes."
+    },
+    {
+      "id": "kab5-e4", "type": "cloze",
+      "instruction": "Complète.",
+      "lines": [
+        { "who": "Jida → Lina", "text": "{{1}} , ečč !" },
+        { "who": "Lina", "text": "Ssmeḥ-iyi, ur {{2}} ara ifelfel." }
+      ],
+      "blanks": {
+        "1": { "options": ["Qqim", "Qqimeɣ", "Tqqimeḍ"], "answer": "Qqim", "hint": "Un ordre à une personne : impératif." },
+        "2": { "options": ["ḥemmleɣ", "tḥemmleḍ", "ḥemmel"], "answer": "ḥemmleɣ", "hint": "Lina parle d'elle : …eɣ." }
+      },
+      "explanation": "Qqim = assieds-toi. Ur ḥemmleɣ ara = je n'aime pas."
+    },
+    {
+      "id": "kab5-e5", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu félicites ta grand-mère pour son couscous.",
+      "tokens": ["Ṣaḥḥa", "i", "yifassen-ik", ",", "a", "jida", "!"],
+      "intruderIndex": 2, "fix": "yifassen-im",
+      "explanation": "Jida est une femme : -im."
+    },
+    {
+      "id": "kab5-e6", "type": "letterHunt",
+      "instruction": "Quelle lettre kabyle manque ?",
+      "items": [
+        { "masked": "lluẓe_", "answer": "ɣ", "full": "lluẓeɣ" },
+        { "masked": "llu_eɣ", "answer": "ẓ", "full": "lluẓeɣ" },
+        { "masked": "ṣa_ḥa", "answer": "ḥ", "full": "ṣaḥḥa" },
+        { "masked": "e_č !", "answer": "č", "full": "ečč !" }
+      ],
+      "options": ["ɣ", "ẓ", "ḥ", "č", "z"]
+    },
+    {
+      "id": "kab5-e7", "type": "mcq",
+      "instruction": "Un morceau de pain tombe par terre. Que fait-on ?",
+      "options": ["On le ramasse et on le pose à part", "On le jette à la poubelle", "On le laisse par terre"], "answer": "On le ramasse et on le pose à part",
+      "explanation": "Le pain est sacré : on ne le jette pas et on ne le laisse pas au sol."
+    },
+    {
+      "id": "kab5-e8", "type": "registerSort",
+      "instruction": "Où entendrais-tu ça ?",
+      "bins": [
+        { "id": "elder", "label": "Dîner chez Jida", "avatar": "👵🏼" },
+        { "id": "friend", "label": "Snack avec Massi", "avatar": "🧑🏻" }
+      ],
+      "items": [
+        { "text": "Ṣaḥḥa i yifassen-im, a jida !", "bin": "elder" },
+        { "text": "Pizza neɣ garantita ?", "bin": "friend" },
+        { "text": "Tanemmirt, rwiɣ, lḥemdullah.", "bin": "elder" },
+        { "text": "Lluẓeɣ, ase-d ad nečč !", "bin": "friend" }
+      ],
+      "explanation": "Chez une aînée : compliments et remerciements appuyés. Entre cousins : on va droit au but."
+    },
+    {
+      "id": "kab5-e9", "type": "sentenceBuilder",
+      "instruction": "Traduis : « Donne-moi un peu d'eau, s'il te plaît » (à une femme)",
+      "fr": "Donne-moi un peu d'eau, s'il te plaît",
+      "answer": ["efk-iyi-d", "cwiṭ", "n", "waman", ",", "ttxil-m"],
+      "distractors": ["aman", "ttxil-k"],
+      "explanation": "Après « n », aman devient waman. À une femme : ttxil-m."
+    },
+    {
+      "id": "kab5-e10", "type": "typeAnswer",
+      "instruction": "Écris en kabyle : « J'ai faim »",
+      "fr": "J'ai faim",
+      "accept": ["lluẓeɣ", "lluẓeɣ aṭas"],
+      "asciiTolerance": true,
+      "explanation": "Sans clavier kabyle, « lluzegh » est accepté."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["kab5-ecc", "kab5-sew", "kab5-aman", "kab5-aghrum", "kab5-seksu", "kab5-yelha", "kab5-sahha", "kab5-rwigh", "kab5-lluzeg", "kab5-rnu"],
+    "bonus": ["kab5-aksum", "kab5-zzit", "kab5-latay", "kab5-ffudeg", "kab5-qqim", "kab5-bismillah", "kab5-hemmel", "kab5-ifelfel"]
+  }
+}

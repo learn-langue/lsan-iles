@@ -10,8 +10,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icon.svg'],
       manifest: {
-        name: 'Lsan · Iles',
-        short_name: 'Lsan·Iles',
+        name: 'Lsan',
+        short_name: 'Lsan',
         description: 'Apprendre la darija algérienne et le kabyle',
         lang: 'fr',
         theme_color: '#0f766e',
@@ -22,5 +22,8 @@ export default defineConfig({
       },
     }),
   ],
+  // Adresse locale personnalisée : http://lsan.localhost:5173 (les navigateurs résolvent *.localhost tout seuls).
+  server: { port: 5173, open: 'http://lsan.localhost:5173/' },
+  preview: { port: 4173, open: 'http://lsan.localhost:4173/' },
   test: { environment: 'node' },
 });

@@ -1,7 +1,7 @@
-# Lsan · Iles
+# Lsan
 
 Application personnelle pour apprendre **la darija algérienne** et **le kabyle (taqbaylit)**, 100 % texte, 100 % locale.
-*Lsan* veut dire « langue » en darija, *iles* veut dire « langue » en kabyle.
+*Lsan* veut dire « langue » en darija (*iles* en kabyle).
 
 - Pas de serveur, pas de compte, pas d'audio. La progression reste dans le navigateur (`localStorage`), avec export et import en JSON.
 - Installable sur le téléphone (PWA) et utilisable hors ligne.
@@ -11,7 +11,7 @@ Application personnelle pour apprendre **la darija algérienne** et **le kabyle 
 
 ```bash
 npm install
-npm run dev        # http://localhost:5173
+npm run dev        # ouvre http://lsan.localhost:5173 (http://localhost:5173 marche aussi)
 npm test           # tests du domaine et vérification du corpus
 npm run build      # site statique dans dist/
 ```
@@ -21,7 +21,9 @@ Le dossier `dist/` peut être ouvert avec n'importe quel hébergeur statique (Gi
 ## Mise en ligne
 
 Chaque push sur `main` lance `.github/workflows/deploy.yml` : tests, build, puis publication sur GitHub Pages.
-Pour l'activer une fois : **Settings → Pages → Source : GitHub Actions**. L'adresse du site est publique, même si le dépôt est privé.
+Pour l'activer une fois : **Settings → Pages → Source : GitHub Actions**. L'adresse du site est publique, même si le dépôt est privé : `https://learn-langue.github.io/<nom-du-dépôt>/` (dépôt à nommer `lsan` pour obtenir `…/lsan/`).
+
+La progression est enregistrée par adresse : en changeant d'adresse (local, en ligne, nouveau nom de dépôt), utiliser **Réglages → Exporter** puis **Importer**.
 
 ## Ce qu'il y a dedans
 

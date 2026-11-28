@@ -13,7 +13,7 @@ export function LanguagePicker() {
   };
   return (
     <div className="mx-auto flex min-h-screen max-w-xl flex-col justify-center px-4 py-10">
-      <h1 className="text-center text-4xl font-extrabold">Lsan <span className="text-stone-300">·</span> Iles</h1>
+      <h1 className="text-center text-4xl font-extrabold">Lsan</h1>
       <p className="mt-2 text-center text-stone-500">Quelle langue veux-tu pratiquer aujourd'hui ?</p>
       <div className="mt-8 grid gap-4">
         {(Object.keys(LANG_META) as Lang[]).map((l) => {

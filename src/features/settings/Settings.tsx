@@ -15,7 +15,7 @@ export function Settings() {
     const blob = new Blob([exportState()], { type: 'application/json' });
     const a = document.createElement('a');
     a.href = URL.createObjectURL(blob);
-    a.download = `lsan-iles-sauvegarde-${new Date().toISOString().slice(0, 10)}.json`;
+    a.download = `lsan-sauvegarde-${new Date().toISOString().slice(0, 10)}.json`;
     a.click();
     URL.revokeObjectURL(a.href);
   }
@@ -103,7 +103,7 @@ export function Settings() {
           Réinitialiser la progression en {LANG_META[lang].name}
         </button>
       </section>
-      <p className="pb-4 text-center text-xs text-stone-400">Lsan · Iles — usage personnel, contenu à faire relire par un locuteur natif.</p>
+      <p className="pb-4 text-center text-xs text-stone-400">Lsan — usage personnel, contenu à faire relire par un locuteur natif.</p>
     </div>
   );
 }

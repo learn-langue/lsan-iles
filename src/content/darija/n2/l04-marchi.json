@@ -1,0 +1,284 @@
+{
+  "id": "dz-n2-l04",
+  "language": "darija",
+  "level": 2,
+  "order": 4,
+  "title": "Fel marchi… Au marché",
+  "goal": "Nommer les fruits et légumes, demander s'il y en a, commander au kilo, montrer « celui-ci / celle-ci » et dire « ce n'est pas… » avec machi.",
+  "estimatedMinutes": 12,
+  "regionNote": "Darija du centre. Les oranges s'appellent « tchina », un mot typiquement algérien. Les prix se disent souvent en centimes (vu au niveau 1) : « khamsin alf » = 500 dinars.",
+
+  "grammarNotes": [
+    {
+      "id": "dz7-g-kayen",
+      "title": "Kayen / makanch : il y a, il n'y a pas",
+      "body": "Kayen veut dire « il y a ». Pour la négation, on retrouve le sandwich ma … ch : makanch (il n'y a pas). En question, il suffit de monter la voix : « Kayen tomatich ? » Le marchand répond « kayen » ou « makanch ».",
+      "examples": [
+        { "chat": "Kayen tomatich lyoum ?", "fr": "Il y a des tomates aujourd'hui ?" },
+        { "chat": "Makanch tchina, khlas.", "fr": "Il n'y a pas d'oranges, c'est fini." }
+      ]
+    },
+    {
+      "id": "dz7-g-hada",
+      "title": "Hada, hadi, hadou : celui-ci, celle-ci, ceux-ci",
+      "body": "Pour montrer : hada (celui-ci), hadi (celle-ci), hadou (ceux-ci, celles-ci). Devant un nom, on raccourcit en « had » : had tchina (cette orange), had tteffa7 (ces pommes). Au marché, on pointe du doigt et on dit « men hadou » (de ceux-là).",
+      "examples": [
+        { "chat": "Had tteffa7 bnin.", "fr": "Ces pommes sont bonnes." },
+        { "chat": "3tini kilo men hadou.", "fr": "Donne-moi un kilo de ceux-ci." },
+        { "chat": "Hadi bechhal ?", "fr": "Celle-ci, c'est combien ?" }
+      ]
+    },
+    {
+      "id": "dz7-g-machi",
+      "title": "Machi : « pas » devant un nom ou un adjectif",
+      "body": "Le sandwich ma … ch sert pour les verbes (ma n7ebbch). Devant un adjectif, un nom ou un mot de temps, on utilise machi : machi ghali (pas cher), machi tri (pas frais), machi lyoum (pas aujourd'hui).",
+      "examples": [
+        { "chat": "Machi ghali !", "fr": "Ce n'est pas cher !" },
+        { "chat": "Had lkhodra machi triya.", "fr": "Ces légumes ne sont pas frais." },
+        { "chat": "Machi lyoum, ghadwa.", "fr": "Pas aujourd'hui, demain." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "dz7-marchi", "chat": "lmarchi / souq", "latin": "lmarchi / souq", "ar": "المارشي / السوق", "fr": "Le marché", "pos": "nom", "register": "neutre", "mnemonic": "Lmarchi vient du français « le marché ». Souq, c'est le « souk ».", "variants": ["fel marchi (au marché)"] },
+    { "id": "dz7-khodra", "chat": "lkhodra / lfakya", "latin": "lkhoḍra / lfakya", "ar": "الخضرة / الفاكية", "fr": "Les légumes / les fruits", "pos": "nom", "register": "neutre", "mnemonic": "Khodra vient de « vert » (akhdar) : les légumes verts. Fakya → « fakir »… qui ne mange que des fruits." },
+    { "id": "dz7-tomatich", "chat": "tomatich", "latin": "ṭomaṭich", "ar": "طماطيش", "fr": "Les tomates", "pos": "nom", "register": "neutre", "mnemonic": "« Tomate » avec un -ich bien algérien." },
+    { "id": "dz7-batata", "chat": "batata", "latin": "baṭaṭa", "ar": "بطاطا", "fr": "Les pommes de terre", "pos": "nom", "register": "neutre", "mnemonic": "Batata → « patate » !" },
+    { "id": "dz7-bsel", "chat": "bsel", "latin": "bṣel", "ar": "البصل", "fr": "L'oignon, les oignons", "pos": "nom", "register": "neutre", "mnemonic": "Bsel → « bisou »… mais lui, il fait pleurer." },
+    { "id": "dz7-tchina", "chat": "tchina", "latin": "tchina", "ar": "التشينة", "fr": "Les oranges", "pos": "nom", "register": "neutre", "mnemonic": "Tchina → « Chine » : les oranges douces seraient arrivées de Chine." },
+    { "id": "dz7-tteffa7", "chat": "tteffa7 / lbanane", "latin": "tteffaḥ / lbanane", "ar": "التفاح / البنان", "fr": "Les pommes / les bananes", "pos": "nom", "register": "neutre", "mnemonic": "Tteffa7 → « t'es fâché » ? Mange une pomme ! Lbanane, c'est facile." },
+    { "id": "dz7-della3", "chat": "della3", "latin": "dellaʿ", "ar": "الدلاع", "fr": "La pastèque", "pos": "nom", "register": "neutre", "mnemonic": "Della3 → « délà » : la pastèque, la fraîcheur de l'été.", "note": "En été, on en achète des énormes, qu'on met au frais pour le dessert du soir." },
+    { "id": "dz7-kilo", "chat": "kilo / nos kilo / rob3 kilo", "latin": "kilo / noṣṣ kilo / robʿ kilo", "ar": "كيلو / نص كيلو / ربع كيلو", "fr": "Un kilo / un demi-kilo / un quart de kilo", "pos": "expression", "register": "neutre", "mnemonic": "Nos (moitié) et rob3 (quart), comme pour l'heure : w nos, w rob3 !" },
+    { "id": "dz7-kayen", "chat": "kayen ? / makanch", "latin": "kayen ? / makanch", "ar": "كاين؟ / ماكانش", "fr": "Il y a ? / il n'y a pas", "pos": "expression", "register": "neutre", "answer": { "chat": "kayen / makanch", "fr": "Il y en a / il n'y en a pas" }, "mnemonic": "Kayen → « qu'y a-t-il ? ». Makanch : le sandwich ma … ch autour de kan.", "variants": ["makach (on l'entend aussi)"] },
+    { "id": "dz7-hada", "chat": "hada / hadi / hadou", "latin": "hada / hadi / hadou", "ar": "هذا / هذي / هذو", "fr": "Celui-ci / celle-ci / ceux-ci", "pos": "mot", "register": "neutre", "mnemonic": "Hada (masculin) finit en -a, hadi (féminin) en -i, hadou (pluriel) en -ou.", "variants": ["had + nom (ce…, cette…)"] },
+    { "id": "dz7-machi", "chat": "machi", "latin": "machi", "ar": "ماشي", "fr": "Pas, ce n'est pas (devant un nom ou un adjectif)", "pos": "mot", "register": "neutre", "mnemonic": "Machi ghali → « ma chi(che), c'est pas cher » !" },
+    { "id": "dz7-tri", "chat": "tri / triya", "latin": "ṭri / ṭriya", "ar": "طري / طرية", "fr": "Frais, fraîche (tendre)", "pos": "adjectif", "register": "neutre", "mnemonic": "Tri → « tri » : au marché, on trie pour garder les plus frais !" },
+    { "id": "dz7-t7ebb", "chat": "wach t7ebb ? / wach t7ebbi ?", "latin": "wach tḥebb ? / wach tḥebbi ?", "ar": "واش تحب؟ / واش تحبي؟", "fr": "Qu'est-ce que tu veux ? (à un homme / à une femme)", "pos": "expression", "register": "neutre", "answer": { "chat": "n7ebb …", "fr": "Je veux …" }, "mnemonic": "N7ebb (je veux, j'aime) au niveau 1 ; t7ebb = tu veux. -i pour une femme." },
+    { "id": "dz7-wezzenli", "chat": "wezzenli", "latin": "wezzenli", "ar": "وزّنلي", "fr": "Pèse-moi (une quantité)", "pos": "verbe", "register": "neutre", "mnemonic": "Wezn = le poids. Wezzenli kilo = pèse-moi un kilo.", "variants": ["3tini (donne-moi, vu au niveau 1)"] },
+    { "id": "dz7-sachi", "chat": "sachi", "latin": "sachi", "ar": "ساشي", "fr": "Le sac (en plastique)", "pos": "nom", "register": "neutre", "mnemonic": "Du français « sachet » !", "note": "Beaucoup de gens viennent au marché avec leur couffin (lqoffa) pour éviter les sacs en plastique." },
+    { "id": "dz7-barka", "chat": "barka", "latin": "barka", "ar": "باركا", "fr": "Ça suffit, c'est tout", "pos": "mot", "register": "neutre", "mnemonic": "Barka → « barrage » : stop, ça suffit !", "variants": ["barka, ya3tik saha (c'est tout, merci)"] },
+    { "id": "dz7-zidni", "chat": "zidni chwiya", "latin": "zidni chwiya", "ar": "زيدني شوية", "fr": "Rajoute-m'en un peu", "pos": "expression", "register": "familier", "mnemonic": "Zid (encore), vu à table : zidni = rajoute-moi." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "dz7-c1",
+      "chat": "Salam 3likoum 3ammi, kayen tomatich lyoum ?",
+      "fr": "Bonjour (monsieur), il y a des tomates aujourd'hui ?",
+      "when": "Tu arrives devant l'étal.",
+      "with": "Le marchand",
+      "register": "poli",
+      "culturalNote": "On salue toujours avant de demander quoi que ce soit. Le marchand t'appellera « benti » ou « khti » : c'est affectueux, pas déplacé."
+    },
+    {
+      "id": "dz7-c2",
+      "chat": "Wezzenli kilo men hadou, llah ykhalik.",
+      "fr": "Pèse-moi un kilo de ceux-ci, s'il te plaît.",
+      "when": "Tu montres les fruits que tu veux.",
+      "with": "Le marchand",
+      "register": "poli",
+      "culturalNote": "Au marché, on montre du doigt plutôt que de toucher : c'est souvent le marchand qui choisit et qui sert."
+    },
+    {
+      "id": "dz7-c3",
+      "chat": "Zidni chwiya… barka, barka !",
+      "fr": "Rajoute-m'en un peu… stop, ça suffit !",
+      "when": "Le marchand ajoute une poignée sur la balance.",
+      "with": "Un marchand que tu connais",
+      "register": "familier",
+      "culturalNote": "Avec les habitués, le marchand ajoute souvent un petit supplément sans le compter : c'est sa façon de garder ses clients."
+    },
+    {
+      "id": "dz7-c4",
+      "chat": "F sif, della3 machi ghali.",
+      "fr": "En été, la pastèque n'est pas chère.",
+      "when": "Tu parles des prix avec quelqu'un.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "On achète selon la saison : pastèque et melon en été, oranges en hiver. Les prix changent beaucoup d'un mois à l'autre."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "dz7-d1",
+      "type": "chatSim",
+      "title": "Au marché chez 3ammi Rabah",
+      "contact": { "name": "3ammi Rabah", "avatar": "👴🏽", "relation": "marchand de légumes", "register": "poli" },
+      "turns": [
+        { "from": "them", "chat": "Marhba benti ! Wach t7ebbi lyoum ?", "fr": "Bienvenue ma fille ! Qu'est-ce que tu veux aujourd'hui ?" },
+        {
+          "from": "me",
+          "prompt": "Demande-lui s'il a des tomates",
+          "options": [
+            { "chat": "Kayen tomatich, 3ammi ?", "fr": "Il y a des tomates, monsieur ?", "score": "natural", "feedback": "Parfait : kayen = il y a, et « 3ammi » par respect." },
+            { "chat": "Makanch tomatich.", "fr": "Il n'y a pas de tomates.", "score": "wrong", "feedback": "Tu lui annonces qu'il n'en a pas… sur son propre étal 😄", "reaction": { "chat": "Kifach makanch ?! Chouf, rahom hna ! 😄", "fr": "Comment ça, il n'y en a pas ?! Regarde, elles sont là ! 😄" } },
+            { "chat": "Tomatich ?", "fr": "Des tomates ?", "score": "ok", "feedback": "Compréhensible, mais « kayen… ? » fait une vraie question, plus polie." }
+          ]
+        },
+        { "from": "them", "chat": "Kayen, w triya ! Chhal t7ebbi ?", "fr": "Il y en a, et elles sont fraîches ! Combien tu en veux ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds : « Pèse-moi un kilo, s'il te plaît »",
+          "build": {
+            "answer": ["wezzenli", "kilo", ",", "llah", "ykhalik"],
+            "distractors": ["nos", "makanch"],
+            "fr": "Pèse-moi un kilo, s'il te plaît"
+          }
+        },
+        { "from": "them", "chat": "Tfaddli. W batata ? Kayen jdida.", "fr": "Voilà. Et des pommes de terre ? Il y a des nouvelles." },
+        {
+          "from": "me",
+          "prompt": "Demande un demi-kilo de celles-ci",
+          "options": [
+            { "chat": "Wah, 3tini nos kilo men hadou.", "fr": "Oui, donne-moi un demi-kilo de celles-ci.", "score": "natural", "feedback": "Parfait : nos kilo + men hadou (de celles-ci)." },
+            { "chat": "Makanch batata.", "fr": "Il n'y a pas de pommes de terre.", "score": "wrong", "feedback": "Il vient de te dire qu'il y en a 😄" },
+            { "chat": "Nos kilo.", "fr": "Un demi-kilo.", "score": "ok", "feedback": "Ça passe, mais « 3tini… men hadou » fait une phrase complète." }
+          ]
+        },
+        { "from": "them", "chat": "Hak benti. Haja okhra ?", "fr": "Tiens ma fille. Autre chose ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que c'est tout et demande combien tu dois",
+          "options": [
+            { "chat": "Barka, ya3tik saha. Chhal ?", "fr": "C'est tout, merci. Combien ?", "score": "natural", "feedback": "Parfait : barka = c'est tout." },
+            { "chat": "Zidni chwiya.", "fr": "Rajoute-m'en un peu.", "score": "wrong", "feedback": "Tu en redemandes au lieu de terminer tes courses 😄" },
+            { "chat": "Chhal ?", "fr": "Combien ?", "score": "ok", "feedback": "Juste, mais dis d'abord que c'est tout : « barka »." }
+          ]
+        },
+        { "from": "them", "chat": "Ga3 b khamsin alf. Machi ghali, l7amdoulah !", "fr": "Le tout pour 500 dinars. Ce n'est pas cher, Dieu merci !" }
+      ]
+    },
+    {
+      "id": "dz7-d2",
+      "type": "chatSim",
+      "title": "Sara fait sa liste",
+      "contact": { "name": "Sara", "avatar": "👩🏻", "relation": "sœur", "register": "familier" },
+      "turns": [
+        { "from": "them", "chat": "Raki fel marchi ? Jibili kilo tchina 🙏", "fr": "Tu es au marché ? Ramène-moi un kilo d'oranges 🙏" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui qu'il n'y en a pas aujourd'hui",
+          "options": [
+            { "chat": "Makanch tchina lyoum 😕", "fr": "Il n'y a pas d'oranges aujourd'hui 😕", "score": "natural", "feedback": "Parfait : makanch = il n'y en a pas." },
+            { "chat": "Kayen tchina bezzaf.", "fr": "Il y a plein d'oranges.", "score": "wrong", "feedback": "C'est le contraire de ce que tu voulais dire !", "reaction": { "chat": "Mlih ! Jibili zoudj kilo alors 😋", "fr": "Super ! Ramène-m'en deux kilos alors 😋" } },
+            { "chat": "La.", "fr": "Non.", "score": "ok", "feedback": "Elle comprendra… mais explique avec « makanch »." }
+          ]
+        },
+        { "from": "them", "chat": "Ouf 😩 W tteffa7 ? Kayen ?", "fr": "Pff 😩 Et des pommes ? Il y en a ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds : « Il y en a, mais ce n'est pas frais »",
+          "build": {
+            "answer": ["kayen", ",", "bessah", "machi", "tri"],
+            "distractors": ["makanch", "ma"],
+            "fr": "Il y en a, mais ce n'est pas frais"
+          }
+        },
+        { "from": "them", "chat": "Khlas, barka. Jibi della3 ida kayen 😋", "fr": "Bon, tant pis. Ramène une pastèque s'il y en a 😋" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui que tu en prends une grosse",
+          "options": [
+            { "chat": "Wah, nddi wahda kbira ! 😄", "fr": "Oui, j'en prends une grosse ! 😄", "score": "natural", "feedback": "Parfait : nddi = je prends, wahda kbira = une grosse." },
+            { "chat": "Ma n7ebbch della3.", "fr": "Je n'aime pas la pastèque.", "score": "wrong", "feedback": "Ce n'est pas pour toi, c'est pour ta sœur 😄" },
+            { "chat": "Wah.", "fr": "Oui.", "score": "ok", "feedback": "Ça passe, un peu sec entre sœurs 😉" }
+          ]
+        },
+        { "from": "them", "chat": "Ya3tik saha khti ❤️", "fr": "Merci ma sœur ❤️" }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "id": "dz7-e1", "type": "matchPairs", "instruction": "Relie chaque mot à sa traduction", "pairs": ["dz7-marchi", "dz7-khodra", "dz7-tomatich", "dz7-batata", "dz7-bsel", "dz7-tchina"] },
+    {
+      "id": "dz7-e2", "type": "mcq",
+      "instruction": "Le marchand te répond « Makanch ». Ça veut dire…",
+      "options": ["Il n'y en a pas", "Il y en a", "C'est trop cher"], "answer": "Il n'y en a pas",
+      "explanation": "Makanch = il n'y a pas (le sandwich ma … ch autour de kan). Kayen = il y a."
+    },
+    {
+      "id": "dz7-e3", "type": "hiddenDigit",
+      "instruction": "Quel chiffre manque ? (3 = ع, 7 = ح)",
+      "items": [
+        { "masked": "della_", "answer": "3", "full": "della3" },
+        { "masked": "tteffa_", "answer": "7", "full": "tteffa7" },
+        { "masked": "rob_ kilo", "answer": "3", "full": "rob3 kilo" },
+        { "masked": "wach t_ebbi ?", "answer": "7", "full": "wach t7ebbi ?" }
+      ],
+      "options": ["3", "7", "9"]
+    },
+    {
+      "id": "dz7-e4", "type": "mcq",
+      "instruction": "Tu montres une orange (tchina, féminin). Comment dis-tu « celle-ci » ?",
+      "options": ["hadi", "hada", "hadou"], "answer": "hadi",
+      "explanation": "Hada = celui-ci, hadi = celle-ci, hadou = ceux-ci / celles-ci."
+    },
+    {
+      "id": "dz7-e5", "type": "cloze",
+      "instruction": "Complète la conversation au marché.",
+      "lines": [
+        { "who": "Lina", "chat": "Kayen tchina ?" },
+        { "who": "3ammi Rabah", "chat": "La benti, {{1}} . Khlas !" },
+        { "who": "Lina", "chat": "Mlih, 3tini kilo men {{2}} tteffa7." }
+      ],
+      "blanks": {
+        "1": { "options": ["makanch", "kayen", "machi"], "answer": "makanch", "hint": "Il répond « non » : il n'y en a pas." },
+        "2": { "options": ["had", "hada", "hadou"], "answer": "had", "hint": "Devant un nom, hada / hadi deviennent « had »." }
+      },
+      "explanation": "Makanch = il n'y en a pas. Had + nom = ce…, ces…"
+    },
+    {
+      "id": "dz7-e6", "type": "registerHunt",
+      "instruction": "Un mot d'arabe littéraire s'est glissé. Touche-le.",
+      "tokens": ["3tini", "kilo", "burtuqal", ",", "llah", "ykhalik", "."],
+      "intruderIndex": 2, "fix": "tchina",
+      "explanation": "« Burtuqal » (orange) est de l'arabe littéraire. En darija algérienne : « tchina »."
+    },
+    {
+      "id": "dz7-e7", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu montres une orange (tchina, féminin).",
+      "tokens": ["Hada", "tchina", "bnina", "."],
+      "intruderIndex": 0, "fix": "Hadi",
+      "explanation": "Tchina est féminin : « hadi tchina bnina » (comme bnina, au féminin)."
+    },
+    {
+      "id": "dz7-e8", "type": "registerSort",
+      "instruction": "Qui dit ça ?",
+      "bins": [
+        { "id": "vendeur", "label": "3ammi Rabah, le marchand", "avatar": "👴🏽" },
+        { "id": "lina", "label": "Lina, la cliente", "avatar": "🙋🏻‍♀️" }
+      ],
+      "items": [
+        { "chat": "Wach t7ebbi, benti ?", "bin": "vendeur" },
+        { "chat": "Kayen batata ?", "bin": "lina" },
+        { "chat": "Hak, tfaddli.", "bin": "vendeur" },
+        { "chat": "Barka, chhal ?", "bin": "lina" }
+      ],
+      "explanation": "Le marchand propose et sert (wach t7ebbi, hak, tfaddli). La cliente demande et termine (kayen… ?, barka)."
+    },
+    {
+      "id": "dz7-e9", "type": "sentenceBuilder",
+      "instruction": "Traduis : « Donne-moi un demi-kilo de tomates, ce n'est pas cher »",
+      "fr": "Donne-moi un demi-kilo de tomates, ce n'est pas cher",
+      "answer": ["3tini", "nos", "kilo", "tomatich", ",", "machi", "ghali"],
+      "distractors": ["ma", "rob3"],
+      "explanation": "Nos kilo = un demi-kilo (rob3 = un quart). Devant un adjectif, la négation est machi, pas ma … ch."
+    },
+    {
+      "id": "dz7-e10", "type": "typeAnswer",
+      "instruction": "Écris en darija : « Il n'y en a pas »",
+      "fr": "Il n'y en a pas",
+      "accept": ["makanch", "ma kanch", "makach"],
+      "explanation": "Makanch (ou makach) : le sandwich ma … ch autour de kan."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["dz7-marchi", "dz7-khodra", "dz7-tomatich", "dz7-batata", "dz7-kayen", "dz7-hada", "dz7-kilo", "dz7-t7ebb", "dz7-wezzenli", "dz7-barka"],
+    "bonus": ["dz7-bsel", "dz7-tchina", "dz7-tteffa7", "dz7-della3", "dz7-machi", "dz7-tri", "dz7-sachi", "dz7-zidni"]
+  }
+}

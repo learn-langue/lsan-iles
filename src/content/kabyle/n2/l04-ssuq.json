@@ -1,0 +1,286 @@
+{
+  "id": "kab-n2-l04",
+  "language": "kabyle",
+  "level": 2,
+  "order": 4,
+  "title": "Deg ssuq… Au marché",
+  "goal": "Nommer les fruits et légumes, demander s'il y en a, commander au kilo, montrer « celui-ci / celle-ci » et dire « ce n'est pas cher ».",
+  "estimatedMinutes": 12,
+  "regionNote": "Kabyle courant de Grande Kabylie. Pour les fruits et légumes arrivés récemment, on utilise souvent des mots d'origine arabe ou française (ṭṭumaṭic, lbaṭaṭa, ččina), avec l'article « l- » qui ne change jamais.",
+
+  "grammarNotes": [
+    {
+      "id": "kab7-g-yella",
+      "title": "Yella / ulac : il y a, il n'y a pas",
+      "body": "Le verbe de la leçon précédente sert aussi à dire « il y a » : yella … ? (il y a … ?), tella devant un nom féminin. Pour « il n'y a pas », on retrouve ulac, comme dans « ulac aɣilif ». Le marchand répond simplement « yella » ou « ulac ».",
+      "examples": [
+        { "text": "Yella ṭṭumaṭic ass-a ?", "fr": "Il y a des tomates aujourd'hui ?" },
+        { "text": "Ulac ččina ass-a.", "fr": "Il n'y a pas d'oranges aujourd'hui." }
+      ]
+    },
+    {
+      "id": "kab7-g-agi",
+      "title": "Wa, ta, wigi et « -agi » : celui-ci, celle-ci",
+      "body": "Pour montrer : wa (celui-ci), ta (celle-ci), wigi (ceux-ci). Collé à un nom, « -agi » veut dire « ce …-ci » : tteffaḥ-agi (ces pommes-ci), taxxamt-agi (cette chambre-ci).",
+      "examples": [
+        { "text": "Bɣiɣ wa.", "fr": "Je veux celui-ci." },
+        { "text": "Ta, s acḥal ?", "fr": "Celle-ci, c'est combien ?" },
+        { "text": "Tteffaḥ-agi yelha.", "fr": "Ces pommes-ci sont bonnes." }
+      ]
+    },
+    {
+      "id": "kab7-g-ur-i",
+      "title": "« Pas cher », « pas bon » : ur … ara, avec un -i",
+      "body": "En kabyle, « être cher » ou « être bon » sont des verbes : yeɣla (c'est cher), yelha (c'est bon). À la négation, le -a final devient -i : ur yeɣli ara (ce n'est pas cher), ur yelhi ara (ce n'est pas bon). Même chose pour yella : ur yelli ara.",
+      "examples": [
+        { "text": "Ur yeɣli ara !", "fr": "Ce n'est pas cher !" },
+        { "text": "Tteffaḥ-agi ur yelhi ara.", "fr": "Ces pommes-ci ne sont pas bonnes." }
+      ]
+    }
+  ],
+
+  "vocabulary": [
+    { "id": "kab7-ssuq", "text": "ssuq", "ascii": "ssuq", "fr": "Le marché", "pos": "nom", "register": "neutre", "mnemonic": "Ssuq → le « souk » !", "note": "Beaucoup de villes de Kabylie tiennent leur nom de leur marché hebdomadaire : Larbeɛa n At Yiraten, c'est « le mercredi des Ath Irathen ».", "variants": ["deg ssuq (au marché)"] },
+    { "id": "kab7-lxudra", "text": "lxuḍra / lfakya", "ascii": "lxudra / lfakya", "fr": "Les légumes / les fruits", "pos": "nom", "register": "neutre", "mnemonic": "Lxuḍra vient de « vert » : les légumes verts. Lfakya → « fakir »… qui ne mange que des fruits." },
+    { "id": "kab7-tumatic", "text": "ṭṭumaṭic", "ascii": "ttumatic", "fr": "Les tomates", "pos": "nom", "register": "neutre", "mnemonic": "« Tomate » à la kabyle, avec des ṭ bien emphatiques." },
+    { "id": "kab7-batata", "text": "lbaṭaṭa", "ascii": "lbatata", "fr": "Les pommes de terre", "pos": "nom", "register": "neutre", "mnemonic": "Lbaṭaṭa → « la patate » !" },
+    { "id": "kab7-azalim", "text": "azalim", "ascii": "azalim", "fr": "L'oignon, les oignons", "pos": "nom", "register": "neutre", "mnemonic": "Azalim → « à Salim » : c'est Salim qui pleure en coupant les oignons." },
+    { "id": "kab7-ccina", "text": "ččina", "ascii": "ccina", "fr": "Les oranges", "pos": "nom", "register": "neutre", "mnemonic": "Ččina → « Chine » : les oranges douces seraient arrivées de Chine. Le même mot qu'en darija (tchina)." },
+    { "id": "kab7-tteffah", "text": "tteffaḥ", "ascii": "tteffah", "fr": "Les pommes", "pos": "nom", "register": "neutre", "mnemonic": "Tteffaḥ → « t'es fâché » ? Mange une pomme !" },
+    { "id": "kab7-azemmur", "text": "azemmur / tazart", "ascii": "azemmur / tazart", "fr": "Les olives / les figues sèches", "pos": "nom", "register": "neutre", "mnemonic": "Azemmur → « à se mûrir » au soleil. Tazart, c'est la figue qui a séché.", "note": "Olives et figues sont les trésors de la Kabylie : l'huile d'olive (zzit) et les figues sèches se gardent toute l'année." },
+    { "id": "kab7-lkilu", "text": "lkilu / nnefṣ n lkilu", "ascii": "lkilu / nnefs n lkilu", "fr": "Un kilo / un demi-kilo", "pos": "expression", "register": "neutre", "mnemonic": "Nnefṣ = la moitié, comme pour l'heure : d nnefṣ (et demie)." },
+    { "id": "kab7-yella", "text": "yella … ? / ulac", "ascii": "yella … ? / ulac", "fr": "Il y a … ? / il n'y a pas", "pos": "expression", "register": "neutre", "answer": { "text": "yella / ulac", "fr": "Il y en a / il n'y en a pas" }, "mnemonic": "Yella = il est là, donc « il y a ». Ulac, comme dans « ulac aɣilif ».", "variants": ["tella … ? (devant un nom féminin)"] },
+    { "id": "kab7-wa", "text": "wa / ta / wigi", "ascii": "wa / ta / wigi", "fr": "Celui-ci / celle-ci / ceux-ci", "pos": "mot", "register": "neutre", "mnemonic": "W pour le masculin, t pour le féminin, comme dans « wa » et « ta »… et « ta…t » !" },
+    { "id": "kab7-agi", "text": "…-agi", "ascii": "…-agi", "fr": "Ce …-ci (collé au nom)", "pos": "mot", "register": "neutre", "mnemonic": "-agi → « ici » : tteffaḥ-agi, les pommes d'ici.", "variants": ["tteffaḥ-agi (ces pommes-ci)", "ass-agi (ce jour-ci)"] },
+    { "id": "kab7-urigli", "text": "ur yeɣli ara", "ascii": "ur yeghli ara", "fr": "Ce n'est pas cher", "pos": "expression", "register": "neutre", "mnemonic": "Yeɣla (c'est cher, niveau 1) devient yeɣli dans le sandwich ur … ara." },
+    { "id": "kab7-tebghid", "text": "acu tebɣiḍ ?", "ascii": "acu tebghid ?", "fr": "Qu'est-ce que tu veux ? (homme ou femme)", "pos": "expression", "register": "neutre", "answer": { "text": "bɣiɣ …", "fr": "Je veux …" }, "mnemonic": "Bɣiɣ (je veux, niveau 1) ; tebɣiḍ = tu veux, même forme pour un homme et une femme." },
+    { "id": "kab7-yekfa", "text": "yekfa / baṛka", "ascii": "yekfa / barka", "fr": "Ça suffit, c'est tout", "pos": "mot", "register": "neutre", "mnemonic": "Yekfa → « équivaut » : la balance est pleine, ça suffit !" },
+    { "id": "kab7-ttef", "text": "ṭṭef !", "ascii": "ttef !", "fr": "Tiens ! Prends !", "pos": "verbe", "register": "neutre", "mnemonic": "Ṭṭef → « tape » : on tape dans la main pour donner le sac." },
+    { "id": "kab7-rnu", "text": "rnu-yi-d cwiṭ", "ascii": "rnu-yi-d cwit", "fr": "Rajoute-m'en un peu", "pos": "expression", "register": "familier", "mnemonic": "Rnu (reprends-en, vu à table) + yi-d (pour moi) + cwiṭ (un peu)." }
+  ],
+
+  "contextPhrases": [
+    {
+      "id": "kab7-c1",
+      "text": "Azul a Dda Ɛmer, yella ṭṭumaṭic ass-a ?",
+      "fr": "Bonjour Dda Amar, il y a des tomates aujourd'hui ?",
+      "when": "Tu arrives devant l'étal.",
+      "with": "Le marchand",
+      "register": "poli",
+      "culturalNote": "On salue toujours avant de demander quoi que ce soit, et « Dda » marque le respect pour un aîné. Le marchand t'appellera « a yelli » (ma fille)."
+    },
+    {
+      "id": "kab7-c2",
+      "text": "Efk-iyi-d lkilu n tteffaḥ-agi, ttxil-k.",
+      "fr": "Donne-moi un kilo de ces pommes-ci, s'il te plaît.",
+      "when": "Tu montres les fruits que tu veux.",
+      "with": "Un marchand (à une femme : ttxil-m)",
+      "register": "poli",
+      "culturalNote": "Au marché, on montre du doigt plutôt que de toucher : c'est souvent le marchand qui choisit et qui sert."
+    },
+    {
+      "id": "kab7-c3",
+      "text": "Rnu-yi-d cwiṭ… yekfa, yekfa !",
+      "fr": "Rajoute-m'en un peu… ça suffit, ça suffit !",
+      "when": "Le marchand ajoute une poignée sur la balance.",
+      "with": "Un marchand que tu connais",
+      "register": "familier",
+      "culturalNote": "Avec les habitués, le marchand ajoute souvent un petit supplément sans le compter : c'est sa façon de garder ses clients."
+    },
+    {
+      "id": "kab7-c4",
+      "text": "Deg unebdu, ddellaɛ ur yeɣli ara.",
+      "fr": "En été, la pastèque n'est pas chère.",
+      "when": "Tu parles des prix avec quelqu'un.",
+      "with": "Tout le monde",
+      "register": "neutre",
+      "culturalNote": "On achète selon la saison : pastèque et figues fraîches en été, oranges en hiver, olives à l'automne. Après « deg », anebdu (l'été) devient unebdu."
+    }
+  ],
+
+  "dialogues": [
+    {
+      "id": "kab7-d1",
+      "type": "chatSim",
+      "title": "Au marché chez Dda Ɛmer",
+      "contact": { "name": "Dda Ɛmer", "avatar": "👴🏼", "relation": "vendeur au marché", "register": "poli" },
+      "turns": [
+        { "from": "them", "text": "Ansuf yis-m a yelli ! Acu tebɣiḍ ass-a ?", "fr": "Bienvenue ma fille ! Qu'est-ce que tu veux aujourd'hui ?" },
+        {
+          "from": "me",
+          "prompt": "Demande-lui s'il a des tomates",
+          "options": [
+            { "text": "Yella ṭṭumaṭic, a Dda Ɛmer ?", "fr": "Il y a des tomates, Dda Amar ?", "score": "natural", "feedback": "Parfait : yella = il y a, et « Dda » par respect." },
+            { "text": "Ulac ṭṭumaṭic.", "fr": "Il n'y a pas de tomates.", "score": "wrong", "feedback": "Tu lui annonces qu'il n'en a pas… sur son propre étal 😄", "reaction": { "text": "Amek ulac ?! Wali, aql-it dagi ! 😄", "fr": "Comment ça, il n'y en a pas ?! Regarde, elles sont là ! 😄" } },
+            { "text": "Ṭṭumaṭic ?", "fr": "Des tomates ?", "score": "ok", "feedback": "Compréhensible, mais « yella… ? » fait une vraie question, plus polie." }
+          ]
+        },
+        { "from": "them", "text": "Yella, yelha aṭas ! Acḥal i tebɣiḍ ?", "fr": "Il y en a, et elles sont très bonnes ! Combien tu en veux ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds : « Donne-moi un kilo, s'il te plaît »",
+          "build": {
+            "answer": ["efk-iyi-d", "lkilu", ",", "ttxil-k"],
+            "distractors": ["ttxil-m", "nnefṣ"],
+            "text": "Efk-iyi-d lkilu, ttxil-k.",
+            "fr": "Donne-moi un kilo, s'il te plaît."
+          }
+        },
+        { "from": "them", "text": "Ṭṭef. Ma d lbaṭaṭa ? Tella tajdidt.", "fr": "Tiens. Et des pommes de terre ? Il y a des nouvelles." },
+        {
+          "from": "me",
+          "prompt": "Demande un demi-kilo de celles-ci",
+          "options": [
+            { "text": "Ih, efk-iyi-d nnefṣ n lkilu n lbaṭaṭa-agi.", "fr": "Oui, donne-moi un demi-kilo de ces pommes de terre-ci.", "score": "natural", "feedback": "Parfait : nnefṣ n lkilu + lbaṭaṭa-agi (celles-ci)." },
+            { "text": "Ulac lbaṭaṭa.", "fr": "Il n'y a pas de pommes de terre.", "score": "wrong", "feedback": "Il vient de te dire qu'il y en a 😄" },
+            { "text": "Nnefṣ n lkilu.", "fr": "Un demi-kilo.", "score": "ok", "feedback": "Ça passe, mais « efk-iyi-d… » fait une phrase complète." }
+          ]
+        },
+        { "from": "them", "text": "Ṭṭef a yelli. Acu nniḍen ?", "fr": "Tiens ma fille. Quoi d'autre ?" },
+        {
+          "from": "me",
+          "prompt": "Dis que c'est tout et demande combien tu dois",
+          "options": [
+            { "text": "Yekfa, tanemmirt. S acḥal ?", "fr": "C'est tout, merci. Combien ?", "score": "natural", "feedback": "Parfait : yekfa = ça suffit, c'est tout." },
+            { "text": "Rnu-yi-d cwiṭ.", "fr": "Rajoute-m'en un peu.", "score": "wrong", "feedback": "Tu en redemandes au lieu de terminer tes courses 😄" },
+            { "text": "S acḥal ?", "fr": "Combien ?", "score": "ok", "feedback": "Juste, mais dis d'abord que c'est tout : « yekfa »." }
+          ]
+        },
+        { "from": "them", "text": "Kullec s xemsin alef. Ur yeɣli ara !", "fr": "Le tout pour 500 dinars. Ce n'est pas cher !" }
+      ]
+    },
+    {
+      "id": "kab7-d2",
+      "type": "chatSim",
+      "title": "Massi fait sa liste",
+      "contact": { "name": "Massi", "avatar": "🧑🏻", "relation": "cousin", "register": "familier" },
+      "turns": [
+        { "from": "them", "text": "Telliḍ deg ssuq ? Awi-yi-d lkilu n ččina 🙏", "fr": "Tu es au marché ? Ramène-moi un kilo d'oranges 🙏" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui qu'il n'y en a pas aujourd'hui",
+          "options": [
+            { "text": "Ulac ččina ass-a 😕", "fr": "Il n'y a pas d'oranges aujourd'hui 😕", "score": "natural", "feedback": "Parfait : ulac = il n'y en a pas." },
+            { "text": "Yella ččina aṭas.", "fr": "Il y a plein d'oranges.", "score": "wrong", "feedback": "C'est le contraire de ce que tu voulais dire !", "reaction": { "text": "Ayuz ! Awi-d sin lkilu ihi 😋", "fr": "Super ! Ramène-m'en deux kilos alors 😋" } },
+            { "text": "Ala.", "fr": "Non.", "score": "ok", "feedback": "Il comprendra… mais explique avec « ulac »." }
+          ]
+        },
+        { "from": "them", "text": "Uf 😩 Ma d tteffaḥ ? Yella ?", "fr": "Pff 😩 Et des pommes ? Il y en a ?" },
+        {
+          "from": "me",
+          "prompt": "Réponds : « Il y en a, mais elles ne sont pas bonnes »",
+          "build": {
+            "answer": ["yella", ",", "maca", "ur", "yelhi", "ara"],
+            "distractors": ["yelha", "ulac"],
+            "text": "Yella, maca ur yelhi ara.",
+            "fr": "Il y en a, mais elles ne sont pas bonnes."
+          }
+        },
+        { "from": "them", "text": "Ihi yekfa. Awi-d ddellaɛ ma yella 😋", "fr": "Bon, tant pis. Ramène une pastèque s'il y en a 😋" },
+        {
+          "from": "me",
+          "prompt": "Dis-lui que tu en ramènes une",
+          "options": [
+            { "text": "Ih, ad d-awiɣ ! 😄", "fr": "Oui, j'en ramène une ! 😄", "score": "natural", "feedback": "Parfait : ad d-awiɣ = je vais (en) ramener." },
+            { "text": "Ur ḥemmleɣ ara ddellaɛ.", "fr": "Je n'aime pas la pastèque.", "score": "wrong", "feedback": "Ce n'est pas pour toi, c'est pour Massi 😄" },
+            { "text": "Ih.", "fr": "Oui.", "score": "ok", "feedback": "Ça passe, un peu sec entre cousins 😉" }
+          ]
+        },
+        { "from": "them", "text": "Tanemmirt-im ❤️", "fr": "Merci ❤️" }
+      ]
+    }
+  ],
+
+  "exercises": [
+    { "id": "kab7-e1", "type": "matchPairs", "instruction": "Relie chaque mot à sa traduction", "pairs": ["kab7-ssuq", "kab7-lxudra", "kab7-tumatic", "kab7-batata", "kab7-azalim", "kab7-ccina"] },
+    {
+      "id": "kab7-e2", "type": "mcq",
+      "instruction": "Le marchand te répond « Ulac ». Ça veut dire…",
+      "options": ["Il n'y en a pas", "Il y en a", "C'est trop cher"], "answer": "Il n'y en a pas",
+      "explanation": "Ulac = il n'y a pas, comme dans « ulac aɣilif ». Yella = il y a."
+    },
+    {
+      "id": "kab7-e3", "type": "letterHunt",
+      "instruction": "Quelle lettre kabyle manque ?",
+      "items": [
+        { "masked": "lxu_ra", "answer": "ḍ", "full": "lxuḍra" },
+        { "masked": "_čina", "answer": "č", "full": "ččina" },
+        { "masked": "tteffa_", "answer": "ḥ", "full": "tteffaḥ" },
+        { "masked": "ur ye_li ara", "answer": "ɣ", "full": "ur yeɣli ara" }
+      ],
+      "options": ["ḍ", "č", "ḥ", "ɣ", "c"]
+    },
+    {
+      "id": "kab7-e4", "type": "mcq",
+      "instruction": "Tu montres une chose au féminin. Comment dis-tu « celle-ci » ?",
+      "options": ["ta", "wa", "wigi"], "answer": "ta",
+      "explanation": "Wa = celui-ci, ta = celle-ci, wigi = ceux-ci."
+    },
+    {
+      "id": "kab7-e5", "type": "cloze",
+      "instruction": "Complète la conversation au marché.",
+      "lines": [
+        { "who": "Lina", "text": "Yella ččina ?" },
+        { "who": "Dda Ɛmer", "text": "Ala a yelli, {{1}} ass-a." },
+        { "who": "Lina", "text": "Ihi, efk-iyi-d lkilu n tteffaḥ-{{2}} ." }
+      ],
+      "blanks": {
+        "1": { "options": ["ulac", "yella", "ur"], "answer": "ulac", "hint": "Il répond « non » : il n'y en a pas." },
+        "2": { "options": ["agi", "wa", "ta"], "answer": "agi", "hint": "Collé au nom, « ce …-ci » se dit -agi." }
+      },
+      "explanation": "Ulac = il n'y en a pas. Nom + -agi = ce …-ci."
+    },
+    {
+      "id": "kab7-e6", "type": "genreHunt",
+      "instruction": "Il y a une erreur de genre. Touche le mot fautif.",
+      "context": "Tu parles à Dda Ɛmer.",
+      "tokens": ["Efk-iyi-d", "lkilu", ",", "ttxil-m", "."],
+      "intruderIndex": 3, "fix": "ttxil-k",
+      "explanation": "Dda Ɛmer est un homme : ttxil-k (ttxil-m, c'est pour une femme)."
+    },
+    {
+      "id": "kab7-e7", "type": "genreHunt",
+      "instruction": "Il y a une erreur dans la négation. Touche le mot fautif.",
+      "context": "Tu trouves que ce n'est pas cher.",
+      "tokens": ["Ur", "yeɣla", "ara", "!"],
+      "intruderIndex": 1, "fix": "yeɣli",
+      "explanation": "Dans le sandwich ur … ara, yeɣla devient yeɣli : « ur yeɣli ara »."
+    },
+    {
+      "id": "kab7-e8", "type": "registerSort",
+      "instruction": "Qui dit ça ?",
+      "bins": [
+        { "id": "vendeur", "label": "Dda Ɛmer, le marchand", "avatar": "👴🏼" },
+        { "id": "lina", "label": "Lina, la cliente", "avatar": "🙋🏻‍♀️" }
+      ],
+      "items": [
+        { "text": "Acu tebɣiḍ, a yelli ?", "bin": "vendeur" },
+        { "text": "Yella ṭṭumaṭic ?", "bin": "lina" },
+        { "text": "Ṭṭef, a yelli.", "bin": "vendeur" },
+        { "text": "Yekfa, s acḥal ?", "bin": "lina" }
+      ],
+      "explanation": "Le marchand propose et sert (acu tebɣiḍ, ṭṭef). La cliente demande et termine (yella… ?, yekfa)."
+    },
+    {
+      "id": "kab7-e9", "type": "sentenceBuilder",
+      "instruction": "Traduis : « Donne-moi un demi-kilo de tomates, ce n'est pas cher »",
+      "fr": "Donne-moi un demi-kilo de tomates, ce n'est pas cher",
+      "answer": ["efk-iyi-d", "nnefṣ", "n", "lkilu", "n", "ṭṭumaṭic", ",", "ur", "yeɣli", "ara"],
+      "distractors": ["yeɣla", "ulac"],
+      "explanation": "Nnefṣ n lkilu = un demi-kilo. Dans la négation, yeɣla devient yeɣli."
+    },
+    {
+      "id": "kab7-e10", "type": "typeAnswer",
+      "instruction": "Écris en kabyle : « Il n'y en a pas »",
+      "fr": "Il n'y en a pas",
+      "accept": ["ulac"],
+      "asciiTolerance": true,
+      "explanation": "Ulac, comme dans « ulac aɣilif » (il n'y a pas de souci)."
+    }
+  ],
+
+  "srs": {
+    "introduce": ["kab7-ssuq", "kab7-lxudra", "kab7-tumatic", "kab7-batata", "kab7-yella", "kab7-wa", "kab7-agi", "kab7-lkilu", "kab7-tebghid", "kab7-yekfa"],
+    "bonus": ["kab7-azalim", "kab7-ccina", "kab7-tteffah", "kab7-azemmur", "kab7-urigli", "kab7-ttef", "kab7-rnu"]
+  }
+}
